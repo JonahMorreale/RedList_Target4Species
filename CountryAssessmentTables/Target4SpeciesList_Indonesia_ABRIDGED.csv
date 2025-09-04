@@ -1,0 +1,11 @@
+"","taxon_scientific_name","assessment_id","red_list_category_code","criteria","Risk","Endemic","Decline","Restriction","Priority1_PS","Priority1_Rank","Priority2_PS","Priority2_Rank"
+"1","Uromys boeadii",519016,"CR","A4cd",4,10,10,6,2400,1,400,NA
+"2","Indotestudo forstenii",499158,"CR","A4cd",4,5,10,5,1000,2,200,NA
+"3","Orlitia borneensis",724972,"CR","A2acd",4,2,10,4,320,3,80,NA
+"4","Batagur borneoensis",1009824,"CR","A2cd",4,1.42857142857143,10,2,114.285714285714,4,57.1428571428571,NA
+"5","Manouria emys",508246,"CR","A2cd+4cd",4,1.25,10,2,100,5,50,NA
+"6","Ornithoptera aesacus",725553,"VU","B1ab(iii)+2ab(iii)",1,5,1,5,25,6,25,NA
+"7","Brachygonia ophelia",1015199,"EN","B2ab(ii,iii,v)",2,1.66666666666667,2,3,20,7,10,NA
+"8","Pelochelys cantorii",1076984,"CR","A2cd+4cd",4,0.555555555555556,10,0,0,NA,22.2222222222222,1
+"9","Notochelys platynota",546301,"VU","A2cd",1,0.833333333333333,4,0,0,NA,3.33333333333333,2
+"10","Alopias superciliosus",894216,"VU","A2bd",1,0.0523560209424084,4,0,0,NA,0.209424083769634,3
