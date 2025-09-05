@@ -1,0 +1,1079 @@
+"","taxon_scientific_name","assessment_id","red_list_category_code","criteria","Risk","Endemic","Decline","Restriction","Priority1_PS","Priority1_Rank","Priority2_PS","Priority2_Rank"
+"1","Chrysoblephus cristiceps",1288745,"CR","A2bd",4,10,10,6,2400,1,400,NA
+"2","Polysteganus undulosus",1293194,"CR","A2bcd",4,10,10,6,2400,2,400,NA
+"3","Streptocephalus gracilis",9234624,"CR","A2bcd",4,10,10,6,2400,3,400,NA
+"4","Delosperma macellum",10850066,"CR","A3cde+4cde; C2a(i); D",4,5,10,10,2000,4,200,NA
+"5","Encephalartos dolomiticus",50905617,"CR","A2acd+4ad; B2ab(i,ii,iv,v); C1+2a(i); D",4,5,10,10,2000,5,200,NA
+"6","Encephalartos hirsutus",51056445,"CR","A2ad; B2ab(v); C1+2a(i,ii); D",4,5,10,10,2000,6,200,NA
+"7","Encephalartos inopinus",51057232,"CR","A2ad+4ad; B1ab(v)+2ab(v); C2a(i,ii); D",4,5,10,10,2000,7,200,NA
+"8","Orachrysops niobe",168307396,"CR","A2ac; B1ab(iii,v)+2ab(iii,v); C1+2a(i,ii); D",4,5,10,10,2000,8,200,NA
+"9","Serruria furcellata",185558823,"CR","A2ac; B1ab(iii)+2ab(iii); C1+2a(i,ii); D",4,5,10,10,2000,9,200,NA
+"10","Protea odorata",185562824,"CR","A2ac; B1ab(iii)+2ab(iii); C2a(i,ii); D",4,5,10,10,2000,10,200,NA
+"11","Leucadendron globosum",185567567,"CR","A2ace; B1ab(iii,v); C2a(i); D",4,5,10,10,2000,11,200,NA
+"12","Conophytum crateriforme",202851236,"CR","A4d; B1ab(iii,v); D",4,5,10,10,2000,12,200,NA
+"13","Encephalartos cerinus",243424414,"CR","A2acd; B1ab(i,ii,v)+2ab(i,ii,v); C2a(i,ii); D",4,5,10,10,2000,13,200,NA
+"14","Anacampseros variabilis",255770681,"CR","A2ac; B1ab(ii,iii,v)+2ab(ii,iii,v); C2a(i,ii); D",4,5,10,10,2000,14,200,NA
+"15","Aspalathus tulbaghensis",176376583,"CR","A2c; B1ab(ii,iii,v)",4,5,10,9,1800,15,200,NA
+"16","Diastella buekii",185540461,"CR","A4a; B1ab(i,ii,iii,iv,v)",4,5,10,9,1800,16,200,NA
+"17","Serruria scoparia",185542293,"CR","A2ce",4,5,10,9,1800,17,200,NA
+"18","Leucadendron verticillatum",185546271,"CR","A2ace",4,5,10,9,1800,18,200,NA
+"19","Protea namaquana",185548826,"CR","A2c; B1ab(iii,v)",4,5,10,9,1800,19,200,NA
+"20","Serruria florida",185558612,"CR","A3c; B1ab(iii,v)",4,5,10,9,1800,20,200,NA
+"21","Protea holosericea",185563772,"CR","A2acd; B1ab(iii,v)",4,5,10,9,1800,21,200,NA
+"22","Conophytum phoeniceum",202849782,"CR","A3d",4,5,10,9,1800,22,200,NA
+"23","Conophytum ratum",202849793,"CR","A4d; B1ab(iii,iv,v)",4,5,10,9,1800,23,200,NA
+"24","Conophytum regale",202849819,"CR","A4d; B1ab(v)+2ab(v); C1+2a(ii)",4,5,10,9,1800,24,200,NA
+"25","Conophytum subterraneum",202849908,"CR","A3d; B1ab(iii)+2ab(iii)",4,5,10,9,1800,25,200,NA
+"26","Conophytum vanheerdei",202849962,"CR","A4cd; B1ab(iii,v)+2ab(iii,v)",4,5,10,9,1800,26,200,NA
+"27","Conophytum violaciflorum",202850016,"CR","A4cd",4,5,10,9,1800,27,200,NA
+"28","Conophytum longibracteatum",202850170,"CR","A3d",4,5,10,9,1800,28,200,NA
+"29","Conophytum youngii",202850192,"CR","A2a+4ad; B1ab(v)+2ab(v); C1+2a(ii)",4,5,10,9,1800,29,200,NA
+"30","Conophytum smorenskaduense",202850404,"CR","A3d; B1ab(iii)+2ab(iii)",4,5,10,9,1800,30,200,NA
+"31","Conophytum smaleorum",202850414,"CR","A3d",4,5,10,9,1800,31,200,NA
+"32","Conophytum schlechteri",202850434,"CR","A4d; B1ab(v)+2ab(v)",4,5,10,9,1800,32,200,NA
+"33","Conophytum pium",202850511,"CR","A4d; B1ab(v)+2ab(v)",4,5,10,9,1800,33,200,NA
+"34","Conophytum mirabile",202850617,"CR","A4d; B1ab(iii,v)+2ab(iii,v)",4,5,10,9,1800,34,200,NA
+"35","Conophytum khamiesbergense",202850915,"CR","A4cd",4,5,10,9,1800,35,200,NA
+"36","Conophytum irmae",202851020,"CR","A4c; B1ab(iii,v)",4,5,10,9,1800,36,200,NA
+"37","Conophytum francoiseae",202851079,"CR","A4d; B1ab(iii,v)",4,5,10,9,1800,37,200,NA
+"38","Conophytum cubicum",202851226,"CR","A3d",4,5,10,9,1800,38,200,NA
+"39","Conophytum confusum",202851256,"CR","A4ad; B1ab(iii,v)+2ab(iii,v)",4,5,10,9,1800,39,200,NA
+"40","Conophytum chrisolum",202851277,"CR","A3d; B1ab(iii)+2ab(iii)",4,5,10,9,1800,40,200,NA
+"41","Conophytum chrisocruxum",202851288,"CR","A4d; B1ab(v)+2ab(v)",4,5,10,9,1800,41,200,NA
+"42","Conophytum carpianum",202851319,"CR","A3d",4,5,10,9,1800,42,200,NA
+"43","Conophytum burgeri",202851350,"CR","A4d; B1ab(iii,v)+2ab(iii,v)",4,5,10,9,1800,43,200,NA
+"44","Conophytum bruynsii",202851362,"CR","A4d; B1ab(iii,v)+2ab(iii,v)",4,5,10,9,1800,44,200,NA
+"45","Conophytum brunneum",202851377,"CR","A4d; B1ab(iii,v)",4,5,10,9,1800,45,200,NA
+"46","Conophytum achabense",202851414,"CR","A4acd; B1ab(iii,v)+2ab(iii,v)",4,5,10,9,1800,46,200,NA
+"47","Conophytum acutum",202851425,"CR","A4acd; B1ab(iii,v)",4,5,10,9,1800,47,200,NA
+"48","Conophytum antonii",202851471,"CR","A3d; B1ab(iii)+2ab(iii)",4,5,10,9,1800,48,200,NA
+"49","Conophytum bachelorum",202851503,"CR","A4ad; B1ab(v)+2ab(v)",4,5,10,9,1800,49,200,NA
+"50","Conophytum danielii",202851544,"CR","A3d",4,5,10,9,1800,50,200,NA
+"51","Conophytum hanae",202851626,"CR","A3d",4,5,10,9,1800,51,200,NA
+"52","Conophytum hermarium",202851636,"CR","A3d",4,5,10,9,1800,52,200,NA
+"53","Conophytum hyracis",202851646,"CR","A3d",4,5,10,9,1800,53,200,NA
+"54","Conophytum velutinum",202872467,"CR","A3cd",4,5,10,9,1800,54,200,NA
+"55","Conophytum bolusiae",202872547,"CR","A4cd",4,5,10,9,1800,55,200,NA
+"56","Conophytum concavum",203338550,"CR","A4d; B1ab(v)",4,5,10,9,1800,56,200,NA
+"57","Encephalartos latifrons",243428451,"CR","A2acd; C1+2a(i)",4,5,10,9,1800,57,200,NA
+"58","Astridia citrina",244571450,"CR","A2ace+4ace; B1ab(i,ii,iii,iv,v)",4,5,10,9,1800,58,200,NA
+"59","Astridia vanheerdei",255770666,"CR","A4ace",4,5,10,9,1800,59,200,NA
+"60","Anacampseros perplexa",255770676,"CR","A2ae+4ace; B1ab(ii,iii,v)+2ab(ii,iii,v)",4,5,10,9,1800,60,200,NA
+"61","Macledium pretoriense",10252624,"CR","B1ab(iii,iv,v)+2ab(iii,iv,v); C1+2a(i,ii); D",4,5,8,10,1600,61,200,NA
+"62","Dioscorea strydomiana",16725905,"CR","B1ab(v)+2ab(v); C1",4,5,8,9,1440,62,180,NA
+"63","Leucospermum harpagonatum",185550682,"CR","B1ab(ii,iii,v)+2ab(ii,iii,v); C1+2a(i)",4,5,8,9,1440,63,180,NA
+"64","Khadia beswickii",10252889,"CR","C1+2a(i,ii)",4,5,8,8,1280,64,160,NA
+"65","Psammobates geometricus",173894530,"CR","A4ace",4,5,10,6,1200,65,200,NA
+"66","Serruria trilopha",185557394,"CR","A2c",4,5,10,6,1200,66,200,NA
+"67","Leucadendron levisanus",185562244,"CR","A2ace+4ace",4,5,10,6,1200,67,200,NA
+"68","Conophytum buysianum",202872542,"CR","A3d",4,3.33333333333333,10,9,1200,68,133.333333333333,NA
+"69","Encephalartos cupidus",243425210,"CR","A2acd+4acd; B1ab(ii,iii,v); C1+2a(i,ii)",4,3.33333333333333,10,9,1200,69,133.333333333333,NA
+"70","Encephalartos middelburgensis",243430159,"CR","A2acde; C1",4,3.33333333333333,10,8,1066.66666666667,70,133.333333333333,NA
+"71","Widdringtonia cedarbergensis",2793077,"CR","A2acd",4,5,10,5,1000,71,200,NA
+"72","Kapcypridopsis barnardi",3230802,"CR","A1a",4,5,10,5,1000,72,200,NA
+"73","Diastella parilis",185536032,"CR","A4ace",4,5,10,5,1000,73,200,NA
+"74","Leucadendron chamelaea",185551048,"CR","A2abc+4abc",4,5,10,5,1000,74,200,NA
+"75","Leucospermum arenarium",185576066,"CR","A4ac",4,5,10,5,1000,75,200,NA
+"76","Conophytum subfenestratum",202849898,"CR","A4d",4,5,10,5,1000,76,200,NA
+"77","Conophytum frutescens",202850144,"CR","A3cd",4,5,10,5,1000,77,200,NA
+"78","Conophytum wettsteinii",202850180,"CR","A4cd",4,5,10,5,1000,78,200,NA
+"79","Conophytum turrigerum",202850273,"CR","A3cd",4,5,10,5,1000,79,200,NA
+"80","Conophytum globosum",202851604,"CR","A4d",4,5,10,5,1000,80,200,NA
+"81","Isoetes wormaldii",8409995,"CR","C2a(i)b; D",4,10,2,10,800,81,400,NA
+"82","Juttadinteria albata",169801348,"CR","A2acde+4acde",4,3.33333333333333,10,6,800,82,133.333333333333,NA
+"83","Encephalartos laevifolius",243427920,"CR","A2acde; C1+2a(i,ii); D",4,2,10,10,800,83,80,NA
+"84","Lithognathus lithognathus",505458,"EN","A2bcd; B2ab(ii,v)",2,10,6,6,720,84,120,NA
+"85","Petrus rupestris",1300995,"EN","A2bd",2,10,6,6,720,85,120,NA
+"86","Chrysoblephus gibbiceps",1302981,"EN","A2bd",2,10,6,6,720,86,120,NA
+"87","Isoetes stephanseniae",8394616,"CR","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",4,10,2,9,720,87,360,NA
+"88","Oxalis uliginosa",8419301,"CR","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",4,10,2,9,720,88,360,NA
+"89","Haploblepharus edwardsii",124403633,"EN","A2bcd",2,10,6,6,720,89,120,NA
+"90","Raja ocellifera",124552547,"EN","A2bd",2,10,6,6,720,90,120,NA
+"91","Spizocorys fringillaris",177702444,"EN","A3c+4c",2,10,6,6,720,91,120,NA
+"92","Heteromirafra ruddi",177889023,"EN","A2bc+3bc+4bc",2,10,6,6,720,92,120,NA
+"93","Conophytum caroli",202851329,"CR","A4d",4,3.33333333333333,10,5,666.666666666667,93,133.333333333333,NA
+"94","Serruria deluvialis",185539803,"EN","A2ce; B1ab(iii,v)+2ab(iii,v); C1",2,5,6,9,540,94,90,NA
+"95","Conophytum concordans",202851246,"EN","A3cd",2,5,6,9,540,95,90,NA
+"96","Latimeria chalumnae",3274618,"CR","A2bcd",4,3.33333333333333,10,4,533.333333333333,96,133.333333333333,NA
+"97","Chiloglanis bifurcus",100193958,"CR","A2ace",4,3.33333333333333,10,4,533.333333333333,97,133.333333333333,NA
+"98","Aloidendron pillansii",110113558,"CR","A4ace",4,3.33333333333333,10,4,533.333333333333,98,133.333333333333,NA
+"99","Aloe pearsonii",110772076,"CR","A3ce+4ace",4,3.33333333333333,10,4,533.333333333333,99,133.333333333333,NA
+"100","Conophytum comptonii",202851267,"CR","A3c",4,3.33333333333333,10,4,533.333333333333,100,133.333333333333,NA
+"101","Conophytum roodiae",202872452,"CR","A4d",4,3.33333333333333,10,4,533.333333333333,101,133.333333333333,NA
+"102","Conophytum calculus",202872562,"CR","A4d",4,3.33333333333333,10,4,533.333333333333,102,133.333333333333,NA
+"103","Sarcocaulon multifidum",215865506,"CR","A4cd",4,3.33333333333333,10,4,533.333333333333,103,133.333333333333,NA
+"104","Lasiosiphon microphyllus",249088531,"CR","A2ace+3c+4ace",4,3.33333333333333,10,4,533.333333333333,104,133.333333333333,NA
+"105","Serruria pinnata",185533437,"CR","B1ab(iii,v)c(iv); C2a(i,ii)b; D",4,5,2,10,400,105,200,NA
+"106","Leucadendron bonum",185564964,"CR","B1ab(v)+2ab(v); C2a(i); D",4,5,2,10,400,106,200,NA
+"107","Protea nubigena",185570554,"CR","B1ab(v); C2a(i,ii); D",4,5,2,10,400,107,200,NA
+"108","Conophytum ernstii",202872572,"CR","A3d",4,2.5,10,4,400,108,100,NA
+"109","Cadiscus aquaticus",8382698,"CR","B2ab(i,ii,iii,iv,v)",4,5,2,9,360,109,180,NA
+"110","Eptatretus octatrema",8996587,"CR","B1ab(iii)",4,10,1,9,360,110,360,NA
+"111","Microbatrachella capensis",77158116,"CR","B2ab(ii,iii)",4,5,2,9,360,111,180,NA
+"112","Arthroleptella rugosa",77162276,"CR","B1ab(i,ii,iii)c(iv)",4,5,2,9,360,112,180,NA
+"113","Vandijkophrynus amatolicus",77163458,"CR","B1ab(i,ii,iii)",4,5,2,9,360,113,180,NA
+"114","Heleophryne rosei",77164671,"CR","B1ab(iii)+2ab(iii)",4,5,2,9,360,114,180,NA
+"115","Pseudobarbus erubescens",100140580,"CR","B1ab(i,ii,iii,v)",4,5,2,9,360,115,180,NA
+"116","Pseudobarbus burchelli",100170338,"CR","B1ab(i,ii,iii,v)c(ii,iii,iv)",4,5,2,9,360,116,180,NA
+"117","Aspalathus repens",104107846,"CR","B2ab(iii,v)",4,5,2,9,360,117,180,NA
+"118","Annesorhiza laticostata",104110374,"CR","B1ab(iii)+2ab(iii)",4,5,2,9,360,118,180,NA
+"119","Aspalathus cliffortiifolia",104111628,"CR","B1ab(iii)+2ab(iii)",4,5,2,9,360,119,180,NA
+"120","Carex acocksii",167071571,"CR","B1ab(i,ii,iii,v)",4,5,2,9,360,120,180,NA
+"121","Aloeides stevensoni",168300053,"CR","B1ab(iii,v)+2ab(iii,v)",4,5,2,9,360,121,180,NA
+"122","Thestor barbatus",168307136,"CR","B1ab(iii,v)+2ab(iii,v)",4,5,2,9,360,122,180,NA
+"123","Chrysoritis dicksoni",168308879,"CR","B1ab(i,ii,iii,v)",4,5,2,9,360,123,180,NA
+"124","Kedestes sarahae",168309354,"CR","B1ab(iii,v)+2ab(iii,v)",4,5,2,9,360,124,180,NA
+"125","Erikssonia edgei",168311837,"CR","B1ab(iii,v)+2ab(iii,v)",4,5,2,9,360,125,180,NA
+"126","Thestor strutti",168311935,"CR","B1ab(v)",4,5,2,9,360,126,180,NA
+"127","Mimetes argenteus",185539192,"EN","A2ace; C2a(i)",2,5,6,6,360,127,60,NA
+"128","Sorocephalus imbricatus",185544610,"CR","B1ab(iii,v); C2a(i)",4,5,2,9,360,128,180,NA
+"129","Serruria brownii",185545236,"EN","A2c; B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v); C1+2a(i)",2,5,6,6,360,129,60,NA
+"130","Leucadendron coriaceum",185545660,"EN","A2c; B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v); C1+2a(i)",2,5,6,6,360,130,60,NA
+"131","Serruria flava",185551954,"CR","B1ab(ii,iii,v)",4,5,2,9,360,131,180,NA
+"132","Serruria lacunosa",185554277,"CR","B1ab(ii,iii,v)+2ab(ii,iii,v)",4,5,2,9,360,132,180,NA
+"133","Sorocephalus scabridus",185557885,"CR","B1ab(iii)",4,5,2,9,360,133,180,NA
+"134","Leucospermum fulgens",185561429,"CR","B1ab(iii,v)",4,5,2,9,360,134,180,NA
+"135","Leucadendron gydoense",185567763,"EN","A2a",2,5,6,6,360,135,60,NA
+"136","Leucadendron tradouwense",185571061,"CR","B1b(iii)c(ii,iv)",4,5,2,9,360,136,180,NA
+"137","Leucadendron flexuosum",185582548,"CR","B1ab(ii,iii,v)",4,5,2,9,360,137,180,NA
+"138","Leucadendron macowanii",185583234,"CR","B1ab(v)c(iv); C2a(ii)b",4,5,2,9,360,138,180,NA
+"139","Protea inopina",185591877,"CR","B1ab(ii,iii,iv,v)",4,5,2,9,360,139,180,NA
+"140","Serruria aemula",185594112,"CR","B1b(iii,v)c(iv)",4,5,2,9,360,140,180,NA
+"141","Scelotes inornatus",197408167,"CR","B1ab(i,ii,iii,iv,v)",4,5,2,9,360,141,180,NA
+"142","Conophytum arthurolfago",202849637,"CR","B1ab(v)",4,5,2,9,360,142,180,NA
+"143","Conophytum bicarinatum",202851513,"EN","A3cd",2,5,6,6,360,143,60,NA
+"144","Vachellia sekhukhuniensis",210907847,"CR","B1ab(ii,iii)",4,5,2,9,360,144,180,NA
+"145","Othonna armiana",215865516,"CR","B1ab(v)+2ab(v)",4,5,2,9,360,145,180,NA
+"146","Tylecodon bodleyae",215865551,"CR","B1ab(v)",4,5,2,9,360,146,180,NA
+"147","Encephalartos aemulans",243422047,"CR","B1ab(v)+2ab(v)",4,5,2,9,360,147,180,NA
+"148","Encephalartos arenarius",243422834,"EN","A2acd; B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v); C1",2,5,6,6,360,148,60,NA
+"149","Encephalartos dyerianus",243425739,"CR","B1ab(v)+2ab(v)",4,5,2,9,360,149,180,NA
+"150","Encephalartos eugene-maraisii",243425983,"EN","A2ad+4ad; B1ab(v)",2,5,6,6,360,150,60,NA
+"151","Encephalartos msinganus",243430438,"CR","B1ab(iii,v); C2a(ii)",4,5,2,9,360,151,180,NA
+"152","Capys penningtoni",168300190,"CR","C2a(i)",4,5,2,8,320,152,160,NA
+"153","Delosperma gautengense",10849772,"EN","A3cde+4cde; B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,6,5,300,153,60,NA
+"154","Aspalathus glabrescens",47609428,"EN","A2c",2,5,6,5,300,154,60,NA
+"155","Psoralea fascicularis",47611127,"EN","A2bc; B1ab(iii)",2,5,6,5,300,155,60,NA
+"156","Argyrosomus thorpei",49239702,"EN","A2bd",2,5,6,5,300,156,60,NA
+"157","Asparagus sekukuniensis",104106905,"EN","A2c",2,5,6,5,300,157,60,NA
+"158","Holohalaelurus favus",124522141,"EN","A2d",2,5,6,5,300,158,60,NA
+"159","Syngnathus watermeyeri",126315225,"EN","A3c",2,5,6,5,300,159,60,NA
+"160","Phalacrocorax neglectus",132592007,"EN","A2ace+3ce+4ace",2,5,6,5,300,160,60,NA
+"161","Leucadendron galpinii",185537857,"EN","A2ce",2,5,6,5,300,161,60,NA
+"162","Diastella proteoides",185540996,"EN","A2c; C1",2,5,6,5,300,162,60,NA
+"163","Leucadendron remotum",185543190,"EN","A2abc; B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,6,5,300,163,60,NA
+"164","Leucadendron laxum",185555517,"EN","A2c",2,5,6,5,300,164,60,NA
+"165","Serruria linearis",185559029,"EN","A2ce",2,5,6,5,300,165,60,NA
+"166","Leucadendron stelligerum",185559857,"EN","A2c",2,5,6,5,300,166,60,NA
+"167","Leucadendron meyerianum",185568314,"EN","A4ac",2,5,6,5,300,167,60,NA
+"168","Leucadendron stellare",185570851,"EN","A2c",2,5,6,5,300,168,60,NA
+"169","Leucadendron thymifolium",185571396,"EN","A2ace; B1ab(ii,iii,v)+2ab(ii,iii,v); C1",2,5,6,5,300,169,60,NA
+"170","Leucadendron lanigerum",185571641,"EN","A2ace",2,5,6,5,300,170,60,NA
+"171","Leucospermum hypophyllocarpodendron",185575949,"EN","A4c",2,5,6,5,300,171,60,NA
+"172","Conophytum limpidum",202849605,"EN","A4d",2,5,6,5,300,172,60,NA
+"173","Conophytum stevens-jonesianum",202849878,"EN","A4cd",2,5,6,5,300,173,60,NA
+"174","Conophytum blandum",202850103,"EN","A4acd",2,5,6,5,300,174,60,NA
+"175","Conophytum pubicalyx",202850480,"EN","A3cd",2,5,6,5,300,175,60,NA
+"176","Conophytum pubescens",202850490,"EN","A4d",2,5,6,5,300,176,60,NA
+"177","Conophytum praesectum",202850500,"EN","A4cd",2,5,6,5,300,177,60,NA
+"178","Conophytum minimum",202850719,"EN","A3c",2,5,6,5,300,178,60,NA
+"179","Conophytum lydiae",202850878,"EN","A4d",2,5,6,5,300,179,60,NA
+"180","Conophytum joubertii",202851001,"EN","A3c",2,5,6,5,300,180,60,NA
+"181","Conophytum fraternum",202851068,"EN","A3d; B1ab(iii)+2ab(iii)",2,5,6,5,300,181,60,NA
+"182","Conophytum ficiforme",202851131,"EN","A3c+4d",2,5,6,5,300,182,60,NA
+"183","Conophytum cylindratum",202851205,"EN","A3cd",2,5,6,5,300,183,60,NA
+"184","Conophytum armianum",202851481,"EN","A4d; B1ab(iii,v)+2ab(iii,v)",2,5,6,5,300,184,60,NA
+"185","Conophytum fulleri",202851594,"EN","A4cd",2,5,6,5,300,185,60,NA
+"186","Conophytum lithopsoides",202872427,"EN","A3d+4c",2,5,6,5,300,186,60,NA
+"187","Conophytum pellucidum",202872447,"EN","A3c+4d",2,5,6,5,300,187,60,NA
+"188","Conophytum tantillum",202872457,"EN","A4cd",2,5,6,5,300,188,60,NA
+"189","Conophytum flavum",202872477,"EN","A4d",2,5,6,5,300,189,60,NA
+"190","Conophytum truncatum",202872482,"EN","A3c",2,5,6,5,300,190,60,NA
+"191","Conophytum stephanii",202872492,"EN","A4cd",2,5,6,5,300,191,60,NA
+"192","Conophytum piluliforme",202872502,"EN","A3cd",2,5,6,5,300,192,60,NA
+"193","Conophytum minusculum",202872507,"EN","A4d",2,5,6,5,300,193,60,NA
+"194","Conophytum herreanthus",202872527,"EN","A3d",2,5,6,5,300,194,60,NA
+"195","Conophytum ectypum",202872532,"EN","A4cd",2,5,6,5,300,195,60,NA
+"196","Conophytum devium",202872537,"EN","A4d",2,5,6,5,300,196,60,NA
+"197","Conophytum auriflorum",202872557,"EN","A3d+4c; B1ab(iii)+2ab(iii)",2,5,6,5,300,197,60,NA
+"198","Encephalartos horridus",243427216,"EN","A2acd+4acd",2,5,6,5,300,198,60,NA
+"199","Pachycarpus stelliceps",221361832,"CR","B1ab(iii)+2ab(iii); D",4,3.33333333333333,2,10,266.666666666667,199,133.333333333333,NA
+"200","Paramelita flexa",5395077,"VU","A1c",1,10,4,6,240,200,60,NA
+"201","Isoetes capensis",8375578,"EN","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv)",2,10,2,6,240,201,120,NA
+"202","Romulea aquatica",8441152,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,10,2,6,240,202,120,NA
+"203","Afrotis afra",93331501,"VU","A4bc",1,10,4,6,240,203,60,NA
+"204","Clinus spatulatus",123653266,"EN","B1ab(iii,v)c(ii,iv)+2ab(iii,v)c(ii,iv)",2,10,2,6,240,204,120,NA
+"205","Haploblepharus fuscus",124403821,"VU","A2bcd",1,10,4,6,240,205,60,NA
+"206","Aloeides rossouwi",168302094,"CR","B1ab(iii,v)+2ab(iii,v); C2a(ii)",4,3.33333333333333,2,9,240,206,120,NA
+"207","Dingana fraterna",168311611,"CR","B1ab(iii,v); C2a(ii)",4,3.33333333333333,2,9,240,207,120,NA
+"208","Leucospermum innovans",185586483,"EN","A4c; B1ab(ii,iii,v)+2ab(ii,iii,v)",2,3.33333333333333,6,6,240,208,40,NA
+"209","Protea pruinosa",185593024,"EN","B1ab(iii,v)+2ab(iii,v); C1+2a(i)",2,5,4,6,240,209,60,NA
+"210","Bunolagus monticularis",45176532,"CR","C2a(i)",4,3.33333333333333,2,8,213.333333333333,210,106.666666666667,NA
+"211","Melolobium subspicatum",10252999,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v); C1+2a(i)",2,5,4,5,200,211,50,NA
+"212","Habenaria mossii",10293479,"EN","C1+2a(i)",2,5,4,5,200,212,50,NA
+"213","Diomedea dabbenena",132657527,"CR","A4ade",4,1.25,10,4,200,213,50,NA
+"214","Leucospermum formosum",185532641,"EN","B2ab(iii,v); C1",2,5,4,5,200,214,50,NA
+"215","Leucadendron roodii",185592835,"EN","A2c; B1ab(ii,iii,v)+2ab(ii,iii,v)",2,3.33333333333333,6,5,200,215,40,NA
+"216","Cassipourea flanaganii",210906816,"EN","A4acd; C2a(i)",2,3.33333333333333,6,5,200,216,40,NA
+"217","Spheniscus demersus",256021744,"CR","A3bce+4bce",4,1.66666666666667,10,3,200,217,66.6666666666667,NA
+"218","Septaria tessellaria",6129202,"EN","B1ab(iii)+2ab(iii)",2,10,1,9,180,218,180,NA
+"219","Oxalis natans",8405222,"CR","B2ab(i,ii,iii,iv,v)",4,10,0.5,9,180,219,360,NA
+"220","Gulella puzeyi",10937315,"CR","B1ab(iii)",4,5,1,9,180,220,180,NA
+"221","Gulella salpinx",10937459,"CR","B1ab(iii)",4,5,1,9,180,221,180,NA
+"222","Trachycystis clifdeni",10938455,"CR","B1ab(iii)",4,5,1,9,180,222,180,NA
+"223","Trachycystis placenta",10939051,"CR","B1ab(iii)",4,5,1,9,180,223,180,NA
+"224","Tomichia cawstoni",12676489,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,224,180,NA
+"225","Cryptochloris wintoni",21287143,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,225,180,NA
+"226","Thoracistus arboreus",56073947,"CR","B2ab(iii)",4,5,1,9,180,226,180,NA
+"227","Thoracistus peringueyi",56073962,"CR","B2ab(iii)",4,5,1,9,180,227,180,NA
+"228","Transkeidectes multidentis",56073977,"CR","B2ab(iii)",4,5,1,9,180,228,180,NA
+"229","Acilacris furcatus",56180068,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,229,180,NA
+"230","Acilacris kristinae",56180073,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,230,180,NA
+"231","Aroegas nigroornatus",56180093,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,231,180,NA
+"232","Cedarbergeniana imperfecta",56180184,"CR","B1ab(iii)",4,5,1,9,180,232,180,NA
+"233","Griffiniana duplessisae",56180189,"CR","B1ab(iii)",4,5,1,9,180,233,180,NA
+"234","Peringueyella zulu",56181524,"CR","B2ab(iii)",4,5,1,9,180,234,180,NA
+"235","Arthroleptella subvoce",77161647,"CR","B1b(iii)c(iv)+2b(iii)c(iv)",4,5,1,9,180,235,180,NA
+"236","Proischnura polychromatica",90238127,"EN","B1ab(i,ii,iii,iv)+2ab(i,ii,iii,iv)",2,5,2,9,180,236,90,NA
+"237","Enteromius treurensis",100159826,"CR","B1ab(iii)",4,5,1,9,180,237,180,NA
+"238","Athanasia imbricata",104108129,"CR","B1ab(iii)",4,5,1,9,180,238,180,NA
+"239","Annesorhiza fibrosa",104110028,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,2,9,180,239,90,NA
+"240","Galaxias sp. nov. 'slender'",107626917,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,240,180,NA
+"241","Annesorhiza radiata",110363342,"EN","B1ab(iii)+2ab(iii)",2,5,2,9,180,241,90,NA
+"242","Albuca nana",110380358,"CR","B1ab(iii)",4,5,1,9,180,242,180,NA
+"243","Nothobranchius mkuziensis",131471537,"CR","B2ab(iii)",4,5,1,9,180,243,180,NA
+"244","Thestor kaplani",168304127,"CR","B1ab(iii)",4,5,1,9,180,244,180,NA
+"245","Aloeides clarki",168308196,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,9,180,245,90,NA
+"246","Lepidochrysops jefferyi",168312041,"CR","B1ab(iii)",4,5,1,9,180,246,180,NA
+"247","Stygionympha dicksoni",168312862,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,247,180,NA
+"248","Alaena margaritacea",168313276,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,248,180,NA
+"249","Lepidochrysops swanepoeli",168313774,"CR","B1ab(iii)",4,5,1,9,180,249,180,NA
+"250","Orachrysops violescens",168314135,"EN","B1ab(iii)+2ab(iii)",2,5,2,9,180,250,90,NA
+"251","Arytropteris pondo",176046388,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,251,180,NA
+"252","Austrodontura castletoni",176081468,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,252,180,NA
+"253","Sarothrura ayresi",179602552,"CR","C2a(i)",4,2.5,2,9,180,253,90,NA
+"254","Mimetes arboreus",185531864,"EN","B1ab(iii,v)+2ab(iii,v); C2a(ii)",2,5,2,9,180,254,90,NA
+"255","Leucospermum cordatum",185536874,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,9,180,255,90,NA
+"256","Sorocephalus tenuifolius",185539523,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,9,180,256,90,NA
+"257","Mimetes palustris",185540858,"EN","B1ab(iii)+2ab(iii)",2,5,2,9,180,257,90,NA
+"258","Serruria decumbens",185556785,"EN","B1ab(iii)+2ab(iii)",2,5,2,9,180,258,90,NA
+"259","Sorocephalus teretifolius",185558016,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,9,180,259,90,NA
+"260","Serruria williamsii",185567166,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,9,180,260,90,NA
+"261","Leucadendron sericeum",185568773,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,9,180,261,90,NA
+"262","Spatalla argentea",185569883,"EN","B1ab(iii)+2ab(iii)",2,5,2,9,180,262,90,NA
+"263","Serruria rebeloi",185573253,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,9,180,263,90,NA
+"264","Serruria cyanoides",185573401,"VU","A2c; B1ab(iii,iv,v)+2ab(iii,iv,v)",1,5,4,9,180,264,45,NA
+"265","Protea mucronifolia",185576255,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,9,180,265,90,NA
+"266","Diastella myrtifolia",185579457,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,9,180,266,90,NA
+"267","Sorocephalus pinifolius",185586838,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,9,180,267,90,NA
+"268","Leucadendron floridum",185587850,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,9,180,268,90,NA
+"269","Leucospermum hamatum",185588477,"EN","B1ab(iii)+2ab(iii)",2,5,2,9,180,269,90,NA
+"270","Sorocephalus alopecurus",185588754,"EN","B1ab(iii,v)+2ab(iii,v); C2a(ii)",2,5,2,9,180,270,90,NA
+"271","Serruria altiscapa",185591734,"EN","B1ab(iii)+2ab(iii)",2,5,2,9,180,271,90,NA
+"272","Caerostris tinamaze",189443740,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,272,180,NA
+"273","Afrarchaea fernkloofensis",189450183,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,273,180,NA
+"274","Nebulasilvius insularis",218010829,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,274,180,NA
+"275","Parvuhowdenius harrisoni",218017080,"CR","B1ab(iii)",4,5,1,9,180,275,180,NA
+"276","Odontoloma spinicaudum",218021309,"EN","B2ab(iii)",2,10,1,9,180,276,180,NA
+"277","Sarophorus diabolus",218024388,"CR","B1ab(iii)+2ab(iii)",4,5,1,9,180,277,180,NA
+"278","Frankenbergerius opacus",228693284,"CR","B2ab(iii)",4,5,1,9,180,278,180,NA
+"279","Aloe peglerae",10242961,"EN","A2d+3d+4d; B1ab(ii,v)+2ab(ii,v)",2,3.33333333333333,6,4,160,279,40,NA
+"280","Mormopterus acetabulosus",22085232,"EN","A2b; B1ab(iii)+2ab(iii)",2,3.33333333333333,6,4,160,280,40,NA
+"281","Aloidendron ramosissimum",110113664,"EN","A4ace",2,3.33333333333333,6,4,160,281,40,NA
+"282","Chersobius signatus",115650943,"EN","A4ace",2,3.33333333333333,6,4,160,282,40,NA
+"283","Holohalaelurus punctatus",124526498,"EN","A2d",2,3.33333333333333,6,4,160,283,40,NA
+"284","Warneckea parvifolia",175311126,"EN","A3c+4c; B1ab(ii,iii,v)+2ab(ii,iii,v)",2,3.33333333333333,6,4,160,284,40,NA
+"285","Lebeckia gracilis",176376698,"EN","A2c",2,3.33333333333333,6,4,160,285,40,NA
+"286","Serruria zeyheri",185539978,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v); C2a(i)",2,5,2,8,160,286,80,NA
+"287","Serruria collina",185585004,"EN","B1ab(iii)+2ab(iii)",2,5,2,8,160,287,80,NA
+"288","Conophytum reconditum",202849804,"EN","A4d",2,3.33333333333333,6,4,160,288,40,NA
+"289","Conophytum rugosum",202849867,"EN","A4d",2,3.33333333333333,6,4,160,289,40,NA
+"290","Conophytum chauviniae",202851308,"EN","A3c+4d; B1ab(v)+2ab(v)",2,3.33333333333333,6,4,160,290,40,NA
+"291","Conophytum swanepoelianum",202872487,"EN","A3c+4d",2,3.33333333333333,6,4,160,291,40,NA
+"292","Conophytum depressum",202872567,"EN","A4d; B2b(v)c(iv)",2,3.33333333333333,6,4,160,292,40,NA
+"293","Villarsia goldblattiana",8439241,"VU","D2",1,10,2,7,140,293,70,NA
+"294","Cineraria longipes",10243266,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v); C1+2a(i)",2,3.33333333333333,4,5,133.333333333333,294,33.3333333333333,NA
+"295","Clinus latipennis",1557506,"EN","B2ab(iii)",2,10,1,6,120,295,120,NA
+"296","Chelonodontops pleurospilus",2268868,"EN","B2ab(iii)",2,10,1,6,120,296,120,NA
+"297","Streptocephalus dendyi",9234526,"EN","B1+2bd",2,10,1,6,120,297,120,NA
+"298","Streptocephalus dendrophorus",9234593,"EN","B1+2bd",2,10,1,6,120,298,120,NA
+"299","Lessertia argentea",47610795,"EN","C2a(i)",2,5,2,6,120,299,60,NA
+"300","Haliotis midae",78772518,"EN","A2ad",2,2.5,6,4,120,300,30,NA
+"301","Bradypterus sylvaticus",94418244,"VU","B1ab(i,ii,iii,iv,v);C2a(i)",1,10,2,6,120,301,60,NA
+"302","Chetia brevis",99450207,"EN","A4ace; B1ab(iii,v)+2ab(iii,v)",2,2.5,6,4,120,302,30,NA
+"303","Serranochromis meridianus",99462846,"EN","A2ace; B1ab(ii,iii,v)+2ab(ii,iii,v)",2,2.5,6,4,120,303,30,NA
+"304","Adenogramma rigida",104109501,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v); C2a(i)",2,5,2,6,120,304,60,NA
+"305","Chersobius boulengeri",115656360,"EN","A4ace",2,2.5,6,4,120,305,30,NA
+"306","Scylliogaleus quecketti",124406361,"VU","B1ab(iii,v)",1,10,2,6,120,306,60,NA
+"307","Acroteriobatus leucospilus",124505883,"EN","A2d",2,2.5,6,4,120,307,30,NA
+"308","Haploblepharus kistnasamyi",124524866,"VU","B2ab(v)",1,10,2,6,120,308,60,NA
+"309","Conophytum taylorianum",169801288,"EN","A4c",2,2.5,6,4,120,309,30,NA
+"310","Hemimacronyx chloris",180132223,"VU","A3c; C2a(i); D1",1,5,4,6,120,310,30,NA
+"311","Leucadendron cryptocephalum",185534284,"EN","B1b(iii,v)c(iv)+2ab(iii,v)c(iv)",2,5,2,6,120,311,60,NA
+"312","Spatalla tulbaghensis",185539355,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,6,120,312,60,NA
+"313","Paranomus adiantifolius",185543562,"EN","B1ab(iii,v)c(iv)+2ab(iii,v)c(iv); C2b",2,5,2,6,120,313,60,NA
+"314","Protea rupicola",185548687,"EN","B2ab(iii,v)",2,5,2,6,120,314,60,NA
+"315","Serruria meisneriana",185549310,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,6,120,315,60,NA
+"316","Spatalla colorata",185555999,"EN","B1ab(iii,iv,v)+2ab(iii,iv,v); C2a(i)",2,5,2,6,120,316,60,NA
+"317","Leucadendron radiatum",185556934,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,6,120,317,60,NA
+"318","Protea venusta",185559220,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,6,120,318,60,NA
+"319","Leucospermum gueinzii",185559559,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,6,120,319,60,NA
+"320","Spatalla ericoides",185561154,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,6,120,320,60,NA
+"321","Protea restionifolia",185566960,"VU","A2c; B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",1,5,4,6,120,321,30,NA
+"322","Spatalla longifolia",185569425,"EN","B1ab(iii,iv,v)+2ab(iii,iv,v); C2a(i)",2,5,2,6,120,322,60,NA
+"323","Protea stokoei",185574779,"EN","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",2,5,2,6,120,323,60,NA
+"324","Spatalla prolifera",185585998,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,6,120,324,60,NA
+"325","Sorocephalus clavigerus",185588619,"EN","B1ab(iii,v)+2ab(iii,v); C2a(i)",2,5,2,6,120,325,60,NA
+"326","Serruria roxburghii",185591550,"EN","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",2,5,2,6,120,326,60,NA
+"327","Protea angustata",185594545,"VU","A4c; B1ab(iii,v)+2ab(iii,v); C1",1,5,4,6,120,327,30,NA
+"328","Conophytum loeschianum",202850160,"EN","A3d+4c",2,2.5,6,4,120,328,30,NA
+"329","Conophytum saxetanum",202850444,"EN","A4c",2,2.5,6,4,120,329,30,NA
+"330","Conophytum marginatum",202872517,"EN","A4cd",2,2.5,6,4,120,330,30,NA
+"331","Conophytum jucundum",202872522,"EN","A4d",2,2.5,6,4,120,331,30,NA
+"332","Tylecodon nolteei",215865556,"EN","B1ab(v)+2ab(v); C2a(i)",2,5,2,6,120,332,60,NA
+"333","Copris sexdentatus",217990434,"CR","B2ab(iii)",4,3.33333333333333,1,9,120,333,120,NA
+"334","Copris sphaeropterus",217994058,"CR","B2ab(iii)",4,3.33333333333333,1,9,120,334,120,NA
+"335","Anonychonitis freyi",228588075,"EN","B1ab(iii)",2,10,1,6,120,335,120,NA
+"336","Cryptocarya natalensis",9900880,"EN","B1+2ae, C2a, D",2,3.33333333333333,2,8,106.666666666667,336,53.3333333333333,NA
+"337","Acanthopagrus vagus",1287308,"VU","A2bcd; B2ab(ii,iii,v)",1,5,4,5,100,337,25,NA
+"338","Polysteganus praeorbitalis",1288897,"VU","A2bd",1,5,4,5,100,338,25,NA
+"339","Cymatoceps nasutus",1292756,"VU","A2bd",1,5,4,5,100,339,25,NA
+"340","Aponogeton ranunculiflorus",8391050,"EN","B2ab(iii)",2,5,2,5,100,340,50,NA
+"341","Myrsine gilliana",9539939,"VU","A2c",1,5,4,5,100,341,25,NA
+"342","Umtiza listeriana",9900474,"VU","A2cd, B1+2c",1,5,4,5,100,342,25,NA
+"343","Chrysospalax trevelyani",21289898,"EN","B2ab(i,ii,iii,iv,v)",2,5,2,5,100,343,50,NA
+"344","Myosorex tenuis",22287436,"EN","B2ab(ii,iii,iv)",2,5,2,5,100,344,50,NA
+"345","Eleocharis lepta",44400658,"CR","D",4,5,0.5,10,100,345,200,NA
+"346","Albizia suluensis",47609023,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v); C2a(ii)",2,5,2,5,100,346,50,NA
+"347","Aspalathus macrantha",47609465,"EN","B1ab(ii,iii,iv)+2ab(ii,iii,iv)",2,5,2,5,100,347,50,NA
+"348","Aspalathus psoraleoides",47609559,"EN","B1ab(iii)",2,5,2,5,100,348,50,NA
+"349","Aspalathus varians",47609709,"EN","B1ab(iii,v)",2,5,2,5,100,349,50,NA
+"350","Argyrosomus inodorus",49234949,"VU","A2bd",1,5,4,5,100,350,25,NA
+"351","Hippocampus capensis",54903534,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,5,100,351,50,NA
+"352","Pseudobarbus skeltoni",58341106,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,352,50,NA
+"353","Strumaria chaplinii",63729367,"EN","B1ab(iii)+2ab(iii)",2,5,2,5,100,353,50,NA
+"354","Pentameris ecklonii",64305762,"EN","B1ab(ii,iii,iv,v)",2,5,2,5,100,354,50,NA
+"355","Chlorolestes apricans",75508274,"EN","B2ab(i,ii,iii,iv)",2,5,2,5,100,355,50,NA
+"356","Metacnemis valida",76020339,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,5,2,5,100,356,50,NA
+"357","Xenopus gilli",77164368,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,357,50,NA
+"358","Sandelia bainsii",99447325,"EN","B2ab(ii,iii,iv,v)",2,5,2,5,100,358,50,NA
+"359","Pseudobarbus capensis",100114381,"EN","B1ab(iii,iv,v)+2ab(iii,iv,v)",2,5,2,5,100,359,50,NA
+"360","Pseudobarbus trevelyani",100159948,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,360,50,NA
+"361","Pseudobarbus burgi",100170651,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,361,50,NA
+"362","Kneria sp. nov. 'South Africa'",100190543,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,362,50,NA
+"363","Physemacris papillosa",100947343,"EN","B1ab(iii,v)",2,5,2,5,100,363,50,NA
+"364","Aspalathus candicans",104107251,"EN","B1ab(ii,iii,iv,v)",2,5,2,5,100,364,50,NA
+"365","Brianhuntleya purpureostyla",104108724,"EN","C2a(i)",2,5,2,5,100,365,50,NA
+"366","Annesorhiza bracteosa",104110248,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,366,50,NA
+"367","Galaxias sp. nov. 'Breede'",107626256,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,367,50,NA
+"368","Galaxias sp. nov. 'Heuningnes'",107626537,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,5,100,368,50,NA
+"369","Galaxias sp. nov. 'Klein'",107626669,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,369,50,NA
+"370","Galaxias sp. nov. 'Verlorenvlei'",107626985,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,370,50,NA
+"371","Pseudobarbus afer",107654388,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,371,50,NA
+"372","Pseudobarbus phlegethon",107654419,"EN","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",2,5,2,5,100,372,50,NA
+"373","Pseudobarbus verloreni",109192078,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,373,50,NA
+"374","Pseudobarbus sp. nov. 'keiskamma'",109421257,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,374,50,NA
+"375","Albuca albucoides",110380070,"EN","B1ab(iii)+2ab(iii)",2,5,2,5,100,375,50,NA
+"376","Halaelurus natalensis",124435463,"VU","A2bcd",1,5,4,5,100,376,25,NA
+"377","Acroteriobatus annulatus",124446397,"VU","A2bcd",1,5,4,5,100,377,25,NA
+"378","Cola dorrii",126712338,"EN","B2ab(i,ii,iii,iv,v)",2,5,2,5,100,378,50,NA
+"379","Chrysoritis adonis",162641138,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,5,2,5,100,379,50,NA
+"380","Trimenia wallengrenii",165245684,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,380,50,NA
+"381","Pseudonympha swanepoeli",168305551,"EN","B2ab(i,ii,iii,iv,v)",2,5,2,5,100,381,50,NA
+"382","Aloeides nubilus",168307519,"EN","B1ab(iii,v)+2ab(iii,v); C2a(i)",2,5,2,5,100,382,50,NA
+"383","Aloeides lutescens",168309444,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,5,2,5,100,383,50,NA
+"384","Dingana dingana",168312151,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,384,50,NA
+"385","Thestor claassensi",168312744,"EN","B1ab(iii)+2ab(iii)",2,5,2,5,100,385,50,NA
+"386","Lepidochrysops littoralis",168314343,"EN","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",2,5,2,5,100,386,50,NA
+"387","Protea aspera",185536223,"VU","A2c",1,5,4,5,100,387,25,NA
+"388","Serruria heterophylla",185537701,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,388,50,NA
+"389","Leucospermum praecox",185538666,"VU","A2c",1,5,4,5,100,389,25,NA
+"390","Protea pudens",185542858,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,5,100,390,50,NA
+"391","Mimetes saxatilis",185549464,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,391,50,NA
+"392","Sorocephalus palustris",185549631,"CR","D",4,5,0.5,10,100,392,200,NA
+"393","Sorocephalus crassifolius",185551451,"CR","D",4,5,0.5,10,100,393,200,NA
+"394","Serruria gracilis",185552091,"VU","A2c; B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",1,5,4,5,100,394,25,NA
+"395","Spatalla caudata",185552574,"EN","B1ab(iii,v)+2ab(iii,v)",2,5,2,5,100,395,50,NA
+"396","Serruria incrassata",185553074,"EN","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",2,5,2,5,100,396,50,NA
+"397","Leucadendron cinereum",185561795,"VU","A2bc",1,5,4,5,100,397,25,NA
+"398","Protea scabra",185563301,"VU","A4ce",1,5,4,5,100,398,25,NA
+"399","Protea burchellii",185564106,"VU","A2c+3c+4c",1,5,4,5,100,399,25,NA
+"400","Paranomus reflexus",185570406,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,400,50,NA
+"401","Leucadendron immoderatum",185571259,"CR","B1ac(iv)+2ac(iv); D",4,5,0.5,10,100,401,200,NA
+"402","Paranomus longicaulis",185572283,"EN","B1ab(iii,iv,v)+2ab(iii,iv,v); C2a(i)",2,5,2,5,100,402,50,NA
+"403","Leucospermum parile",185573745,"VU","A2c",1,5,4,5,100,403,25,NA
+"404","Leucospermum muirii",185574581,"VU","A2c",1,5,4,5,100,404,25,NA
+"405","Protea decurrens",185575374,"EN","B2ab(ii,iii,iv,v)",2,5,2,5,100,405,50,NA
+"406","Leucospermum heterophyllum",185577913,"VU","A2c",1,5,4,5,100,406,25,NA
+"407","Leucadendron elimense",185579772,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,2,5,100,407,50,NA
+"408","Protea convexa",185581492,"VU","A4ac",1,5,4,5,100,408,25,NA
+"409","Leucadendron foedum",185587474,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,5,2,5,100,409,50,NA
+"410","Protea scorzonerifolia",185593528,"VU","A2ce",1,5,4,5,100,410,25,NA
+"411","Serruria rubricaulis",185593900,"VU","A4c",1,5,4,5,100,411,25,NA
+"412","Bradypodion thamnobates",197397461,"EN","B1ab(ii,iii,v)",2,5,2,5,100,412,50,NA
+"413","Lygodactylus methueni",197400102,"EN","B1ab(i,ii,iii,iv,v)",2,5,2,5,100,413,50,NA
+"414","Scelotes kasneri",197401561,"EN","B1ab(i,iii,iv)",2,5,2,5,100,414,50,NA
+"415","Acontias rieppeli",197402954,"EN","B1ab(i,ii,iii,v)",2,5,2,5,100,415,50,NA
+"416","Bradypodion caeruleogula",197405541,"EN","B1ab(i,ii,iii,v)+2ab(i,ii,iii,v)",2,5,2,5,100,416,50,NA
+"417","Bradypodion caffer",197406830,"EN","B1ab(ii,iii,iv)+2ab(ii,iii,iv)",2,5,2,5,100,417,50,NA
+"418","Bitis albanica",197414561,"EN","B1ab(i,iii,iv,v)",2,5,2,5,100,418,50,NA
+"419","Bradypodion kentanicum",197415744,"EN","B1ab(i,ii,iii,v)",2,5,2,5,100,419,50,NA
+"420","Conophytum luckhoffii",202849627,"VU","A3c+4d",1,5,4,5,100,420,25,NA
+"421","Conophytum verrucosum",202850003,"VU","A3cd",1,5,4,5,100,421,25,NA
+"422","Conophytum meyeri",202850800,"VU","A4cd",1,5,4,5,100,422,25,NA
+"423","Conophytum longum",202850889,"VU","A4cd",1,5,4,5,100,423,25,NA
+"424","Conophytum breve",202851388,"VU","A3ce+4ad",1,5,4,5,100,424,25,NA
+"425","Conophytum hammeri",202851616,"VU","A3d",1,5,4,5,100,425,25,NA
+"426","Conophytum obscurum",202872442,"VU","A4cd",1,5,4,5,100,426,25,NA
+"427","Empogona africana",210908140,"EN","C2a(i)",2,5,2,5,100,427,50,NA
+"428","Psoralea peratica",210908357,"EN","B1ab(ii,iii,iv,v)",2,5,2,5,100,428,50,NA
+"429","Encephalartos altensteinii",243422301,"VU","A2acd",1,5,4,5,100,429,25,NA
+"430","Encephalartos humilis",243427486,"VU","A2acd+4acd; B1ab(iii,v)+2ab(iii,v)",1,5,4,5,100,430,25,NA
+"431","Encephalartos lehmannii",243429231,"VU","A2acd+4acd",1,5,4,5,100,431,25,NA
+"432","Encephalartos princeps",243431843,"VU","A4acd; B1ab(iii,v)",1,5,4,5,100,432,25,NA
+"433","Encephalartos trispinosus",243433150,"VU","A2acd+4acd; B1ab(iii,v)+2ab(iii,v)",1,5,4,5,100,433,25,NA
+"434","Enarganthe octonaria",255770661,"VU","A2ace+3ce+4ace",1,5,4,5,100,434,25,NA
+"435","Cheiridopsis pillansii",255770671,"VU","A4ace",1,5,4,5,100,435,25,NA
+"436","Neotis ludwigii",129456278,"EN","A4cd",2,2,6,4,96,436,24,NA
+"437","Phalacrocorax capensis",132594943,"EN","A2bc+3bc+4bc",2,2,6,4,96,437,24,NA
+"438","Encephalartos lebomboensis",243428935,"EN","A2acd; B1ab(ii,iii,v)+2ab(ii,iii,v)",2,2,6,4,96,438,24,NA
+"439","Opisthopatus roseus",4559335,"CR","B1ab(i,iii)",4,5,0.5,9,90,439,180,NA
+"440","Septaria borbonica",6139156,"EN","B1ab(iii)+2ab(iii)",2,5,1,9,90,440,90,NA
+"441","Peripatopsis leonina",6189763,"CR","B1ab(i,ii,iii)+2ab(i,ii,iii)",4,5,0.5,9,90,441,180,NA
+"442","Pseudalthenia aschersoniana",8385705,"EN","B2ab(i,ii,iii,iv,v)",2,10,0.5,9,90,442,180,NA
+"443","Cotula myriophylloides",8407927,"CR","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",4,5,0.5,9,90,443,180,NA
+"444","Natalina beyrichi",10301382,"CR","B1+2c",4,5,0.5,9,90,444,180,NA
+"445","Tomichia natalensis",12677124,"CR","B1ab(i,ii,iii)+2ab(i,ii,iii)",4,5,0.5,9,90,445,180,NA
+"446","Tomichia tristis",12677811,"CR","B1ab(ii,iii)+2ab(ii,iii)",4,5,0.5,9,90,446,180,NA
+"447","Capensibufo rosei",47759127,"CR","B1ab(iii,iv)c(ii)+2ab(iii,iv)c(ii)",4,5,0.5,9,90,447,180,NA
+"448","Paracilacris periclitatus",56180103,"CR","B1ab(ii,iii,iv)+2ab(ii,iii,iv)",4,5,0.5,9,90,448,180,NA
+"449","Bulbinella eburniflora",63729376,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,9,90,449,45,NA
+"450","Spesbona angusta",75519665,"EN","B2ab(ii); D",2,5,1,9,90,450,90,NA
+"451","Camaricoproctus disparatidens",103877146,"CR","B1ab(i,ii,iii)",4,5,0.5,9,90,451,180,NA
+"452","Marcusenius sp. nov. kosi",107662067,"EN","B1ab(iii)+2ab(iii)",2,5,1,9,90,452,90,NA
+"453","Chrysoritis rileyi",168302306,"EN","B1ab(iii)+2ab(iii)",2,5,1,9,90,453,90,NA
+"454","Orachrysops regalis",168302578,"EN","B1ab(iii)+2ab(iii)",2,5,1,9,90,454,90,NA
+"455","Serruria triternata",185557611,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,9,90,455,45,NA
+"456","Hortipes wimmertensi",189439979,"EN","B1ab(iii)+2ab(iii)",2,5,1,9,90,456,90,NA
+"457","Afrarchaea woodae",189447074,"EN","B1ab(iii)+2ab(iii)",2,5,1,9,90,457,90,NA
+"458","Aliuscanthoniola similaris",217977225,"EN","B1ab(iii)",2,5,1,9,90,458,90,NA
+"459","Endroedyolus paradoxus",227720058,"EN","B1ab(iii)+2ab(iii)",2,5,1,9,90,459,90,NA
+"460","Dioscorea brownii",63729402,"EN","B2ab(i,ii,iii,iv,v); C2a(i)",2,3.33333333333333,2,6,80,460,40,NA
+"461","Leucospermum glabrum",185572099,"EN","C2a(i)",2,3.33333333333333,2,6,80,461,40,NA
+"462","Mimetes splendidus",185589406,"EN","B1ab(iii,v)+2ab(iii,v); C2a(i)",2,3.33333333333333,2,6,80,462,40,NA
+"463","Eulophia platypetala",188169654,"VU","A2ce; C2a(i)",1,3.33333333333333,4,6,80,463,20,NA
+"464","Pseudosalacia streyi",210907225,"EN","B1ab(iii,v)+2ab(iii,v); C2a(i)",2,3.33333333333333,2,6,80,464,40,NA
+"465","Diomedea sanfordi",132656392,"EN","A4bc; B2ab(iii,v)",2,0.714285714285714,6,9,77.1428571428571,465,12.8571428571429,NA
+"466","Trachyandra erythrorrhiza",10850638,"VU","A3ce+4ce; B2ab(ii,iii,iv,v); C1+2a(i); D2",1,2.5,4,7,70,466,17.5,NA
+"467","Chrysoritis aureus",168307918,"EN","C2a(i)",2,3.33333333333333,2,5,66.6666666666667,467,33.3333333333333,NA
+"468","Serruria millefolia",185547520,"EN","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",2,3.33333333333333,2,5,66.6666666666667,468,33.3333333333333,NA
+"469","Leucadendron dregei",185567328,"EN","C2a(i)",2,3.33333333333333,2,5,66.6666666666667,469,33.3333333333333,NA
+"470","Conophytum albiflorum",202851444,"EN","B1ab(v)+2ab(v)",2,3.33333333333333,2,5,66.6666666666667,470,33.3333333333333,NA
+"471","Eugenia umtamvunensis",210907140,"EN","B1ab(iii,v)+2ab(iii,v)",2,3.33333333333333,2,5,66.6666666666667,471,33.3333333333333,NA
+"472","Apodytes abbottii",210908964,"EN","C2a(i)",2,3.33333333333333,2,5,66.6666666666667,472,33.3333333333333,NA
+"473","Maytenus abbottii",210909326,"EN","B1ab(iii,v); C2a(i)",2,3.33333333333333,2,5,66.6666666666667,473,33.3333333333333,NA
+"474","Tephrosia pondoensis",210909399,"EN","B1ab(iii,v); C2a(i)",2,3.33333333333333,2,5,66.6666666666667,474,33.3333333333333,NA
+"475","Manilkara nicholsonii",210909932,"EN","B1ab(iii,v)+2ab(iii,v); C2a(i)",2,3.33333333333333,2,5,66.6666666666667,475,33.3333333333333,NA
+"476","Arothron inconditus",2276701,"VU","B2ab(iii)",1,10,1,6,60,476,60,NA
+"477","Romulea multisulcata",8367625,"VU","B1ab(iii)+2ab(iii)",1,10,1,6,60,477,60,NA
+"478","Oxalis dines",8440139,"VU","B1ab(iii)+2ab(iii)",1,10,1,6,60,478,60,NA
+"479","Natalina wesseliana",10301576,"VU","B1+2bc",1,10,1,6,60,479,60,NA
+"480","Chlamydephorus burnupi",10301993,"VU","B1+2bc",1,10,1,6,60,480,60,NA
+"481","Tomichia differens",12676926,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,10,0.5,6,60,481,120,NA
+"482","Thoracistus semeniphagus",56073967,"EN","B2ab(iii)",2,3.33333333333333,1,9,60,482,60,NA
+"483","Orothamnus zeyheri",185532859,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,6,60,483,30,NA
+"484","Protea caespitosa",185540329,"VU","B1ab(iii,v)c(iv)+2ab(iii,v)c(iv)",1,5,2,6,60,484,30,NA
+"485","Spatalla propinqua",185577147,"VU","C2a(i)",1,5,2,6,60,485,30,NA
+"486","Paranomus spicatus",185577614,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,6,60,486,30,NA
+"487","Peckolus poenskopius",218017090,"EN","B1ab(iii)",2,3.33333333333333,1,9,60,487,60,NA
+"488","Macroderes endroedyi",228999164,"VU","B1ab(iii)+2ab(iii)",1,10,1,6,60,488,60,NA
+"489","Macroderes undulatus",229054396,"VU","B1ab(iii)",1,10,1,6,60,489,60,NA
+"490","Pachysoma glentoni",230144577,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,10,0.5,6,60,490,120,NA
+"491","Diceros bicornis",152728945,"CR","A2abd+4abd",4,0.37037037037037,10,4,59.2592592592593,491,14.8148148148148,NA
+"492","Rhabdosargus globiceps",1296869,"VU","A2bd",1,3.33333333333333,4,4,53.3333333333333,492,13.3333333333333,NA
+"493","Conus immelmani",2112140,"VU","A2ac; B1ab(v)",1,3.33333333333333,4,4,53.3333333333333,493,13.3333333333333,NA
+"494","Peripatopsis clavigera",6188958,"VU","A2c+4c; B1ab(ii,iii,iv)+2ab(ii,iii,iv)",1,3.33333333333333,4,4,53.3333333333333,494,13.3333333333333,NA
+"495","Eulophia coddii",10293375,"EN","B2ab(ii,iii,iv,v)",2,3.33333333333333,2,4,53.3333333333333,495,26.6666666666667,NA
+"496","Myosorex longicaudatus",22286725,"EN","B1ab(ii,iii)",2,3.33333333333333,2,4,53.3333333333333,496,26.6666666666667,NA
+"497","Natalobatrachus bonebergi",77159820,"EN","B2ab(ii,iii)",2,3.33333333333333,2,4,53.3333333333333,497,26.6666666666667,NA
+"498","Afrixalus knysnae",77160768,"EN","B1ab(i,ii,iii,v)+2ab(i,ii,iii,v)",2,3.33333333333333,2,4,53.3333333333333,498,26.6666666666667,NA
+"499","Leptopelis xenodactylus",77163657,"EN","B2ab(ii,iii,iv,v)",2,3.33333333333333,2,4,53.3333333333333,499,26.6666666666667,NA
+"500","Raphia australis",85955288,"VU","A3c+4c; B1ab(iii,v)+2ab(iii,v); C1",1,3.33333333333333,4,4,53.3333333333333,500,13.3333333333333,NA
+"501","Empogona maputensis",85955417,"EN","B1ab(i,ii,iii,v)+2ab(i,ii,iii,v)",2,3.33333333333333,2,4,53.3333333333333,501,26.6666666666667,NA
+"502","Enteromius gurneyi",100141523,"VU","A2ace",1,3.33333333333333,4,4,53.3333333333333,502,13.3333333333333,NA
+"503","Pseudobarbus quathlambae",100171498,"EN","B2ab(ii,iii,v)",2,3.33333333333333,2,4,53.3333333333333,503,26.6666666666667,NA
+"504","Silhouettea sibayi",100178519,"EN","B1ab(iii)+2ab(iii)",2,3.33333333333333,2,4,53.3333333333333,504,26.6666666666667,NA
+"505","Leucoraja wallacei",124495127,"VU","A2bd",1,3.33333333333333,4,4,53.3333333333333,505,13.3333333333333,NA
+"506","Labeo seeberi",174778890,"EN","B1ab(iii,v)+2ab(iii,v)",2,3.33333333333333,2,4,53.3333333333333,506,26.6666666666667,NA
+"507","Protea laetans",185550218,"EN","B1ab(iii,v)+2ab(iii,v)",2,3.33333333333333,2,4,53.3333333333333,507,26.6666666666667,NA
+"508","Smaug giganteus",197397987,"VU","A2bcd+4bcd",1,3.33333333333333,4,4,53.3333333333333,508,13.3333333333333,NA
+"509","Conophytum uviforme",202872462,"VU","A4d",1,3.33333333333333,4,4,53.3333333333333,509,13.3333333333333,NA
+"510","Conophytum bilobum",202872472,"VU","A4cd",1,3.33333333333333,4,4,53.3333333333333,510,13.3333333333333,NA
+"511","Cliffortia arborea",210908495,"VU","A2cd; C2a(i)",1,3.33333333333333,4,4,53.3333333333333,511,13.3333333333333,NA
+"512","Sarcocaulon herrei",215865501,"VU","A4cd; B1ab(iii,v)+2ab(iii,v)",1,3.33333333333333,4,4,53.3333333333333,512,13.3333333333333,NA
+"513","Sarcocaulon patersonii",215865511,"VU","A2acde+4acd",1,3.33333333333333,4,4,53.3333333333333,513,13.3333333333333,NA
+"514","Pelargonium crassicaule",215865536,"VU","A3cd+4acd",1,3.33333333333333,4,4,53.3333333333333,514,13.3333333333333,NA
+"515","Eriosema rufescens",221361802,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,3.33333333333333,2,4,53.3333333333333,515,26.6666666666667,NA
+"516","Thesium infundibulare",221361862,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,3.33333333333333,2,4,53.3333333333333,516,26.6666666666667,NA
+"517","Lobelia corniculata",221361912,"EN","B1ab(ii,iii,iv)+2ab(ii,iii,iv)",2,3.33333333333333,2,4,53.3333333333333,517,26.6666666666667,NA
+"518","Encephalartos natalensis",243430704,"VU","A2acd",1,3.33333333333333,4,4,53.3333333333333,518,13.3333333333333,NA
+"519","Encephalartos paucidentatus",243431412,"VU","A2ac; B1ab(i,ii,iii,v)+2ab(i,ii,iii,v)",1,3.33333333333333,4,4,53.3333333333333,519,13.3333333333333,NA
+"520","Drimia barbata",255770686,"VU","A3ce+4ace; B1ab(iii,v)+2ab(iii,v)",1,3.33333333333333,4,4,53.3333333333333,520,13.3333333333333,NA
+"521","Dracophilus dealbatus",255773026,"VU","A2ace+3ce+4ace",1,3.33333333333333,4,4,53.3333333333333,521,13.3333333333333,NA
+"522","Eudyptes moseleyi",184698049,"EN","A2acde+3cde+4acde",2,1.42857142857143,6,3,51.4285714285714,522,17.1428571428571,NA
+"523","Planiliza luciae",3329140,"EN","B1+2ab+3a",2,5,1,5,50,523,50,NA
+"524","Colpodium drakensbergense",8407457,"VU","B1ab(iii)",1,5,2,5,50,524,25,NA
+"525","Streptocephalus zuluensis",9234557,"EN","B1+2bd",2,5,1,5,50,525,50,NA
+"526","Gulella aprosdoketa",10937029,"EN","B1ab(iii)",2,5,1,5,50,526,50,NA
+"527","Trachycystis haygarthi",10938675,"EN","B1ab(iii)",2,5,1,5,50,527,50,NA
+"528","Betiscoides parva",17476715,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,528,50,NA
+"529","Betiscoides meridionalis",17477270,"EN","B2ab(iii)",2,5,1,5,50,529,50,NA
+"530","Betiscoides sjostedti",17477290,"EN","B2ab(iii)",2,5,1,5,50,530,50,NA
+"531","Neamblysomus gunningi",21283546,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,531,50,NA
+"532","Myosorex sclateri",22287210,"VU","B1ab(i,ii,iii,iv)+2ab(i,ii,iii,iv)",1,5,2,5,50,532,25,NA
+"533","Lotononis rigida",47610950,"VU","B1ab(ii,iii,iv,v)",1,5,2,5,50,533,25,NA
+"534","Thoracistus thyraeus",56073972,"EN","B1ab(iii)",2,5,1,5,50,534,50,NA
+"535","Syncordulia serendipator",56142812,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,535,50,NA
+"536","Conocephalus vaginalis",62452593,"EN","B1ab(iii)",2,5,1,5,50,536,50,NA
+"537","Dierama nixonianum",63729448,"VU","B1ab(ii,iii,iv)+2ab(ii,iii,iv)",1,5,2,5,50,537,25,NA
+"538","Cacosternum thorini",76317884,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,538,50,NA
+"539","Heleophryne hewitti",77163963,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,539,50,NA
+"540","Anginon pumilum",104109769,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,540,25,NA
+"541","Amphithalea pageae",104110823,"VU","B1ab(iii)+2ab(iii)",1,5,2,5,50,541,25,NA
+"542","Acmadenia laxa",104111307,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,5,2,5,50,542,25,NA
+"543","Aspalathus prostrata",104111945,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,543,25,NA
+"544","Galaxias sp. nov. 'Riviersonderend'",107626723,"VU","B1ab(ii,iii,v)+2ab(ii,iii,v)",1,5,2,5,50,544,25,NA
+"545","Marcusenius caudisquamatus",107628616,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,545,50,NA
+"546","Pseudobarbus swartzi",107937478,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,546,25,NA
+"547","Afrotettix fursti",107977167,"VU","B1ab(iii,v)",1,5,2,5,50,547,25,NA
+"548","Aspalathus calcarata",110379641,"VU","B1ab(iii)",1,5,2,5,50,548,25,NA
+"549","Sylvia nigricapillus",118400733,"VU","C2a(i)",1,5,2,5,50,549,25,NA
+"550","Aloeides carolynnae",165245627,"VU","B1ab(iii)+2ab(iii)",1,5,2,5,50,550,25,NA
+"551","Orachrysops ariadne",168301698,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,551,50,NA
+"552","Aslauga australis",168304551,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,552,50,NA
+"553","Dingana clara",168306579,"EN","B1ab(iii)+2ab(iii)",2,5,1,5,50,553,50,NA
+"554","Lepidochrysops pephredo",168310977,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,5,2,5,50,554,25,NA
+"555","Lepidochrysops lotana",168311186,"EN","B1ab(iii)",2,5,1,5,50,555,50,NA
+"556","Calendulauda burra",177650907,"VU","C2a(ii)",1,5,2,5,50,556,25,NA
+"557","Serruria kraussii",185538194,"VU","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",1,5,2,5,50,557,25,NA
+"558","Protea scolymocephala",185541863,"VU","B1ab(iii,iv,v)+2ab(iii,iv,v)",1,5,2,5,50,558,25,NA
+"559","Vexatorella alpina",185547703,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,559,25,NA
+"560","Leucospermum grandiflorum",185547856,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,5,2,5,50,560,25,NA
+"561","Protea montana",185548058,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,561,25,NA
+"562","Serruria flagellifolia",185548498,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,5,2,5,50,562,25,NA
+"563","Leucadendron discolor",185550862,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,563,25,NA
+"564","Spatalla mollis",185554023,"VU","B1ab(iii,iv,v)+2ab(iii,iv,v)",1,5,2,5,50,564,25,NA
+"565","Mimetes hirtus",185559356,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,565,25,NA
+"566","Serruria rostellaris",185562112,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,566,25,NA
+"567","Protea aristata",185563023,"VU","B1ab(v)+2ab(v); C2a(i)",1,5,2,5,50,567,25,NA
+"568","Leucospermum vestitum",185565911,"VU","B1ab(ii,iii,v)+2ab(ii,iii,v)",1,5,2,5,50,568,25,NA
+"569","Leucadendron argenteum",185568120,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,5,2,5,50,569,25,NA
+"570","Leucospermum catherinae",185571809,"VU","C2a(i)",1,5,2,5,50,570,25,NA
+"571","Protea lacticolor",185576692,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,571,25,NA
+"572","Serruria candicans",185576981,"VU","B1ab(iii)+2ab(iii)",1,5,2,5,50,572,25,NA
+"573","Leucadendron pondoense",185584456,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,5,2,5,50,573,25,NA
+"574","Leucadendron orientale",185586989,"VU","B1ab(iii)+2ab(iii); C2a(ii)",1,5,2,5,50,574,25,NA
+"575","Mimetes capitulatus",185589877,"VU","B1ab(iii,v)+2ab(iii,v)",1,5,2,5,50,575,25,NA
+"576","Chasmanthe bicolor",188497972,"VU","B1ab(ii,iii,v)+2ab(ii,iii,v)",1,5,2,5,50,576,25,NA
+"577","Scelotes bourquini",197401415,"VU","B1ab(i,iii,v)",1,5,2,5,50,577,25,NA
+"578","Bitis armata",197414812,"VU","B1ab(i,iii,iv,v)",1,5,2,5,50,578,25,NA
+"579","Bauhinia bowkeri",210908575,"VU","B1ab(iii)",1,5,2,5,50,579,25,NA
+"580","Psoralea angustifolia",210909856,"VU","B1ab(i,ii,iii,iv,v)",1,5,2,5,50,580,25,NA
+"581","Gyronotus glabrosus",218007962,"EN","B1ab(iii)",2,5,1,5,50,581,50,NA
+"582","Frankenbergerius nanus",218009995,"EN","B1ab(iii)",2,5,1,5,50,582,50,NA
+"583","Macroderes foveatus",218012417,"EN","B1ab(iii)",2,5,1,5,50,583,50,NA
+"584","Circus maurus",173521089,"EN","C2a(ii)",2,2,2,6,48,584,24,NA
+"585","Doratogonus rubipodus",103876120,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,5,0.5,9,45,585,90,NA
+"586","Ceropegia aloicola",171860127,"EN","B1ab(iii)",2,2.5,1,9,45,586,45,NA
+"587","Cladomelea debeeri",189439894,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,9,45,587,90,NA
+"588","Heliophanus africanus",189440261,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,9,45,588,90,NA
+"589","Diploglena dippenaarae",189443855,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,5,0.5,9,45,589,90,NA
+"590","Drassodella tenebrosa",189451146,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,5,0.5,9,45,590,90,NA
+"591","Trigonoceps occipitalis",205380033,"CR","A2abcd+3bcd+4abcd",4,0.263157894736842,10,4,42.1052631578947,591,10.5263157894737,NA
+"592","Rhinolophus cohenae",64587542,"VU","C2a(ii); D1",1,3.33333333333333,2,6,40,592,20,NA
+"593","Mycteroperca albomarginatus",100460097,"VU","A4bd",1,2.5,4,4,40,593,10,NA
+"594","Prostalia granulata",100947358,"EN","B2ab(iii,v)",2,2.5,2,4,40,594,20,NA
+"595","Aloidendron dichotomum",140666503,"VU","A4ace",1,2.5,4,4,40,595,10,NA
+"596","Leucospermum gerrardii",157948818,"EN","B2ab(iii,v)",2,2.5,2,4,40,596,20,NA
+"597","Lepidochrysops praeterita",168302462,"EN","B1ab(i,ii,iii,iv,v)+2ab(i,ii,iii,iv,v)",2,2.5,2,4,40,597,20,NA
+"598","Aloeides barbarae",168305427,"EN","B1ab(iii)+2ab(iii)",2,3.33333333333333,1,6,40,598,40,NA
+"599","Conophytum friedrichiae",202850125,"VU","A4d",1,2.5,4,4,40,599,10,NA
+"600","Conophytum quaesitum",202872497,"VU","A3d",1,2.5,4,4,40,600,10,NA
+"601","Conophytum maughanii",202872512,"VU","A4cd",1,2.5,4,4,40,601,10,NA
+"602","Conophytum angelicae",202872552,"VU","A3d+4cd",1,2.5,4,4,40,602,10,NA
+"603","Ocotea bullata",210909151,"EN","A2bd",2,1.66666666666667,6,2,40,603,20,NA
+"604","Callilepis corymbosa",221361952,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,2.5,2,4,40,604,20,NA
+"605","Stangeria eriopus",243383945,"VU","A2acd+4acd",1,2.5,4,4,40,605,10,NA
+"606","Encephalartos ghellinckii",243426494,"VU","C1",1,3.33333333333333,3,4,40,606,13.3333333333333,NA
+"607","Encephalartos senticosus",243432675,"VU","A2acd",1,2.5,4,4,40,607,10,NA
+"608","Nanozostera capensis",7001305,"VU","B2ab(ii,iii)",1,2,2,9,36,608,18,NA
+"609","Cyanella aquatica",8414052,"VU","D1+2",1,10,0.5,7,35,609,70,NA
+"610","Crinum campanulatum",8414607,"VU","D2",1,10,0.5,7,35,610,70,NA
+"611","Sclerochiton apiculatus",85955477,"VU","B1ab(i,ii,iii,v)+2ab(i,ii,iii,v)",1,3.33333333333333,2,5,33.3333333333333,611,16.6666666666667,NA
+"612","Conophytum pageae",202850593,"VU","A3c+4d",1,2,4,4,32,612,8,NA
+"613","Marsilea schelpeana",8371113,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,10,0.5,6,30,613,60,NA
+"614","Cotula filifolia",8398096,"VU","B1ab(ii,iii,v)",1,10,0.5,6,30,614,60,NA
+"615","Moraea stagnalis",8408523,"VU","B1ab(ii,iii)",1,10,0.5,6,30,615,60,NA
+"616","Thalassarche chlororhynchos",132645225,"EN","A4bd; B2ab(v)",2,0.833333333333333,6,3,30,616,10,NA
+"617","Oxyura maccoa",181759055,"EN","A2acde",2,0.588235294117647,6,4,28.2352941176471,617,7.05882352941176,NA
+"618","Morus capensis",132587992,"EN","A2acde+3cde+4acde",2,0.769230769230769,6,3,27.6923076923077,618,9.23076923076923,NA
+"619","Gulella claustralis",10937181,"EN","B2ab(iii)",2,3.33333333333333,1,4,26.6666666666667,619,26.6666666666667,NA
+"620","Cryptochloris zyli",21286235,"EN","B1ab(iii)+2ab(iii)",2,3.33333333333333,1,4,26.6666666666667,620,26.6666666666667,NA
+"621","Cyathocoma bachmannii",44469177,"VU","B2ab(iii,v)",1,3.33333333333333,2,4,26.6666666666667,621,13.3333333333333,NA
+"622","Myosorex cafer",50585251,"VU","B2ab(i,ii,iii,iv)",1,3.33333333333333,2,4,26.6666666666667,622,13.3333333333333,NA
+"623","Thoracistus jambila",56073957,"EN","B1ab(iii)",2,3.33333333333333,1,4,26.6666666666667,623,26.6666666666667,NA
+"624","Brinckiella arboricola",56180309,"EN","B1ab(iii)",2,3.33333333333333,1,4,26.6666666666667,624,26.6666666666667,NA
+"625","Peringueyella rentzi",56181519,"EN","B1ab(iii)",2,3.33333333333333,1,4,26.6666666666667,625,26.6666666666667,NA
+"626","Dicliptera quintasii",85955407,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,3.33333333333333,2,4,26.6666666666667,626,13.3333333333333,NA
+"627","Pseudobarbus asper",100170134,"VU","B2ab(ii,iii,v)",1,3.33333333333333,2,4,26.6666666666667,627,13.3333333333333,NA
+"628","Dioscorea burchellii",100890096,"VU","B1ab(iii)",1,3.33333333333333,2,4,26.6666666666667,628,13.3333333333333,NA
+"629","Dioscorea mundii",100890246,"VU","B1ab(iii)",1,3.33333333333333,2,4,26.6666666666667,629,13.3333333333333,NA
+"630","Peringueyacris namaqua",100947353,"VU","B1ab(i,iii,iv,v)",1,3.33333333333333,2,4,26.6666666666667,630,13.3333333333333,NA
+"631","Aspalathus obtusata",104111823,"VU","B1ab(iii)",1,3.33333333333333,2,4,26.6666666666667,631,13.3333333333333,NA
+"632","Aneuryphymus montanus",116116590,"VU","B2ab(iii,v)",1,3.33333333333333,2,4,26.6666666666667,632,13.3333333333333,NA
+"633","Phymeurus illepidus",116116720,"VU","B1ab(iii,v)",1,3.33333333333333,2,4,26.6666666666667,633,13.3333333333333,NA
+"634","Teriomima zuluana",168305032,"VU","B1b(ii,iii)c(iii)",1,3.33333333333333,2,4,26.6666666666667,634,13.3333333333333,NA
+"635","Chrysoritis lyncurium",168310857,"VU","B1ab(ii,iii,iv,v)",1,3.33333333333333,2,4,26.6666666666667,635,13.3333333333333,NA
+"636","Leucadendron procerum",185564760,"VU","B1ab(ii,iii,iv,v)+2ab(ii,iii,iv,v)",1,3.33333333333333,2,4,26.6666666666667,636,13.3333333333333,NA
+"637","Chumma inquieta",189453650,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,2,4,26.6666666666667,637,13.3333333333333,NA
+"638","Grewia pondoensis",210908874,"VU","C2a(i)",1,3.33333333333333,2,4,26.6666666666667,638,13.3333333333333,NA
+"639","Gymnosporia bachmannii",210909480,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,2,4,26.6666666666667,639,13.3333333333333,NA
+"640","Othonna cacalioides",215865521,"VU","B1ab(iii,v)+2ab(iii,v)",1,3.33333333333333,2,4,26.6666666666667,640,13.3333333333333,NA
+"641","Melanospermum swazicum",221361727,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,3.33333333333333,2,4,26.6666666666667,641,13.3333333333333,NA
+"642","Monopsis malvacea",221361772,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,2,4,26.6666666666667,642,13.3333333333333,NA
+"643","Kalanchoe montana",221361792,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,2,4,26.6666666666667,643,13.3333333333333,NA
+"644","Cephalaria foliosa",221361857,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,3.33333333333333,2,4,26.6666666666667,644,13.3333333333333,NA
+"645","Ocimum motjaneanum",221361967,"VU","B1ab(i,ii,iii,iv)+2ab(i,ii,iii,iv)",1,3.33333333333333,2,4,26.6666666666667,645,13.3333333333333,NA
+"646","Sarophorus punctatus",230401116,"EN","B1ab(iii)+2ab(iii)",2,3.33333333333333,1,4,26.6666666666667,646,26.6666666666667,NA
+"647","Encephalartos lanatus",243428225,"VU","B1ab(v)+2ab(v)",1,3.33333333333333,2,4,26.6666666666667,647,13.3333333333333,NA
+"648","Anhydrophryne rattrayi",511335,"VU","B1ab(iii)",1,5,1,5,25,648,25,NA
+"649","Chlamydephorus dimidius",10301676,"VU","B1+2bc",1,5,1,5,25,649,25,NA
+"650","Chlamydephorus purcelli",10303320,"EN","B1+2cd",2,5,0.5,5,25,650,50,NA
+"651","Sheldonia puzeyi",10937991,"VU","B1ab(iii)",1,5,1,5,25,651,25,NA
+"652","Tomichia ventricosa",12678090,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,652,50,NA
+"653","Tomichia zwellendamensis",12678384,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,653,50,NA
+"654","Amblysomus robustus",21284697,"VU","B1ab(iii)",1,5,1,5,25,654,25,NA
+"655","Africariola longicauda",43266532,"VU","B1ab(iii)+2ab(iii)",1,5,1,5,25,655,25,NA
+"656","Laevicaulis haroldi",50080884,"EN","B1+2cd",2,5,0.5,5,25,656,50,NA
+"657","Syncordulia legator",56142802,"VU","B2ab(iii)",1,5,1,5,25,657,25,NA
+"658","Sclerophrys pantherina",77159333,"EN","B1ab(ii,iii,iv)+2ab(ii,iii,iv)",2,5,0.5,5,25,658,50,NA
+"659","Hyperolius pickersgilli",77165927,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,659,50,NA
+"660","Austroglanis barnardi",99448638,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,5,0.5,5,25,660,50,NA
+"661","Doratogonus furculifer",103874987,"EN","B1ab(i,iii)+2ab(i,iii)",2,5,0.5,5,25,661,50,NA
+"662","Doratogonus natalensis",103875858,"EN","B2ab(ii,iii)",2,5,0.5,5,25,662,50,NA
+"663","Doratogonus septentrionalis",103876254,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,663,50,NA
+"664","Doratogonus zuluensis",103876356,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,5,0.5,5,25,664,50,NA
+"665","Doratogonus peregrinus",103877191,"EN","B2ab(ii,iii)",2,5,0.5,5,25,665,50,NA
+"666","Aloeides egerides",168303111,"VU","B1ab(iii)",1,5,1,5,25,666,25,NA
+"667","Chrysoritis penningtoni",168306871,"VU","B1ab(iii)+2ab(iii)",1,5,1,5,25,667,25,NA
+"668","Homalattus punctatus",189439139,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,668,50,NA
+"669","Cladomelea akermani",189439810,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,669,50,NA
+"670","Hortipes coccinatus",189440036,"VU","B1ab(iii)+2ab(iii)",1,5,1,5,25,670,25,NA
+"671","Isicabu zuluensis",189444694,"VU","B1ab(iii)+2ab(iii)",1,5,1,5,25,671,25,NA
+"672","Moggridgea loistata",189445507,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,672,50,NA
+"673","Moggridgea quercina",189445564,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,673,50,NA
+"674","Hortipes merwei",189449008,"VU","B1ab(iii)",1,5,1,5,25,674,25,NA
+"675","Smeringopus dehoop",189449417,"EN","B1ab(i,iii)",2,5,0.5,5,25,675,50,NA
+"676","Quamtana knysna",189453307,"EN","B1ab(i,ii,iii)",2,5,0.5,5,25,676,50,NA
+"677","Icius nigricaudus",189453679,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,5,0.5,5,25,677,50,NA
+"678","Epirinus bentoi",218006863,"VU","B1ab(iii)",1,5,1,5,25,678,25,NA
+"679","Gyronotus carinatus",218007942,"VU","B1ab(iii)",1,5,1,5,25,679,25,NA
+"680","Macroderes politulus",218012538,"VU","B1ab(iii)",1,5,1,5,25,680,25,NA
+"681","Xinidium dewitzi",218019194,"VU","B1ab(iii)",1,5,1,5,25,681,25,NA
+"682","Scarabaeus schulzeae",218024865,"VU","B1ab(iii)",1,5,1,5,25,682,25,NA
+"683","Pachysoma aesculapius",230132770,"VU","B1ab(iii)+2ab(iii)",1,5,1,5,25,683,25,NA
+"684","Thunnus maccoyii",170082633,"EN","A1bd",2,1,6,2,24,684,12,NA
+"685","Paracilacris mordax",43266672,"VU","D2",1,5,0.5,9,22.5,685,45,NA
+"686","Amyttacta marakelensis",56180083,"VU","D2",1,5,0.5,9,22.5,686,45,NA
+"687","Aroegas dilatatus",56180088,"VU","D2",1,5,0.5,9,22.5,687,45,NA
+"688","Doratogonus avius",103874756,"VU","D2",1,5,0.5,9,22.5,688,45,NA
+"689","Camaricoproctus gracilidens",103877151,"VU","D2",1,5,0.5,9,22.5,689,45,NA
+"690","Doratogonus minimus",103877186,"VU","D2",1,5,0.5,9,22.5,690,45,NA
+"691","Galaxias sp. nov. 'Goukou'",107626289,"VU","D2",1,5,0.5,9,22.5,691,45,NA
+"692","Galaxias sp. nov. 'Gourits'",107626417,"VU","D2",1,5,0.5,9,22.5,692,45,NA
+"693","Carex rainbowii",167071581,"VU","D1",1,5,0.5,9,22.5,693,45,NA
+"694","Metisella syrinx",168304455,"VU","D2",1,5,0.5,9,22.5,694,45,NA
+"695","Lepidochrysops victori",168306686,"VU","D2",1,5,0.5,9,22.5,695,45,NA
+"696","Potamonautes ntendekaensis",178424200,"VU","D2",1,5,0.5,9,22.5,696,45,NA
+"697","Potamonautes ngoyensis",178424205,"VU","D2",1,5,0.5,9,22.5,697,45,NA
+"698","Potamonautes mhlophe",178424210,"VU","D2",1,5,0.5,9,22.5,698,45,NA
+"699","Leucadendron concavum",185588233,"VU","D2",1,5,0.5,9,22.5,699,45,NA
+"700","Quamtana lajuma",189449981,"VU","B1ab(i,ii,iii)",1,5,0.5,9,22.5,700,45,NA
+"701","Bradypodion venustum",214766885,"VU","D2",1,5,0.5,9,22.5,701,45,NA
+"702","Bohepilissus nitidus",217978723,"VU","D2",1,5,0.5,9,22.5,702,45,NA
+"703","Outenikwanus tomentosus",218029539,"VU","D2",1,5,0.5,9,22.5,703,45,NA
+"704","Lycaon pictus",3348602,"CR","C2a(i); D",4,0.277777777777778,2,10,22.2222222222222,704,11.1111111111111,NA
+"705","Falco fasciinucha",174219122,"VU","A2ab+3b+4ab; C2a(i); D1",1,0.909090909090909,4,6,21.8181818181818,705,5.45454545454545,NA
+"706","Podocarpus henkelii",2983647,"EN","B2ab(ii,iii,v)",2,1.66666666666667,2,3,20,706,10,NA
+"707","Neamblysomus julianae",21285354,"EN","B2ab(iii)",2,2.5,1,4,20,707,20,NA
+"708","Barleria oxyphylla",120980043,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,2.5,2,4,20,708,10,NA
+"709","Protea comptonii",185557216,"VU","C2a(i)",1,2.5,2,4,20,709,10,NA
+"710","Polystachya zuluensis",221361747,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,2.5,2,4,20,710,10,NA
+"711","Polystachya ngomensis",221361767,"VU","B1ab(iii)+2ab(iii)",1,2.5,2,4,20,711,10,NA
+"712","Encephalartos ngoyanus",243430941,"VU","B1ab(iii,v); C2a(i)",1,2.5,2,4,20,712,10,NA
+"713","Peripatopsis alba",6187751,"VU","D2",1,5,0.5,7,17.5,713,35,NA
+"714","Chrysoritis trimeni",168312636,"VU","D2",1,5,0.5,7,17.5,714,35,NA
+"715","Erigonops littoralis",189438661,"VU","D2",1,5,0.5,7,17.5,715,35,NA
+"716","Orthetrum rubens",189591178,"VU","D2",1,5,0.5,7,17.5,716,35,NA
+"717","Nebulasilvius johani",218010819,"VU","D2",1,5,0.5,7,17.5,717,35,NA
+"718","Upsa centennial",218018997,"VU","D2",1,5,0.5,7,17.5,718,35,NA
+"719","Geokichla guttata",180490672,"VU","C2a(i); D1",1,1.42857142857143,2,6,17.1428571428571,719,8.57142857142857,NA
+"720","Chiloglanis emarginatus",100194297,"VU","B1ab(iii,iv)+2ab(iii,iv)",1,2,2,4,16,720,8,NA
+"721","Peckolus parvus",218015189,"VU","D2",1,3.33333333333333,0.5,9,15,721,30,NA
+"722","Leptailurus serval",3299247,"CR","C2a(i)",4,0.232558139534884,2,8,14.8837209302326,722,7.44186046511628,NA
+"723","Hirundo atrocaerulea",232888633,"EN","C2a(ii)",2,0.714285714285714,2,5,14.2857142857143,723,7.14285714285714,NA
+"724","Amblysomus marleyi",21284544,"EN","B1ab(ii,iii,v)+2ab(ii,iii,v)",2,3.33333333333333,0.5,4,13.3333333333333,724,26.6666666666667,NA
+"725","Chlorotalpa duthieae",21285581,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,1,4,13.3333333333333,725,13.3333333333333,NA
+"726","Thoracistus aureoportalis",56073952,"VU","B1ab(iii)",1,3.33333333333333,1,4,13.3333333333333,726,13.3333333333333,NA
+"727","Aroegas fuscus",56180116,"EN","B2ab(ii,iii,iv)",2,3.33333333333333,0.5,4,13.3333333333333,727,26.6666666666667,NA
+"728","Brinckiella aptera",56180304,"VU","B1ab(iii)",1,3.33333333333333,1,4,13.3333333333333,728,13.3333333333333,NA
+"729","Conocephalus zlobini",62452602,"VU","B1ab(iii)",1,3.33333333333333,1,4,13.3333333333333,729,13.3333333333333,NA
+"730","Clithon madecassinum",91289410,"VU","B1ab(iii)",1,3.33333333333333,1,4,13.3333333333333,730,13.3333333333333,NA
+"731","Kinixys lobatsiana",115654759,"VU","A4cde",1,1.66666666666667,4,2,13.3333333333333,731,6.66666666666667,NA
+"732","Kinixys natalensis",115685642,"VU","A4c",1,1.66666666666667,4,2,13.3333333333333,732,6.66666666666667,NA
+"733","Orachrysops mijburghi",168314038,"EN","B1ab(ii,iii)+2ab(ii,iii)",2,3.33333333333333,0.5,4,13.3333333333333,733,26.6666666666667,NA
+"734","Anthropoides paradiseus",177514877,"VU","A3cde+4cde",1,1.66666666666667,4,2,13.3333333333333,734,6.66666666666667,NA
+"735","Calommata transvaalica",189447554,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,1,4,13.3333333333333,735,13.3333333333333,NA
+"736","Thyenula rufa",189453851,"EN","B1ab(i,ii,iii)+2ab(i,ii,iii)",2,3.33333333333333,0.5,4,13.3333333333333,736,26.6666666666667,NA
+"737","Ficus bizanae",208457517,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,1,4,13.3333333333333,737,13.3333333333333,NA
+"738","Copris jacchus",217990670,"VU","B1ab(iii)",1,3.33333333333333,1,4,13.3333333333333,738,13.3333333333333,NA
+"739","Epirinus granulatus",218007694,"VU","B1ab(iii)",1,3.33333333333333,1,4,13.3333333333333,739,13.3333333333333,NA
+"740","Asystasia hirsuta",221361782,"VU","B1ab(iii)+2ab(iii)",1,3.33333333333333,1,4,13.3333333333333,740,13.3333333333333,NA
+"741","Aponogeton angustifolius",8419828,"VU","B1ab(ii,iii)",1,5,0.5,5,12.5,741,25,NA
+"742","Brinckiella karooensis",43266562,"VU","B1ab(i,ii,iii)+2ab(i,ii,iii)",1,5,0.5,5,12.5,742,25,NA
+"743","Conocephalus peringueyi",43266622,"VU","B1ab(i,ii,iii)+2ab(i,ii,iii)",1,5,0.5,5,12.5,743,25,NA
+"744","Thoracistus viridicrus",43266707,"VU","B1ab(i,iii)+2ab(i,iii)",1,5,0.5,5,12.5,744,25,NA
+"745","Labeo rubromaculatus",100162016,"VU","B1ab(i,v)",1,5,0.5,5,12.5,745,25,NA
+"746","Arytropteris basalis",176045391,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,746,25,NA
+"747","Austrachelas incertus",189437903,"VU","B1ab(i,ii,iii)+2ab(i,ii,iii)",1,5,0.5,5,12.5,747,25,NA
+"748","Moggridgea terricola",189438296,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,748,25,NA
+"749","Xevioso lichmadina",189438970,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,749,25,NA
+"750","Scytodes gooldi",189442160,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,750,25,NA
+"751","Ilisoa knysna",189443515,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,751,25,NA
+"752","Massagris natalensis",189445340,"VU","B1ab(ii,iii)",1,5,0.5,5,12.5,752,25,NA
+"753","Hermacha bicolor",189451292,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,753,25,NA
+"754","Vidole helicigyna",189453448,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,754,25,NA
+"755","Tyrotama soutpansbergensis",189453822,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,5,0.5,5,12.5,755,25,NA
+"756","Amphilius natalensis",7873832,"VU","D2",1,3.33333333333333,0.5,7,11.6666666666667,756,23.3333333333333,NA
+"757","Kalanchoe alticola",221361917,"VU","D2",1,3.33333333333333,0.5,7,11.6666666666667,757,23.3333333333333,NA
+"758","Oreochromis macrochir",12659168,"VU","A3e",1,1.42857142857143,4,2,11.4285714285714,758,5.71428571428571,NA
+"759","Scymnodon plunketi",68641556,"VU","A2bd",1,1.42857142857143,4,2,11.4285714285714,759,5.71428571428571,NA
+"760","Paragaleus leucolomatus",124519483,"VU","A2d",1,1.42857142857143,4,2,11.4285714285714,760,5.71428571428571,NA
+"761","Warburgia salutaris",146814256,"VU","C2a(i)",1,1.42857142857143,2,4,11.4285714285714,761,5.71428571428571,NA
+"762","Equus zebra",160755590,"VU","A3bcd",1,1.42857142857143,4,2,11.4285714285714,762,5.71428571428571,NA
+"763","Pterodroma baraui",132621225,"EN","B2ab(v)",2,0.909090909090909,2,3,10.9090909090909,763,5.45454545454545,NA
+"764","Thalassarche carteri",132657962,"EN","A4bde",2,0.909090909090909,6,1,10.9090909090909,764,10.9090909090909,NA
+"765","Carex subinflata",8445906,"VU","B2ab(iii)",1,2.5,1,4,10,765,10,NA
+"766","Paracilacris lateralis",56180098,"VU","B1ab(iii)",1,2.5,1,4,10,766,10,NA
+"767","Physophorina miranda",100947368,"EN","B2ab(iii,v)",2,2.5,0.5,4,10,767,20,NA
+"768","Pterodroma incerta",152715347,"EN","B2ab(v)",2,0.833333333333333,2,3,10,768,5,NA
+"769","Barleria papillosa",154074829,"VU","B1ab(iii)",1,2.5,1,4,10,769,10,NA
+"770","Lepidochrysops irvingi",168306773,"VU","B1ab(iii)",1,2.5,1,4,10,770,10,NA
+"771","Scolopia oreophila",208457348,"VU","D1",1,3.33333333333333,0.5,6,10,771,20,NA
+"772","Platylepis occulta",87635452,"VU","A2c",1,0.769230769230769,4,3,9.23076923076923,772,3.07692307692308,NA
+"773","Oreochromis andersonii",12385801,"VU","A3e",1,1.11111111111111,4,2,8.88888888888889,773,4.44444444444444,NA
+"774","Eucalyptus longifolia",61913119,"VU","A2c",1,1.11111111111111,4,2,8.88888888888889,774,4.44444444444444,NA
+"775","Egretta vinaceigula",93593178,"VU","C2a(ii)",1,1.11111111111111,2,4,8.88888888888889,775,4.44444444444444,NA
+"776","Eudyptes chrysocome",182762377,"VU","A2abcde+3bcde+4abcde",1,1.11111111111111,4,2,8.88888888888889,776,4.44444444444444,NA
+"777","Deania quadrispinosa",267298077,"VU","A2bd",1,1.11111111111111,4,2,8.88888888888889,777,4.44444444444444,NA
+"778","Phoebetria fusca",132645596,"EN","A4bd",2,0.714285714285714,6,1,8.57142857142857,778,8.57142857142857,NA
+"779","Hypolycaena lochmophila",168309667,"VU","B2ab(iii)",1,2,1,4,8,779,8,NA
+"780","Gyps coprotheres",197073171,"VU","A2acde+3cde+4acde; C2a(ii)",1,1,4,2,8,780,4,NA
+"781","Panthera pardus",5328595,"CR","C2a(i)",4,0.114942528735632,2,8,7.35632183908046,781,3.67816091954023,NA
+"782","Brinckiella mauerbergerorum",43266567,"VU","B1ab(i,ii,iii)+2ab(i,ii,iii)",1,3.33333333333333,0.5,4,6.66666666666667,782,13.3333333333333,NA
+"783","Pomatonota dregii",43266687,"VU","B1ab(iii,iv)",1,3.33333333333333,0.5,4,6.66666666666667,783,13.3333333333333,NA
+"784","Clonia uvarovi",56181509,"VU","B1ab(i,iii)",1,3.33333333333333,0.5,4,6.66666666666667,784,13.3333333333333,NA
+"785","Bullacris obliqua",100947328,"VU","B2ab(iii,iv,v)",1,3.33333333333333,0.5,4,6.66666666666667,785,13.3333333333333,NA
+"786","Thalassarche chrysostoma",132644834,"EN","A4bd",2,0.555555555555556,6,1,6.66666666666667,786,6.66666666666667,NA
+"787","Themacrys silvicola",189451770,"VU","B1ab(ii,iii)+2ab(ii,iii)",1,3.33333333333333,0.5,4,6.66666666666667,787,13.3333333333333,NA
+"788","Tropidonitis paradoxus",218018964,"VU","B1ab(i,ii,iii,iv)",1,3.33333333333333,0.5,4,6.66666666666667,788,13.3333333333333,NA
+"789","Sagittarius serpentarius",173647556,"EN","A2acde+3cde+4acde",2,0.263157894736842,6,2,6.31578947368421,789,3.15789473684211,NA
+"790","Bugeranus carunculatus",129880815,"VU","A2acde+3cde+4acde",1,0.714285714285714,4,2,5.71428571428571,790,2.85714285714286,NA
+"791","Felis nigripes",177944648,"VU","C2a(i)",1,1.42857142857143,2,2,5.71428571428571,791,2.85714285714286,NA
+"792","Thalassarche salvini",132644161,"VU","D2",1,1.25,0.5,9,5.625,792,11.25,NA
+"793","Lycaon pictus",166502262,"EN","C2a(i)",2,0.256410256410256,2,5,5.12820512820513,793,2.56410256410256,NA
+"794","Clonia lalandei",56181494,"VU","B1ab(i,iii)",1,2.5,0.5,4,5,794,10,NA
+"795","Doratogonus praealtus",103876886,"VU","B2ab(ii,iii)",1,2.5,0.5,4,5,795,10,NA
+"796","Torgos tracheliotos",205352949,"EN","A2abcd+3bcd+4abcd",2,0.208333333333333,6,2,5,796,2.5,NA
+"797","Brachyalestes lateralis",12405071,"VU","D2",1,1.25,0.5,7,4.375,797,8.75,NA
+"798","Oreochromis mossambicus",12659919,"VU","D2",1,1.25,0.5,7,4.375,798,8.75,NA
+"799","Chrysospalax villosus",21290416,"VU","B2ab(ii,iii,iv)",1,2,0.5,4,4,799,8,NA
+"800","Mystromys albicaudatus",22237378,"VU","C2a(i)",1,1,2,2,4,800,2,NA
+"801","Micropanchax katangae",7713019,"VU","D2",1,1.11111111111111,0.5,7,3.88888888888889,801,7.77777777777778,NA
+"802","Opsaridium zambezense",7995028,"VU","D2",1,1.11111111111111,0.5,7,3.88888888888889,802,7.77777777777778,NA
+"803","Physophorina livingstonii",100947363,"EN","B2ab(iii,v)",2,1.25,0.5,3,3.75,803,7.5,NA
+"804","Thesium equisetoides",216665027,"VU","B2ab(iii)",1,0.909090909090909,1,3,2.72727272727273,804,2.72727272727273,NA
+"805","Balaenoptera musculus",156923585,"EN","A1abd",2,0.112359550561798,6,2,2.69662921348315,805,1.34831460674157,NA
+"806","Falco concolor",180387681,"VU","C2a(ii)",1,0.3125,2,4,2.5,806,1.25,NA
+"807","Aldrovanda vesiculosa",275442310,"EN","B2ab(iii,iv,v)",2,0.15625,2,3,1.875,807,0.9375,NA
+"808","Clanga clanga",203868747,"VU","A2cde",1,0.1,4,4,1.6,808,0.4,NA
+"809","Acinonyx jubatus",259025524,"VU","A4b; C1",1,0.175438596491228,4,2,1.40350877192982,809,0.701754385964912,NA
+"810","Diomedea exulans",132640680,"VU","A4bd",1,0.333333333333333,4,1,1.33333333333333,810,1.33333333333333,NA
+"811","Aquadulcaris pheronyx",8939743,"CR","B1+3d",4,10,0,9,0,NA,360,1
+"812","Siphonaria compressa",9182352,"CR","B1+2c",4,10,0,9,0,NA,360,2
+"813","Colophon primosi",11118449,"CR","B1+2e",4,10,0,9,0,NA,360,3
+"814","Colophon cassoni",11118480,"CR","B1+2e",4,10,0,9,0,NA,360,4
+"815","Colophon montisatris",11118511,"CR","B1+2e",4,10,0,9,0,NA,360,5
+"816","Colophon berrisfordi",11118542,"CR","B1+2e",4,10,0,9,0,NA,360,6
+"817","Mimetes stokoei",185589702,"CR","D",4,5,0,10,0,NA,200,7
+"818","Pseudobarbus senticeps",107662152,"CR","B1ab(iii,v)",4,5,0,9,0,NA,180,8
+"819","Colophon thunbergi",11118573,"EN","B1+2e",2,10,0,6,0,NA,120,9
+"820","Colophon whitei",11118604,"EN","B1+2e",2,10,0,6,0,NA,120,10
+"821","Colophon haughtoni",11118635,"EN","B1+2e",2,10,0,6,0,NA,120,11
+"822","Colophon barnardi",11118666,"EN","B1+2e",2,10,0,6,0,NA,120,12
+"823","Colophon eastmani",11118697,"EN","B1+2e",2,10,0,6,0,NA,120,13
+"824","Acmadenia candida",104111489,"EN","D",2,5,0,9,0,NA,90,14
+"825","Senegalia montis-salinarum",146819255,"EN","D",2,5,0,9,0,NA,90,15
+"826","Serruria foeniculacea",185537028,"EN","D",2,5,0,9,0,NA,90,16
+"827","Spatalla salsoloides",185555743,"EN","D",2,5,0,9,0,NA,90,17
+"828","Vachellia ebutsiniorum",210907549,"EN","D",2,5,0,9,0,NA,90,18
+"829","Jubaeopsis caffra",210907988,"EN","D",2,5,0,9,0,NA,90,19
+"830","Iolaus lulua",3221767,"VU","D2",1,10,0,7,0,NA,70,20
+"831","Leucocythere helenae",3313473,"VU","D2",1,10,0,7,0,NA,70,21
+"832","Lovenula excellens",3339230,"VU","D2",1,10,0,7,0,NA,70,22
+"833","Lovenula simplex",3339261,"VU","D2",1,10,0,7,0,NA,70,23
+"834","Metadiaptomus capensis",3432221,"VU","D2",1,10,0,7,0,NA,70,24
+"835","Metadiaptomus purcelli",3432252,"VU","D2",1,10,0,7,0,NA,70,25
+"836","Anoplolepis nuptialis",4881801,"VU","D2",1,10,0,7,0,NA,70,26
+"837","Paradiaptomus natalensis",5376941,"VU","D2",1,10,0,7,0,NA,70,27
+"838","Tetramorium parasiticum",9308131,"VU","D2",1,10,0,7,0,NA,70,28
+"839","Daphnia coronata",12592632,"VU","D2",1,10,0,7,0,NA,70,29
+"840","Colophon westwoodi",11118728,"VU","B1+2e",1,10,0,6,0,NA,60,30
+"841","Colophon neli",11118759,"VU","B1+2e",1,10,0,6,0,NA,60,31
+"842","Colophon cameroni",11118790,"VU","B1+2e",1,10,0,6,0,NA,60,32
+"843","Colophon stokoei",11118821,"VU","B1+2e",1,10,0,6,0,NA,60,33
+"844","Poicephalus robustus",179406641,"VU","D1",1,10,0,6,0,NA,60,34
+"845","Lydenburgia abbottii",210908722,"EN","D",2,3.33333333333333,0,9,0,NA,60,35
+"846","Paramelita barnardi",5394929,"EN","B1+2c",2,5,0,5,0,NA,50,36
+"847","Anhydrophryne ngongoniensis",77157706,"EN","B1ab(i,ii,iii,iv)+2ab(i,ii,iii,iv)",2,5,0,5,0,NA,50,37
+"848","Syncordulia venator",12625794,"VU","B2ab(i,ii,iii)",1,5,0,9,0,NA,45,38
+"849","Geissorhiza lithicola",50643307,"VU","D2",1,5,0,9,0,NA,45,39
+"850","Anacampseros decapitata",104107389,"VU","D2",1,5,0,9,0,NA,45,40
+"851","Amaryllis paradisicola",104109638,"VU","D2",1,5,0,9,0,NA,45,41
+"852","Acmadenia faucitincta",104111177,"VU","D2",1,5,0,9,0,NA,45,42
+"853","Dingana jerinae",168300369,"VU","D2",1,5,0,9,0,NA,45,43
+"854","Orachrysops montanus",168305249,"VU","D2",1,5,0,9,0,NA,45,44
+"855","Leucospermum saxatile",185535596,"VU","D2",1,5,0,9,0,NA,45,45
+"856","Protea curvata",185535759,"VU","D2",1,5,0,9,0,NA,45,46
+"857","Serruria hirsuta",185544774,"VU","D2",1,5,0,9,0,NA,45,47
+"858","Mimetes hottentoticus",185550543,"VU","D2",1,5,0,9,0,NA,45,48
+"859","Protea cryophila",185575063,"VU","D2",1,5,0,9,0,NA,45,49
+"860","Leucadendron olens",185587157,"VU","D2",1,5,0,9,0,NA,45,50
+"861","Spatalla nubicola",185594388,"VU","D2",1,5,0,9,0,NA,45,51
+"862","Bradypodion ngomeense",197416110,"VU","D2",1,5,0,9,0,NA,45,52
+"863","Hemicordylus nebulosus",197423495,"VU","D1",1,5,0,9,0,NA,45,53
+"864","Stirtonanthus taylorianus",210907477,"VU","D2",1,5,0,9,0,NA,45,54
+"865","Cliffortia dichotoma",210908430,"VU","D2",1,5,0,9,0,NA,45,55
+"866","Riccia alatospora",3876785,"VU","D2",1,5,0,7,0,NA,35,56
+"867","Tetramorium microgyna",9308095,"VU","D2",1,5,0,7,0,NA,35,57
+"868","Cyrtanthus flavus",50643237,"VU","D2",1,5,0,7,0,NA,35,58
+"869","Babiana salteri",63729439,"VU","D2",1,5,0,7,0,NA,35,59
+"870","Aspidonepsis shebae",104108247,"VU","D2",1,5,0,7,0,NA,35,60
+"871","Protea denticulata",157947975,"VU","D2",1,5,0,7,0,NA,35,61
+"872","Leucospermum mundii",157955179,"VU","D2",1,5,0,7,0,NA,35,62
+"873","Spatalla thyrsiflora",185535439,"VU","D2",1,5,0,7,0,NA,35,63
+"874","Leucospermum profugum",185537386,"VU","D1+2",1,5,0,7,0,NA,35,64
+"875","Mimetes chrysanthus",185539051,"VU","D2",1,5,0,7,0,NA,35,65
+"876","Leucadendron burchellii",185541537,"VU","D2",1,5,0,7,0,NA,35,66
+"877","Leucospermum bolusii",185546923,"VU","D2",1,5,0,7,0,NA,35,67
+"878","Leucadendron singulare",185551292,"VU","D1+2",1,5,0,7,0,NA,35,68
+"879","Serruria viridifolia",185554681,"VU","D2",1,5,0,7,0,NA,35,69
+"880","Sorocephalus capitatus",185579910,"VU","D2",1,5,0,7,0,NA,35,70
+"881","Serruria stellata",185593757,"VU","D2",1,5,0,7,0,NA,35,71
+"882","Bradypodion nemorale",197397165,"VU","D2",1,5,0,7,0,NA,35,72
+"883","Cyclopia bolusii",47609923,"VU","D1",1,5,0,6,0,NA,30,73
+"884","Athanasia spathulata",104110963,"VU","D1",1,5,0,6,0,NA,30,74
+"885","Gladiolus pole-evansii",10252802,"VU","D2",1,3.33333333333333,0,7,0,NA,23.3333333333333,75
+"886","Frithia pulchra",10849614,"VU","D2",1,3.33333333333333,0,7,0,NA,23.3333333333333,76
+"887","Syncordulia gracilis",12628404,"VU","B2ab(i,ii,iii); D2",1,2.5,0,9,0,NA,22.5,77
+"888","Rhynchobatus djiddensis",121035795,"CR","A2bd",4,0.526315789473684,10,0,0,NA,21.0526315789474,78
+"889","Colubrina nicholsonii",210906899,"VU","D1",1,3.33333333333333,0,6,0,NA,20,79
+"890","Pseudagrion newtoni",10758888,"VU","D2",1,2,0,9,0,NA,18,80
+"891","Procellaria conspicillata",132659002,"VU","D2",1,1.25,0,9,0,NA,11.25,81
+"892","Pristis zijsron",58304631,"CR","A2cd",4,0.277777777777778,10,0,0,NA,11.1111111111111,82
+"893","Aetomylaeus vespertilio",124440895,"CR","A2cd",4,0.277777777777778,10,0,0,NA,11.1111111111111,83
+"894","Gyps africanus",204461164,"CR","A2abcd+3bcd+4abcd",4,0.256410256410256,10,0,0,NA,10.2564102564103,84
+"895","Redunca fulvorufula",50193881,"EN","A2ad",2,0.833333333333333,6,0,0,NA,10,85
+"896","Necrosyrtes monachus",204974761,"CR","A3cd+4acd",4,0.25,10,0,0,NA,10,86
+"897","Acropora sordiensis",218756523,"EN","A3ce",2,0.833333333333333,6,0,0,NA,10,87
+"898","Gyps rueppelli",204723468,"CR","A2abcd+3bcd+4abcd",4,0.227272727272727,10,0,0,NA,9.09090909090909,88
+"899","Aetomylaeus bovinus",124441812,"CR","A2d",4,0.212765957446809,10,0,0,NA,8.51063829787234,89
+"900","Myliobatis aquila",124508353,"CR","A2bd",4,0.2,10,0,0,NA,8,90
+"901","Rhina ancylostomus",124421912,"CR","A2bd",4,0.196078431372549,10,0,0,NA,7.84313725490196,91
+"902","Argyrosomus japonicus",49234015,"EN","A2bd",2,0.588235294117647,6,0,0,NA,7.05882352941176,92
+"903","Balearica regulorum",240198049,"EN","A2bcd+4bcd",2,0.588235294117647,6,0,0,NA,7.05882352941176,93
+"904","Pristis pristis",58336780,"CR","A2cd",4,0.151515151515152,10,0,0,NA,6.06060606060606,94
+"905","Carcharias taurus",2876505,"CR","A2bd",4,0.149253731343284,10,0,0,NA,5.97014925373134,95
+"906","Galeorhinus galeus",2907336,"CR","A2bd",4,0.147058823529412,10,0,0,NA,5.88235294117647,96
+"907","Holothuria nobilis",274961922,"EN","A2bd",2,0.476190476190476,6,0,0,NA,5.71428571428571,97
+"908","Diomedea epomophora",132641187,"VU","D2",1,0.666666666666667,0,7,0,NA,4.66666666666667,98
+"909","Loxodonta africana",223031019,"EN","A2bd",2,0.384615384615385,6,0,0,NA,4.61538461538462,99
+"910","Sousa plumbea",230253271,"EN","A2cd+3cd+4cd",2,0.344827586206897,6,0,0,NA,4.13793103448276,100
+"911","Lethrinus mahsena",16722325,"EN","A2bd",2,0.32258064516129,6,0,0,NA,3.87096774193548,101
+"912","Oryctolagus cuniculus",170619657,"EN","A2abce",2,0.303030303030303,6,0,0,NA,3.63636363636364,102
+"913","Pateobatis jenkinsii",124536951,"EN","A2cd",2,0.294117647058824,6,0,0,NA,3.52941176470588,103
+"914","Dioscorea sylvatica",100890366,"VU","A2d",1,0.833333333333333,4,0,0,NA,3.33333333333333,104
+"915","Dipturus nidarosiensis",124534517,"EN","A2d",2,0.277777777777778,6,0,0,NA,3.33333333333333,105
+"916","Oreochromis mossambicus",174782954,"VU","A4ae",1,0.833333333333333,4,0,0,NA,3.33333333333333,106
+"917","Himantura uarnak",124528737,"EN","A2d",2,0.27027027027027,6,0,0,NA,3.24324324324324,107
+"918","Polemaetus bellicosus",172287822,"EN","A2acde+3cde+4acde",2,0.263157894736842,6,0,0,NA,3.15789473684211,108
+"919","Acropora glauca",165944388,"EN","A3ce",2,0.256410256410256,6,0,0,NA,3.07692307692308,109
+"920","Dipsastraea laxa",165865677,"EN","A3ce",2,0.25,6,0,0,NA,3,110
+"921","Sphyrna mokarran",2920499,"CR","A2bd",4,0.072463768115942,10,0,0,NA,2.89855072463768,111
+"922","Diastobranchus capensis",2561032,"VU","A2bd",1,0.714285714285714,4,0,0,NA,2.85714285714286,112
+"923","Eudyptes chrysolophus",184720991,"VU","A2bce+3bce+4bce",1,0.714285714285714,4,0,0,NA,2.85714285714286,113
+"924","Hemipristis elongata",124424011,"EN","A2d",2,0.232558139534884,6,0,0,NA,2.7906976744186,114
+"925","Himantura leoparda",124545011,"EN","A2cd",2,0.232558139534884,6,0,0,NA,2.7906976744186,115
+"926","Acropora retusa",165728440,"EN","A3ce",2,0.232558139534884,6,0,0,NA,2.7906976744186,116
+"927","Centrophorus squamosus",254975849,"EN","A2bd",2,0.232558139534884,6,0,0,NA,2.7906976744186,117
+"928","Carcharhinus longimanus",2911619,"CR","A2bd",4,0.0675675675675676,10,0,0,NA,2.7027027027027,118
+"929","Bitis gabonica",13300904,"VU","A2abd",1,0.666666666666667,4,0,0,NA,2.66666666666667,119
+"930","Balaenoptera borealis",130482064,"EN","A1abd",2,0.222222222222222,6,0,0,NA,2.66666666666667,120
+"931","Millepora exaesa",179619219,"EN","A3ce",2,0.222222222222222,6,0,0,NA,2.66666666666667,121
+"932","Acinonyx jubatus",13034035,"EN","D",2,0.163934426229508,0,8,0,NA,2.62295081967213,122
+"933","Mobula kuhlii",214405747,"EN","A2bd+3d",2,0.217391304347826,6,0,0,NA,2.60869565217391,123
+"934","Mycteroperca marginata",12856576,"EN","A2d",2,0.208333333333333,6,0,0,NA,2.5,124
+"935","Bucorvus leadbeateri",92955067,"VU","A4bcd",1,0.625,4,0,0,NA,2.5,125
+"936","Terathopius ecaudatus",174413323,"EN","A2acde+3cde+4acde",2,0.208333333333333,6,0,0,NA,2.5,126
+"937","Sphyrna lewini",2918526,"CR","A2bd",4,0.062111801242236,10,0,0,NA,2.48447204968944,127
+"938","Stylophora subseriata",165935170,"EN","A3ce",2,0.204081632653061,6,0,0,NA,2.44897959183673,128
+"939","Rostroraja alba",183781512,"EN","A2cd",2,0.204081632653061,6,0,0,NA,2.44897959183673,129
+"940","Acropora nana",166018690,"EN","A3ce",2,0.2,6,0,0,NA,2.4,130
+"941","Ocotea kenyensis",9539470,"VU","A1cd",1,0.588235294117647,4,0,0,NA,2.35294117647059,131
+"942","Mustelus mustelus",124405881,"EN","A2bd",2,0.196078431372549,6,0,0,NA,2.35294117647059,132
+"943","Acropora anthocercis",165927627,"EN","A3ce",2,0.196078431372549,6,0,0,NA,2.35294117647059,133
+"944","Oxynotus centrina",124462573,"EN","A2d",2,0.192307692307692,6,0,0,NA,2.30769230769231,134
+"945","Isopora palifera",165738739,"EN","A3ce",2,0.192307692307692,6,0,0,NA,2.30769230769231,135
+"946","Holothuria scabra",1606648,"EN","A2bd",2,0.188679245283019,6,0,0,NA,2.26415094339623,136
+"947","Urogymnus asperrimus",124411670,"EN","A2cd",2,0.188679245283019,6,0,0,NA,2.26415094339623,137
+"948","Mobula eregoodoo",214376402,"EN","A2bd+3d",2,0.188679245283019,6,0,0,NA,2.26415094339623,138
+"949","Dipsastraea lizardensis",165926708,"EN","A3ce",2,0.185185185185185,6,0,0,NA,2.22222222222222,139
+"950","Thelenota ananas",1636021,"EN","A2bd",2,0.178571428571429,6,0,0,NA,2.14285714285714,140
+"951","Acropora florida",165605719,"EN","A3ce",2,0.178571428571429,6,0,0,NA,2.14285714285714,141
+"952","Procellaria aequinoctialis",132628887,"VU","A4bcde",1,0.526315789473684,4,0,0,NA,2.10526315789474,142
+"953","Acropora millepora",166002970,"EN","A3ce",2,0.172413793103448,6,0,0,NA,2.06896551724138,143
+"954","Carcharhinus obscurus",2872747,"EN","A2bd",2,0.169491525423729,6,0,0,NA,2.03389830508475,144
+"955","Smutsia temminckii",123585768,"VU","A4cd",1,0.5,4,0,0,NA,2,145
+"956","Stegostoma tigrinum",124425292,"EN","A2bcd",2,0.163934426229508,6,0,0,NA,1.9672131147541,146
+"957","Acropora monticulosa",165827961,"EN","A3ce",2,0.163934426229508,6,0,0,NA,1.9672131147541,147
+"958","Oulophyllia crispa",165767969,"EN","A3ce",2,0.161290322580645,6,0,0,NA,1.93548387096774,148
+"959","Alveopora allingi",165836622,"EN","A3ce",2,0.161290322580645,6,0,0,NA,1.93548387096774,149
+"960","Acropora verweyi",165936343,"EN","A3ce",2,0.161290322580645,6,0,0,NA,1.93548387096774,150
+"961","Acropora secale",165615514,"EN","A3ce",2,0.158730158730159,6,0,0,NA,1.9047619047619,151
+"962","Acropora divaricata",165626293,"EN","A3ce",2,0.158730158730159,6,0,0,NA,1.9047619047619,152
+"963","Acropora austera",165747988,"EN","A3ce",2,0.158730158730159,6,0,0,NA,1.9047619047619,153
+"964","Acropora latistella",165730834,"EN","A3ce",2,0.15625,6,0,0,NA,1.875,154
+"965","Negaprion acutidens",173435545,"EN","A2bd",2,0.15625,6,0,0,NA,1.875,155
+"966","Montipora danae",165897161,"EN","A3ce",2,0.151515151515152,6,0,0,NA,1.81818181818182,156
+"967","Galeus polli",124436806,"VU","A2d",1,0.454545454545455,4,0,0,NA,1.81818181818182,157
+"968","Centrophorus moluccensis",267277845,"VU","A2bd",1,0.454545454545455,4,0,0,NA,1.81818181818182,158
+"969","Notorynchus cepedianus",268790096,"VU","A2bd",1,0.454545454545455,4,0,0,NA,1.81818181818182,159
+"970","Acropora microphthalma",165679447,"EN","A3ce",2,0.149253731343284,6,0,0,NA,1.7910447761194,160
+"971","Acropora gemmifera",165832731,"EN","A3ce",2,0.149253731343284,6,0,0,NA,1.7910447761194,161
+"972","Acropora abrotanoides",165994001,"EN","A3ce",2,0.149253731343284,6,0,0,NA,1.7910447761194,162
+"973","Acropora clathrata",165771425,"EN","A3ce",2,0.147058823529412,6,0,0,NA,1.76470588235294,163
+"974","Acropora digitifera",165795607,"EN","A3ce",2,0.147058823529412,6,0,0,NA,1.76470588235294,164
+"975","Acropora hyacinthus",165910938,"EN","A3ce",2,0.147058823529412,6,0,0,NA,1.76470588235294,165
+"976","Acropora humilis",165665320,"EN","A3ce",2,0.142857142857143,6,0,0,NA,1.71428571428571,166
+"977","Acropora tenuis",165678669,"EN","A3ce",2,0.142857142857143,6,0,0,NA,1.71428571428571,167
+"978","Acropora horrida",165829820,"EN","A3ce",2,0.142857142857143,6,0,0,NA,1.71428571428571,168
+"979","Acropora cytherea",165826487,"EN","A3ce",2,0.138888888888889,6,0,0,NA,1.66666666666667,169
+"980","Aetobatus narinari",201613657,"EN","A2bd",2,0.136986301369863,6,0,0,NA,1.64383561643836,170
+"981","Acropora muricata",219836713,"EN","A3ce",2,0.136986301369863,6,0,0,NA,1.64383561643836,171
+"982","Montipora aequituberculata",165827190,"EN","A3ce",2,0.135135135135135,6,0,0,NA,1.62162162162162,172
+"983","Pavona duerdeni",166020214,"EN","A3ce",2,0.131578947368421,6,0,0,NA,1.57894736842105,173
+"984","Carcharhinus amblyrhynchos",173433550,"EN","A2bcd",2,0.131578947368421,6,0,0,NA,1.57894736842105,174
+"985","Millepora tenera",179617703,"EN","A3ce",2,0.131578947368421,6,0,0,NA,1.57894736842105,175
+"986","Montipora tuberculosa",165843018,"EN","A3ce",2,0.12987012987013,6,0,0,NA,1.55844155844156,176
+"987","Centrophorus granulosus",254964078,"EN","A2bd",2,0.128205128205128,6,0,0,NA,1.53846153846154,177
+"988","Millepora platyphylla",179623155,"EN","A3ce",2,0.126582278481013,6,0,0,NA,1.51898734177215,178
+"989","Acropora nasuta",165788565,"EN","A3ce",2,0.125,6,0,0,NA,1.5,179
+"990","Echinorhinus brucus",2956075,"EN","A2bd",2,0.123456790123457,6,0,0,NA,1.48148148148148,180
+"991","Thunnus thynnus",76599358,"EN","A2bd",2,0.123456790123457,6,0,0,NA,1.48148148148148,181
+"992","Aetobatus ocellatus",124549514,"EN","A2bcd",2,0.123456790123457,6,0,0,NA,1.48148148148148,182
+"993","Thunnus thynnus",9330380,"EN","A2bd",2,0.120481927710843,6,0,0,NA,1.44578313253012,183
+"994","Acropora valida",165816927,"EN","A3ce",2,0.120481927710843,6,0,0,NA,1.44578313253012,184
+"995","Centroscymnus owstonii",68615392,"VU","A2d",1,0.357142857142857,4,0,0,NA,1.42857142857143,185
+"996","Giraffa camelopardalis",136266699,"VU","A2acd",1,0.357142857142857,4,0,0,NA,1.42857142857143,186
+"997","Odontaspis ferox",124424595,"EN","A2d",2,0.117647058823529,6,0,0,NA,1.41176470588235,187
+"998","Pocillopora verrucosa",165766340,"EN","A3ce",2,0.116279069767442,6,0,0,NA,1.3953488372093,188
+"999","Prunus africana",2837924,"VU","A2cd+4cd",1,0.333333333333333,4,0,0,NA,1.33333333333333,189
+"1000","Aquila nipalensis",205452572,"EN","A2abcd+3bcd+4abcd",2,0.111111111111111,6,0,0,NA,1.33333333333333,190
+"1001","Centrophorus uyato",254988584,"EN","A2bd",2,0.111111111111111,6,0,0,NA,1.33333333333333,191
+"1002","Alopias pelagicus",68607857,"EN","A2bd",2,0.108695652173913,6,0,0,NA,1.30434782608696,192
+"1003","Ansellia africana",44437667,"VU","A2cd+3cd+4cd",1,0.32258064516129,4,0,0,NA,1.29032258064516,193
+"1004","Rusa unicolor",85628124,"VU","A2cd+3cd+4cd",1,0.32258064516129,4,0,0,NA,1.29032258064516,194
+"1005","Hippocampus kuda",16664386,"VU","A2cd+3cd+4cd",1,0.3125,4,0,0,NA,1.25,195
+"1006","Neophron percnopterus",205187871,"EN","A2abcde+3bcde+4abcde",2,0.0917431192660551,6,0,0,NA,1.10091743119266,196
+"1007","Makaira nigricans",76596659,"EN","A2bd",2,0.0869565217391304,6,0,0,NA,1.04347826086957,197
+"1008","Carcharhinus brachyurus",2954522,"VU","A2bd",1,0.256410256410256,4,0,0,NA,1.02564102564103,198
+"1009","Anacropora forbesi",165840972,"VU","A3ce",1,0.24390243902439,4,0,0,NA,0.975609756097561,199
+"1010","Carcharhinus amboinensis",173434051,"VU","A2d",1,0.24390243902439,4,0,0,NA,0.975609756097561,200
+"1011","Carcharhinus plumbeus",2874370,"EN","A2bd",2,0.08,6,0,0,NA,0.96,201
+"1012","Rhincodon typus",2365291,"EN","A2bd+4bd",2,0.078740157480315,6,0,0,NA,0.94488188976378,202
+"1013","Hippopotamus amphibius",18567364,"VU","A4acd",1,0.232558139534884,4,0,0,NA,0.930232558139535,203
+"1014","Cetorhinus maximus",194720078,"EN","A2bd",2,0.0699300699300699,6,0,0,NA,0.839160839160839,204
+"1015","Hippocampus histrix",54905206,"VU","A2cd+4cd",1,0.208333333333333,4,0,0,NA,0.833333333333333,205
+"1016","Lamna nasus",500969,"VU","A2bd",1,0.196078431372549,4,0,0,NA,0.784313725490196,206
+"1017","Isurus paucus",3095898,"EN","A2d",2,0.0649350649350649,6,0,0,NA,0.779220779220779,207
+"1018","Dalatias licha",3111662,"VU","A2bd+3d",1,0.192307692307692,4,0,0,NA,0.769230769230769,208
+"1019","Pateobatis fai",124515272,"VU","A2cd",1,0.188679245283019,4,0,0,NA,0.754716981132076,209
+"1020","Seriatopora caliendrum",165683704,"VU","A3ce",1,0.188679245283019,4,0,0,NA,0.754716981132076,210
+"1021","Torpedo marmorata",124466265,"VU","A2bd",1,0.185185185185185,4,0,0,NA,0.740740740740741,211
+"1022","Mobula birostris",214397182,"EN","A2bcd+3d",2,0.0598802395209581,6,0,0,NA,0.718562874251497,212
+"1023","Mobula mobular",214381504,"EN","A2bd+3d",2,0.0591715976331361,6,0,0,NA,0.710059171597633,213
+"1024","Mobula tarapacana",214371388,"EN","A2bd+3d",2,0.0578034682080925,6,0,0,NA,0.69364161849711,214
+"1025","Squalus acanthias",124551959,"VU","A2bd",1,0.172413793103448,4,0,0,NA,0.689655172413793,215
+"1026","Panthera leo",266696959,"VU","A2abcd",1,0.172413793103448,4,0,0,NA,0.689655172413793,216
+"1027","Mobula thurstoni",214368409,"EN","A2bd+3d",2,0.0564971751412429,6,0,0,NA,0.677966101694915,217
+"1028","Aquila rapax",203852137,"VU","A2ace+3ce+4ace",1,0.166666666666667,4,0,0,NA,0.666666666666667,218
+"1029","Rhizoprionodon acutus",68642326,"VU","A2bd",1,0.163934426229508,4,0,0,NA,0.655737704918033,219
+"1030","Isurus oxyrinchus",2903170,"EN","A2bd",2,0.0543478260869565,6,0,0,NA,0.652173913043478,220
+"1031","Pomatomus saltatrix",115314064,"VU","A2bd",1,0.161290322580645,4,0,0,NA,0.645161290322581,221
+"1032","Limosa haemastica",255829868,"VU","A2b+4b",1,0.161290322580645,4,0,0,NA,0.645161290322581,222
+"1033","Chelonia mydas",247654386,"EN","A2bd",2,0.0515463917525773,6,0,0,NA,0.618556701030928,223
+"1034","Alveopora spongiosa",165912495,"VU","A3ce",1,0.153846153846154,4,0,0,NA,0.615384615384615,224
+"1035","Porites lichen",165680666,"VU","A3ce",1,0.151515151515152,4,0,0,NA,0.606060606060606,225
+"1036","Montipora monasteriata",165933017,"VU","A3ce",1,0.151515151515152,4,0,0,NA,0.606060606060606,226
+"1037","Mycteroperca marginata",100467602,"VU","A2bd+4bd",1,0.149253731343284,4,0,0,NA,0.597014925373134,227
+"1038","Trachurus trachurus",43157137,"VU","A2bd",1,0.147058823529412,4,0,0,NA,0.588235294117647,228
+"1039","Nebrius ferrugineus",173437098,"VU","A2bcd",1,0.144927536231884,4,0,0,NA,0.579710144927536,229
+"1040","Taeniurops meyeni",124445924,"VU","A2cd",1,0.142857142857143,4,0,0,NA,0.571428571428571,230
+"1041","Dipsastraea favus",165953718,"VU","A3ce",1,0.135135135135135,4,0,0,NA,0.540540540540541,231
+"1042","Montipora verrucosa",165991842,"VU","A3ce",1,0.133333333333333,4,0,0,NA,0.533333333333333,232
+"1043","Carcharhinus brevipinna",2908817,"VU","A2bd",1,0.131578947368421,4,0,0,NA,0.526315789473684,233
+"1044","Carcharhinus melanopterus",58303674,"VU","A2bcd",1,0.12987012987013,4,0,0,NA,0.519480519480519,234
+"1045","Bathytoshia lata",104072486,"VU","A2d",1,0.12987012987013,4,0,0,NA,0.519480519480519,235
+"1046","Carcharhinus albimarginatus",124499982,"VU","A2bd",1,0.12987012987013,4,0,0,NA,0.519480519480519,236
+"1047","Mobula alfredi",214395983,"VU","A2bcd+3d",1,0.12987012987013,4,0,0,NA,0.519480519480519,237
+"1048","Balaenoptera physalus",50349982,"VU","A1d",1,0.128205128205128,4,0,0,NA,0.512820512820513,238
+"1049","Triaenodon obesus",173436715,"VU","A2bcd",1,0.121951219512195,4,0,0,NA,0.48780487804878,239
+"1050","Lepidochelys olivacea",3292503,"VU","A2bd",1,0.120481927710843,4,0,0,NA,0.481927710843373,240
+"1051","Kajikia albida",76646385,"VU","A2bd",1,0.117647058823529,4,0,0,NA,0.470588235294118,241
+"1052","Panthera pardus",274970607,"VU","A2cd",1,0.113636363636364,4,0,0,NA,0.454545454545455,242
+"1053","Tringa flavipes",208218115,"VU","A2bcd+3bcd+4bcd",1,0.108695652173913,4,0,0,NA,0.434782608695652,243
+"1054","Calidris subruficollis",256354281,"VU","A2bc+4bc",1,0.1,4,0,0,NA,0.4,244
+"1055","Rissa tridactyla",155617539,"VU","A2abd+3bd+4abd",1,0.0980392156862745,4,0,0,NA,0.392156862745098,245
+"1056","Caretta caretta",119333622,"VU","A2b",1,0.0934579439252336,4,0,0,NA,0.373831775700935,246
+"1057","Falco vespertinus",200136196,"VU","A2abc+3bc+4abc",1,0.0900900900900901,4,0,0,NA,0.36036036036036,247
+"1058","Carcharhinus leucas",2910670,"VU","A2bcd",1,0.0884955752212389,4,0,0,NA,0.353982300884956,248
+"1059","Streptopelia turtur",154373407,"VU","A2bcd+3bcd+4bcd",1,0.0869565217391304,4,0,0,NA,0.347826086956522,249
+"1060","Makaira nigricans",46936155,"VU","A2bd",1,0.0854700854700855,4,0,0,NA,0.341880341880342,250
+"1061","Carcharhinus limbatus",2870736,"VU","A2bd",1,0.0793650793650794,4,0,0,NA,0.317460317460317,251
+"1062","Hydrobates leucorhous",132438484,"VU","A2bce+3bce+4bce",1,0.0775193798449612,4,0,0,NA,0.310077519379845,252
+"1063","Thunnus obesus",46912402,"VU","A2bd",1,0.0763358778625954,4,0,0,NA,0.305343511450382,253
+"1064","Sphyrna zygaena",2921825,"VU","A2bd",1,0.0740740740740741,4,0,0,NA,0.296296296296296,254
+"1065","Dermochelys coriacea",43526147,"VU","A2bd",1,0.0714285714285714,4,0,0,NA,0.285714285714286,255
+"1066","Calidris falcinellus",257323525,"VU","A2bc+4bc",1,0.0699300699300699,4,0,0,NA,0.27972027972028,256
+"1067","Istiophorus platypterus",46649664,"VU","A2bd",1,0.0549450549450549,4,0,0,NA,0.21978021978022,257
+"1068","Calidris ferruginea",180593985,"VU","A2bcd+4bcd",1,0.0546448087431694,4,0,0,NA,0.218579234972678,258
+"1069","Physeter macrocephalus",160983555,"VU","A1d",1,0.0540540540540541,4,0,0,NA,0.216216216216216,259
+"1070","Alopias superciliosus",894216,"VU","A2bd",1,0.0523560209424084,4,0,0,NA,0.209424083769634,260
+"1071","Mola mola",97667070,"VU","A4bd",1,0.0505050505050505,4,0,0,NA,0.202020202020202,261
+"1072","Carcharodon carcharias",212629880,"VU","A2bd",1,0.0495049504950495,4,0,0,NA,0.198019801980198,262
+"1073","Alopias vulpinus",212641186,"VU","A2bd",1,0.0490196078431373,4,0,0,NA,0.196078431372549,263
+"1074","Pluvialis squatarola",254375039,"VU","A2bcd+4bcd",1,0.0452488687782805,4,0,0,NA,0.180995475113122,264
+"1075","Encephalartos brevifoliolatus",243423919,"EW",NA,8,1,NA,NA,NA,NA,NA,NA
+"1076","Encephalartos heenanii",243426977,"EW",NA,8,1,NA,NA,NA,NA,NA,NA
+"1077","Encephalartos nubimontanus",243431182,"EW",NA,8,1,NA,NA,NA,NA,NA,NA
+"1078","Encephalartos woodii",243434007,"EW",NA,8,1,NA,NA,NA,NA,NA,NA
