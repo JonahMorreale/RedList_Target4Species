@@ -30,6 +30,9 @@ selectedCountry %>%
   getCountryCode() %>%
   generatePrioritySpeciesList() %>%
   select(taxon_scientific_name, assessment_id, red_list_category_code, criteria,
+         AOO = supplementary_info_estimated_area_of_occupancy, 
+         EOO = supplementary_info_estimated_extent_of_occurence,
+         popSize = supplementary_info_population_size, NumLocationsExtant,
          Risk, Endemic, Decline, Restriction,
          Priority1_PS, Priority1_Rank, Priority2_PS, Priority2_Rank) %>%
   assign(x = paste0("Target4SpeciesList_", selectedCountry),
