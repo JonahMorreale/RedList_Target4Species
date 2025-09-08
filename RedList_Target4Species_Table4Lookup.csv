@@ -1,5 +1,5 @@
 RL_Category,RL_Criteria,RL_SubcriteriaL1,RL_SubcriteriaL2,RL_SubcriteriaL3,Restriction
-EW,D,.*,.*,.*,10
+EW,.*,.*,.*,.*,10
 CR,D,.*,.*,.*,10
 CR,B,.*,.*,.*,9
 CR,C,.*,.*,.*,8
