@@ -43,7 +43,7 @@ rlCriteriaParser <- function(rlAssessmentID, rlCategory, rlFullCriteria) {
   # start with empty list to hold rows of df
   masterRowsList <- list()
   ## split criteria when multiple are met (separated by a ; character)
-  multiCritList <- str_split(substring(rlFullCriteria, 1, 100), pattern = "[;,]")[[1]]
+  multiCritList <- str_split(substring(rlFullCriteria, 1, 100), pattern = "[;]")[[1]]
   #  loop through
   for (eachL0 in multiCritList) {
     # strip off spaces
@@ -104,7 +104,7 @@ rlCriteriaParser <- function(rlAssessmentID, rlCategory, rlFullCriteria) {
               # get the L2 (lowercase letter)
               subcritL2 <- substr(eachL2_plus, 1, 1)
               # loop through all L3 (roman numerals) - matching b/w the parentheses
-              multiRomanList <- str_match(eachL2_plus, "\\(([^)]+)\\)")[,2] %>%
+              multiRomanList <- str_match(eachL2_plus, "\\(([^)]+)\\)")[[2]] %>%
                 strsplit(",")
               for(eachL3 in multiRomanList) {
                 # create the row for it
