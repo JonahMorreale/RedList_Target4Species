@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Assessment Tool
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 09/03/2025
+## updated: 09/15/2025
 
 ### setup
 # packages
@@ -22,17 +22,21 @@ table3DeclineLookup <- read.csv("RedList_Target4Species_Table3Lookup.csv")
 table4RestrictionLookup <- read.csv("RedList_Target4Species_Table4Lookup.csv")
 
 ##------------------------ country of interest
-selectedCountry <- "Fiji"
+selectedCountry <- "Seychelles"
 
 
 ### run the assessment tool
 selectedCountry %>%
   getCountryCode() %>%
   generatePrioritySpeciesList() %>%
-  select(taxon_scientific_name, assessment_id, red_list_category_code, criteria,
+  select(ScientificName = taxon_scientific_name, Phylum = taxon_phylum_name,
+         Class = taxon_class_name, Order = taxon_order_name, Family = taxon_family_name,
+         assessment_id, assessment_date, red_list_category_code, criteria,
+         AreaRestricted = supplementary_info_area_restricted_is_restricted,
          AOO = supplementary_info_estimated_area_of_occupancy, 
          EOO = supplementary_info_estimated_extent_of_occurence,
-         popSize = supplementary_info_population_size, NumLocationsExtant,
+         PopulationSize = supplementary_info_population_size, NumLocationsExtant,
+         LocationNumber = supplementary_info_number_of_locations,
          Risk, Endemic, Decline, Restriction,
          Priority1_PS, Priority1_Rank, Priority2_PS, Priority2_Rank) %>%
   assign(x = paste0("Target4SpeciesList_", selectedCountry),

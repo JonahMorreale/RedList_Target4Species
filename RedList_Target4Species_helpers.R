@@ -29,6 +29,34 @@ getCountryCode <- function(countryName) {
 }
 
 
+## function: for a given RL numeric range (from AOO, EOO, or PopulationSize), select the appropriate value
+##      based on format
+rlRangeReader <- function(rlString) {
+  # if the value is NA, just return NA
+  if (is.na(rlString)) {return(NA)}
+  # check for comma - after commas is the "best estimate value"
+  if (grepl(rlString, ",")) {
+    str_split(rlString, pattern = ",", simplify = FALSE)[[1]] %>%
+      str_trim() %>%
+      last() %>%
+      return()
+  # else check for dash - take mean of this range
+  } else if (grepl(rlString, "-")) {
+    str_split(rlString, pattern = "-", simplify = FALSE)[[1]] %>%
+      str_trim() %>%
+      as.numeric() %>%
+      mean() %>%
+      return()
+  # check if can be coerced to a single number
+  } else if (!is.na(suppressWarnings(as.numeric(rlString)))) {
+    rlString %>%
+      as.numeric() %>%
+      return()
+  # otherwise return NA
+  } else {return(NA)}
+}
+
+
 ## function: for given RL Category and Criteria strings, parse the subcriteria into all unique
 ##      subcriteria combinations and output as a data table
 rlCriteriaParser <- function(rlAssessmentID, rlCategory, rlFullCriteria) {
@@ -200,12 +228,9 @@ restrictionWeightHelper <- function(rlAssessmentID,
     max(0, na.rm = TRUE) -> greatestWeight
   ## additional criteria
   addCrit <- c()
-  # population size - the minimum listed
-  rlPopSize <- min(as.numeric(str_split(rlPopSize,
-                                        pattern = "[ ,\\-;]",
-                                        simplify = FALSE)[[1]]),
-                   na.rm = TRUE)
-  if (!is.infinite(rlPopSize) & !is.na(rlPopSize)) {
+  # population size
+  rlPopSize <- rlRangeReader(rlPopSize)
+  if (!is.na(rlPopSize)) {
     if (rlPopSize < 50) {addCrit[length(addCrit) + 1] <- 10}
     if (rlPopSize < 100) {addCrit[length(addCrit) + 1] <- 9}
     if (rlPopSize < 250) {addCrit[length(addCrit) + 1] <- 8}
@@ -215,32 +240,28 @@ restrictionWeightHelper <- function(rlAssessmentID,
     if (rlPopSize < 10000) {addCrit[length(addCrit) + 1] <- 2}
   }
   # location number
-  if (rlLocNumber == 1) {addCrit[length(addCrit) + 1] <- 6}
-  if (rlLocNumber == 2) {addCrit[length(addCrit) + 1] <- 5}
-  if (rlLocNumber <= 5) {addCrit[length(addCrit) + 1] <- 4}
-  if (rlLocNumber <= 10) {addCrit[length(addCrit) + 1] <- 2}
+  if (!is.na(rlLocNumber)) {
+    if (rlLocNumber == 1) {addCrit[length(addCrit) + 1] <- 6}
+    if (rlLocNumber == 2) {addCrit[length(addCrit) + 1] <- 5}
+    if (rlLocNumber <= 5) {addCrit[length(addCrit) + 1] <- 4}
+    if (rlLocNumber <= 10) {addCrit[length(addCrit) + 1] <- 2}
+  }
   # area of occupancy - the minimum listed
-  rlAOO <- min(as.numeric(str_split(rlAOO,
-                                    pattern = "[ ,\\-;]+",
-                                    simplify = FALSE)[[1]]),
-               na.rm = TRUE)
-  if (!is.infinite(rlAOO) & !is.na(rlAOO)) {
+  rlAOO <- rlRangeReader(rlAOO)
+  if (!is.na(rlAOO)) {
     if (rlAOO < 10) {addCrit[length(addCrit) + 1] <- 9}
     if (rlAOO < 500) {addCrit[length(addCrit) + 1] <- 3}
     if (rlAOO < 2000) {addCrit[length(addCrit) + 1] <- 1}
   }
   # extent of occurence - the minimum listed
-  rlEOO <- min(as.numeric(str_split(rlEOO,
-                                    pattern = "[ ,\\-;]+",
-                                    simplify = FALSE)[[1]]),
-               na.rm = TRUE)
-  if (!is.infinite(rlEOO) & !is.na(rlEOO)) {
+  rlEOO <- rlRangeReader(rlEOO)
+  if (!is.na(rlEOO)) {
     if (rlEOO < 100) {addCrit[length(addCrit) + 1] <- 9}
     if (rlEOO < 5000) {addCrit[length(addCrit) + 1] <- 3}
     if (rlEOO < 20000) {addCrit[length(addCrit) + 1] <- 1}
   }
-  # area restricted #$#$
-  #$#$
+  # area restricted
+  if (!is.na(rlAreaRestricted) & rlAreaRestricted == "Yes") {addCrit[length(addCrit) + 1] <- 7}
   # max of these additional criteria
   greatestWeight <- max(addCrit, greatestWeight)
   ## progress bar tracker
@@ -276,7 +297,7 @@ generatePrioritySpeciesList <- function(countryCode) {
         #$ head(30) %>% #$ recommend uncommenting for testing purposes
         ## scrape Red List assessment data for each target species
         pull(assessment_id) %>%
-        rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime) %>%
+        rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime, times = 5) %>%
         # convert to df from nested lists
         do.call(rbind, .)  %>% 
         as.data.frame() %>%
@@ -290,7 +311,16 @@ generatePrioritySpeciesList <- function(countryCode) {
         # unnest first 12 columns
         unnest(col = 1:12) %>%
         # expand out columns of interest
-        unnest_wider(col = 13:26, names_sep = "_")
+        unnest_wider(col = 13:26, names_sep = "_") %>%
+        # expand out common name column as well and pick the preferred language (currently english)
+        unnest_wider(col = taxon_common_names, names_sep = "_") %>%
+        mutate(commonName_PreferredLanguageIndex = sapply(taxon_common_names_language, function(x) which(x == "eng")[1])) %>%
+        mutate(commonName_PreferredLanguage = map2_chr( .x = taxon_common_names_name,
+                                                        .y = commonName_PreferredLanguageIndex,
+                                                        .f = ~ if (!is.na(.y)) {.x[.y]} else {NA} )) %>%
+        select(-c(starts_with("taxon_common"), commonName_PreferredLanguageIndex)) %>%
+        # make assessment date a simpler column
+        mutate(assessment_date = as.Date(assessment_date))
     ) # end of assignment
   }
     
@@ -324,24 +354,22 @@ generatePrioritySpeciesList <- function(countryCode) {
                                      rlCategory = red_list_category_code,
                                      rlFullCriteria = criteria,
                                      rlPopSize = supplementary_info_population_size,
-                                     rlAreaRestricted = NA, #$
+                                     rlAreaRestricted = supplementary_info_area_restricted_is_restricted,
                                      rlAOO = supplementary_info_estimated_area_of_occupancy,
                                      rlEOO = supplementary_info_estimated_extent_of_occurence,
-                                     rlLocNumber = NumLocationsExtant,
+                                     rlLocNumber = as.numeric(supplementary_info_number_of_locations),
                                      rowNumber = rowNumber)) %>%
     ## Priority Scores - Equations 1 and 2
     mutate(Priority1_PS = Risk * Endemic * Decline * Restriction,
            Priority2_PS = Risk * Endemic * max(Decline, Restriction)) %>%
     ## convert to rank
     # priority 1 rank
-    arrange(desc(Priority1_PS)) %>% 
     group_by() %>% # needs this for if_else to operate rowwise
-    mutate(Priority1_Rank = if_else(Priority1_PS > 0, row_number(), NA)) %>% 
+    mutate(Priority1_Rank = if_else(Priority1_PS > 0, min_rank(desc(Priority1_PS)), NA)) %>% 
     ungroup() %>%
     # priority 2 rank
-    arrange(desc(Priority2_PS)) %>%
     group_by(Priority1_PS) %>%
-    mutate(Priority2_Rank = if_else(Priority1_PS == 0, row_number(), NA)) %>% 
+    mutate(Priority2_Rank = if_else(Priority1_PS == 0, min_rank(desc(Priority2_PS)), NA)) %>% 
     ungroup() %>%
     # arrange by P1 and P2
     arrange(Priority1_Rank, Priority2_Rank) ->
