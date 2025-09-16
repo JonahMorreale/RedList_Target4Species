@@ -7,6 +7,7 @@
 library(tidyverse)
 library(rredlist) # for scraping Red List API
 library(fuzzyjoin) # for matching lookup tables via regex
+library(writexl) # for writing out to excel file
 
 # set working directory for top level folder - containing all scripts and subfolder for outputs
 myDir <- "REPLACE PATH TO YOUR WORKING FOLDER HERE"
@@ -22,14 +23,15 @@ table3DeclineLookup <- read.csv("RedList_Target4Species_Table3Lookup.csv")
 table4RestrictionLookup <- read.csv("RedList_Target4Species_Table4Lookup.csv")
 
 ##------------------------ country of interest
-selectedCountry <- "Seychelles"
+selectedCountry <- "Indonesia"
 
 
 ### run the assessment tool
 selectedCountry %>%
   getCountryCode() %>%
   generatePrioritySpeciesList() %>%
-  select(ScientificName = taxon_scientific_name, Phylum = taxon_phylum_name,
+  select(CommonName_English = commonName_PreferredLanguage,
+         ScientificName = taxon_scientific_name, Phylum = taxon_phylum_name,
          Class = taxon_class_name, Order = taxon_order_name, Family = taxon_family_name,
          assessment_id, assessment_date, red_list_category_code, criteria,
          AreaRestricted = supplementary_info_area_restricted_is_restricted,
@@ -47,3 +49,9 @@ selectedCountry %>%
 get(paste0("Target4SpeciesList_", selectedCountry)) %>%
   write.csv(file = paste0("CountryAssessmentTables/Target4SpeciesList_",
                           selectedCountry, ".csv"))
+
+
+## write it out to Excel file (to avoid auto-formatting problems)
+get(paste0("Target4SpeciesList_", selectedCountry)) %>%
+  write_xlsx(path = paste0("CountryAssessmentTables/Target4SpeciesList_",
+                            selectedCountry, ".xlsx"))

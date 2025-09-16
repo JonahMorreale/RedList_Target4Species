@@ -240,6 +240,7 @@ restrictionWeightHelper <- function(rlAssessmentID,
     if (rlPopSize < 10000) {addCrit[length(addCrit) + 1] <- 2}
   }
   # location number
+  rlLocNumber <- rlRangeReader(rlLocNumber)
   if (!is.na(rlLocNumber)) {
     if (rlLocNumber == 1) {addCrit[length(addCrit) + 1] <- 6}
     if (rlLocNumber == 2) {addCrit[length(addCrit) + 1] <- 5}
