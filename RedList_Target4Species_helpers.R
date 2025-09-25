@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Helper Functions
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 09/03/2025
+## updated: 09/24/2025
 
 
 ### packages
@@ -12,6 +12,10 @@ library(fuzzyjoin) # for matching lookup tables via regex
 ### set wait time here for API speed - the RL API recommends .5 seconds, and threatens
 ##      limiting your access key if you exceed this too much
 rlapiWaitTime = .05 # set time here in seconds
+
+
+### list of 'country' codes used by Red List
+countryCodeList <- rl_countries(key = rlapiKey)$countries$code
 
 
 ### functions -----------------------------------------------------------------
@@ -54,6 +58,55 @@ rlRangeReader <- function(rlString) {
       return()
   # otherwise return NA
   } else {return(NA)}
+}
+
+
+## function: for given RL Criteria and Version, update to the version 3.1 format if necessary
+rlVersionUpdater <- function(rlAssessmentID, rlCategory, rlFullCriteria, rlVersion, detailed = FALSE) {
+  if (is.na(rlVersion) | !is.character(rlVersion)) {return(NA_character_)}
+  if (rlVersion == "3.1") {
+    return(rlFullCriteria)
+  } else if (rlVersion == "2.3") {
+    rlFullCriteria %>%
+      # replace A1 with A2 and A2 with A3 KEEPING subcriteria
+      str_replace_all(pattern = "A2", replacement = "A3") %>% # latter first so it doesn't chain
+      str_replace_all(pattern = "A1", replacement = "A2") %>%
+      # parse the string into df
+      rlCriteriaParser(rlAssessmentID = rlAssessmentID, 
+                       rlCategory = rlCategory,
+                       rlFullCriteria = .) -> parsedCritDF
+    # check if that it is actually a data frame (and not for instance NA)
+    if (!is.data.frame(parsedCritDF)) {return(NA)}
+    # else update the string to new criteria
+    parsedCritDF %>%
+      select(-RL_Category) %>%
+      # fuzzy join to our update table to get the new code for the rest
+      regex_left_join(y = tableVersionUpdateLookup,
+                      by = c("RL_Criteria", "RL_SubcriteriaL1",
+                             "RL_SubcriteriaL2", "RL_SubcriteriaL3")) %>%
+      # if new code is blank (not matching a replacement case) use old code
+      mutate(NewCode = case_when(is.na(NewCode) ~ paste0(RL_Criteria.x,
+                                                         RL_SubcriteriaL1.x,
+                                                         RL_SubcriteriaL2.x,
+                                                         RL_SubcriteriaL3.x) %>%
+                                                  str_replace_all(pattern = "\\.\\*",
+                                                                  replacement = ""),
+                                 TRUE ~ NewCode)) %>%
+      # parse the new codes out again
+      pull(NewCode) %>%
+      map_df(rlCriteriaParser, rlAssessmentID = -1, rlCategory = "X") %>%
+      # and deparse it back together into one
+      rlCriteriaDeparser() -> critString
+      # report and return this code
+      if (detailed) {
+        print(paste("Outdated Assessment ID:",
+                    rlAssessmentID,
+                    "Updated to V3.1"))
+      }
+      return(critString)
+  } else {
+    return(NA_character_)
+  }
 }
 
 
@@ -157,10 +210,57 @@ rlCriteriaParser <- function(rlAssessmentID, rlCategory, rlFullCriteria) {
 }
 
 
+## function: for a given parsed criteria string data frame (ie the return of rlCriteriaParser)
+##      output a de-parsed character string of criteria in RL format
+rlCriteriaDeparser <- function(rlParsedCriteriaDF) {
+  # check for improper format (includes NA)
+  if (!is.data.frame(rlParsedCriteriaDF)) {
+    return(NA)
+  }
+  rlParsedCriteriaDF %>%
+    # ensure they are in hierarchical order
+    arrange(across(everything())) %>%
+    # match up the L3 subcriteria (parenthetical roman numerals)
+    group_by(RL_Criteria, RL_SubcriteriaL1, RL_SubcriteriaL2) %>%
+    reframe(RL_SubcriteriaL3 = str_c(RL_SubcriteriaL3, collapse = ",")) %>%
+    # remove blanks (.*) and fold L3 into L2 as parenthetical
+    mutate(RL_SubcriteriaL3 = str_replace_all(RL_SubcriteriaL3, "\\.\\*", "")) %>%
+    mutate(RL_SubcriteriaL2 = paste0(RL_SubcriteriaL2, "(", RL_SubcriteriaL3, ")")) %>%
+    select(-RL_SubcriteriaL3) %>%
+    # in L2, remove blanks and empty parentheses
+    mutate(RL_SubcriteriaL2 = str_replace_all(RL_SubcriteriaL2, "\\.\\*", "")) %>%
+    mutate(RL_SubcriteriaL2 = str_replace_all(RL_SubcriteriaL2, "\\(\\)", "")) %>%
+    # match up L2 subcriteria (lowercase letters) and combine
+    group_by(RL_Criteria, RL_SubcriteriaL1) %>%
+    reframe(RL_SubcriteriaL2 = str_c(RL_SubcriteriaL2, collapse = "")) %>%
+    # fold L2 into L1
+    mutate(RL_SubcriteriaL1 = paste0(RL_SubcriteriaL1, RL_SubcriteriaL2)) %>%
+    select(-RL_SubcriteriaL2) %>%
+    # in L1, remove blanks and empty parentheses
+    mutate(RL_SubcriteriaL1 = str_replace_all(RL_SubcriteriaL1, "\\.\\*", "")) %>%
+    # match up L1 subcriteria (numbers) and combine with "+" symbol
+    group_by(RL_Criteria) %>%
+    reframe(RL_SubcriteriaL1 = str_c(RL_SubcriteriaL1, collapse = "+")) %>%
+    # fold L1 subcriteria into criteria and combine with ";" symbol
+    mutate(RL_Criteria = paste0(RL_Criteria, RL_SubcriteriaL1)) %>%
+    select(-RL_SubcriteriaL1) %>%
+    reframe(RL_FullString = str_c(RL_Criteria, collapse = ";")) %>%
+    # convert to char
+    as.character() %>%
+    # return it
+    return()
+}
+
+
 ## function: for a given RL category and criteria string, output the highest matching
 ##      Decline weight per Table 3
 declineWeightHelper <- function(rlAssessmentID, rlCategory, rlFullCriteria,
-                                rlPopTrend, rowNumber, detailed = FALSE) {
+                                rlPopTrend, rowNumber,
+                                rlContDecPop, rlContDecArea, rlContDecLoc,
+                                rlContDecEOO, rlContDecAOO, rlContDecSubpop,
+                                detailed = FALSE) {
+  # if the class is "EW" its going to be NA for criteria - just return weight of ten
+  if (rlCategory == "EW") {return(10)}
   # run the parser to get a table of all criteria met
   criteriaDF <- rlCriteriaParser(rlAssessmentID, rlCategory, rlFullCriteria)
   # if parser comes back with NA, the criteria is poorly formatted - end
@@ -188,6 +288,14 @@ declineWeightHelper <- function(rlAssessmentID, rlCategory, rlFullCriteria,
     if (rlPopTrend == "1") {addCrit[length(addCrit) + 1] <- 2}  # code: 1 = "Decreasing"
     if (rlPopTrend == "3") {addCrit[length(addCrit) + 1] <- .5} # code: 3 = "Unknown"
   }
+  ## additional criteria - continuing declines (population, area, location, EOO, AOO, subpop)
+  if (!is.na(rlContDecPop) & rlContDecPop == "Yes") {addCrit[length(addCrit) + 1] <- 2}
+  if (!is.na(rlContDecArea) & rlContDecArea == "Yes") {addCrit[length(addCrit) + 1] <- 1}
+  if (!is.na(rlContDecLoc) & rlContDecLoc == "Yes") {addCrit[length(addCrit) + 1] <- 1}
+  if (!is.na(rlContDecEOO) & rlContDecEOO == "Yes") {addCrit[length(addCrit) + 1] <- 1}
+  if (!is.na(rlContDecAOO) & rlContDecAOO == "Yes") {addCrit[length(addCrit) + 1] <- 1}
+  if (!is.na(rlContDecSubpop) & rlContDecSubpop == "Yes") {addCrit[length(addCrit) + 1] <- 1}
+  ## max of these additional criteria
   greatestWeight <- max(addCrit, greatestWeight)
   ## progress bar tracker
   if ((rowNumber %% 50) == 0) {print(paste("Decline Progress:", rowNumber, "done"))}
@@ -205,6 +313,8 @@ restrictionWeightHelper <- function(rlAssessmentID,
                                     rlAOO, rlEOO,
                                     rlLocNumber,
                                     rowNumber, detailed = FALSE) {
+  # if the class is "EW" its going to be NA for criteria - just return weight of ten
+  if (rlCategory == "EW") {return(10)}
   # run the parser to get a table of all criteria met
   criteriaDF <- rlCriteriaParser(rlAssessmentID, rlCategory, rlFullCriteria)
   # if parser comes back with non-DF, the criteria is poorly formatted - end
@@ -320,15 +430,26 @@ generatePrioritySpeciesList <- function(countryCode) {
                                                         .y = commonName_PreferredLanguageIndex,
                                                         .f = ~ if (!is.na(.y)) {.x[.y]} else {NA} )) %>%
         select(-c(starts_with("taxon_common"), commonName_PreferredLanguageIndex)) %>%
+        # and fix population trend description
+        mutate(PopulationTrend = flatten(population_trend_description)$en) %>%
         # make assessment date a simpler column
         mutate(assessment_date = as.Date(assessment_date))
     ) # end of assignment
   }
     
     ### now use that species list to apply Target 4 scoring criteria
-  get(speciesListName) %>%
+  get(speciesListName) %T>%
+    # report out progress
+    {print("Beginning Scoring"); .} %>%
+    #$ head(30) %>% #$ recommend uncommenting for testing purposes
     ## add a row number column for progress tracking
     mutate(rowNumber = row_number()) %>%
+    # update the old criteria version to align with the new
+    rowwise() %>%
+    mutate(criteria_V3.1 = rlVersionUpdater(rlAssessmentID = assessment_id,
+                                            rlCategory = red_list_category_code,
+                                            rlFullCriteria = criteria,
+                                            rlVersion = red_list_category_version)) %>%
     ## Risk column based on rl code -- weights from Table 1
     mutate(Risk = case_when(red_list_category_code == "EW" ~ 8,
                             red_list_category_code == "CR" ~ 4,
@@ -337,23 +458,30 @@ generatePrioritySpeciesList <- function(countryCode) {
                             TRUE ~ 0)) %>%
     ## Endemic column:
     # Table 2, condition 2 -- by number of countries occupied
-    rowwise() %>%
-    mutate(NumLocationsExtant = length(locations_code)) %>%
-    mutate(Endemic = 10 / NumLocationsExtant) %>%
+    mutate(NumberOfCountriesExtant = sum(locations_code %in% countryCodeList)) %>%
+    mutate(Endemic = 10 / NumberOfCountriesExtant) %>%
     # ...and Table 2, condition 3 -- if Extinct in the Wild
     mutate(Endemic = case_when(red_list_category_code == "EW" ~ 1,
                                TRUE ~ Endemic)) %>%
     ## Decline column:
-    mutate(Decline = declineWeightHelper(rlAssessmentID = assessment_id,
-                                         rlCategory = red_list_category_code,
-                                         rlFullCriteria = criteria,
-                                         rlPopTrend = population_trend_code,
-                                         rowNumber = rowNumber)) %>%
+    rowwise() %>%
+    mutate(Decline = 
+             declineWeightHelper(rlAssessmentID = assessment_id,
+                                 rlCategory = red_list_category_code,
+                                 rlFullCriteria = criteria_V3.1,
+                                 rlPopTrend = population_trend_code,
+                                 rowNumber = rowNumber,
+                                 rlContDecPop = supplementary_info_population_continuing_decline,
+                                 rlContDecArea = supplementary_info_continuing_decline_in_area,
+                                 rlContDecLoc = supplementary_info_continuing_decline_in_number_of_locations,
+                                 rlContDecEOO = supplementary_info_continuing_decline_in_extent_of_occurence,
+                                 rlContDecAOO = supplementary_info_continuing_decline_in_area_of_occupancy,
+                                 rlContDecSubpop = supplementary_info_continuing_decline_in_subpopulations)) %>%
     ## Restriction column:
     mutate(Restriction =
              restrictionWeightHelper(rlAssessmentID = assessment_id,
                                      rlCategory = red_list_category_code,
-                                     rlFullCriteria = criteria,
+                                     rlFullCriteria = criteria_V3.1,
                                      rlPopSize = supplementary_info_population_size,
                                      rlAreaRestricted = supplementary_info_area_restricted_is_restricted,
                                      rlAOO = supplementary_info_estimated_area_of_occupancy,

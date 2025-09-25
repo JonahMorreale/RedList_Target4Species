@@ -1,0 +1,13 @@
+RL_Criteria,RL_SubcriteriaL1,RL_SubcriteriaL2,RL_SubcriteriaL3,NewCode
+B,1,.*,.*,B1a
+B,2,a,.*,B1b(i)
+B,2,b,.*,B1b(ii)
+B,2,c,.*,B1b(iii)
+B,2,d,.*,B1b(iv)
+B,2,e,.*,B1b(v)
+B,3,a,.*,B1c(i)
+B,3,b,.*,B1c(ii)
+B,3,c,.*,B1c(iii)
+B,3,d,.*,B1c(iv)
+C,2,a,.*,C2a(i)
+C,2,b,.*,C2a(ii)
