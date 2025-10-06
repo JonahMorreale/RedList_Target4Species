@@ -24,7 +24,7 @@ table4RestrictionLookup <- read.csv("RedList_Target4Species_Table4Lookup.csv")
 tableVersionUpdateLookup <- read.csv("RedList_Target4Species_VersionUpdateLookup.csv")
 
 ##------------------------ country of interest
-selectedCountry <- "Fiji"
+selectedCountry <- "Colombia"
 
 
 ### run the assessment tool
@@ -40,7 +40,7 @@ selectedCountry %>%
          # Table 2 - Endemism
          NumberOfCountriesExtant,
          # Table 3 - Decline
-         PopulationTrend,
+         PopulationTrend = population_trend_description_en,
          ContDec_Population = supplementary_info_population_continuing_decline,
          ContDec_Area = supplementary_info_continuing_decline_in_area,
          ContDec_Location = supplementary_info_continuing_decline_in_number_of_locations,

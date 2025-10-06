@@ -39,13 +39,14 @@ rlRangeReader <- function(rlString) {
   # if the value is NA, just return NA
   if (is.na(rlString)) {return(NA)}
   # check for comma - after commas is the "best estimate value"
-  if (grepl(rlString, ",")) {
+  if (grepl(",", rlString)) {
     str_split(rlString, pattern = ",", simplify = FALSE)[[1]] %>%
       str_trim() %>%
       last() %>%
+      as.numeric() %>%
       return()
   # else check for dash - take mean of this range
-  } else if (grepl(rlString, "-")) {
+  } else if (grepl("-", rlString)) {
     str_split(rlString, pattern = "-", simplify = FALSE)[[1]] %>%
       str_trim() %>%
       as.numeric() %>%
@@ -68,6 +69,8 @@ rlVersionUpdater <- function(rlAssessmentID, rlCategory, rlFullCriteria, rlVersi
     return(rlFullCriteria)
   } else if (rlVersion == "2.3") {
     rlFullCriteria %>%
+      # replace commas with semicolons
+      str_replace_all(pattern = ",", replacement = ";") %>%
       # replace A1 with A2 and A2 with A3 KEEPING subcriteria
       str_replace_all(pattern = "A2", replacement = "A3") %>% # latter first so it doesn't chain
       str_replace_all(pattern = "A1", replacement = "A2") %>%
@@ -431,7 +434,7 @@ generatePrioritySpeciesList <- function(countryCode) {
                                                         .f = ~ if (!is.na(.y)) {.x[.y]} else {NA} )) %>%
         select(-c(starts_with("taxon_common"), commonName_PreferredLanguageIndex)) %>%
         # and fix population trend description
-        mutate(PopulationTrend = flatten(population_trend_description)$en) %>%
+        unnest_wider(col = population_trend_description, names_sep = "_") %>%
         # make assessment date a simpler column
         mutate(assessment_date = as.Date(assessment_date))
     ) # end of assignment
