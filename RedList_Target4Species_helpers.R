@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Helper Functions
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 09/24/2025
+## updated: 11/05/2025
 
 
 ### packages
@@ -9,8 +9,8 @@ library(rredlist) # for scraping Red List API
 library(fuzzyjoin) # for matching lookup tables via regex
 
 
-### set wait time here for API speed - the RL API recommends .5 seconds, and threatens
-##      limiting your access key if you exceed this too much
+### set wait time here for API speed - the RL API recommends .5 seconds, and threatens to
+##      limit your access key if you exceed this too much
 rlapiWaitTime = .05 # set time here in seconds
 
 
@@ -386,61 +386,52 @@ restrictionWeightHelper <- function(rlAssessmentID,
 }
 
 
-## function: for a given two letter RL country code, output a table including Priority 1 and
-##      Priority 2 scores and ranks
-generatePrioritySpeciesList <- function(countryCode) {
-  ### scrape redlist for species for given country
-  ##      if not in memory already
-  assessmentName <- paste0("countryAssessment_", countryCode)
-  if (!exists(assessmentName)) {
-    assign(x = assessmentName,
-           value = rl_countries(code = countryCode,
-                                latest = TRUE, # only the latest assessment for each taxon
-                                key = rlapiKey)$assessments,
-           envir = .GlobalEnv)
-  }
-  ## use that list to generate Target 4 priority species according to criteria in doc
-  ##      if not in memory already
-  speciesListName <- paste0("speciesList_", countryCode)
+## function: from a given RL assessment list NAME generate Target 4 priority species
+###     according to criteria in doc if not in memory already
+assessmentListToPriorityTable <- function(assessmentName) {
+  ## pull target name from assessment name
+  targetName = strsplit(assessmentName, "_")[[1]][2]
+  speciesListName <- paste0("speciesList_", targetName)
+  ## loop throught assessment list pulling assessments, and modify
   if (!exists(speciesListName)) {
     assign( x = speciesListName,
             envir = .GlobalEnv,
             value = get(assessmentName) %>%
-        # filter to "Known Threatened Species" (CR, EN, VU, EW)
-        filter(red_list_category_code %in% c("EW", "CR", "EN", "VU")) %>%
-        #$ head(30) %>% #$ recommend uncommenting for testing purposes
-        ## scrape Red List assessment data for each target species
-        pull(assessment_id) %>%
-        rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime, times = 5) %>%
-        # convert to df from nested lists
-        do.call(rbind, .)  %>% 
-        as.data.frame() %>%
-        # drop a few unnecessary columns
-        select(-c(starts_with("documentation"),
-                  starts_with("faos"),
-                  starts_with("habitats"),
-                  starts_with("use_and_trade"),
-                  starts_with("threats"),
-                  starts_with("references"))) %>%
-        # unnest first 12 columns
-        unnest(col = 1:12) %>%
-        # expand out columns of interest
-        unnest_wider(col = 13:26, names_sep = "_") %>%
-        # expand out common name column as well and pick the preferred language (currently english)
-        unnest_wider(col = taxon_common_names, names_sep = "_") %>%
-        mutate(commonName_PreferredLanguageIndex = sapply(taxon_common_names_language, function(x) which(x == "eng")[1])) %>%
-        mutate(commonName_PreferredLanguage = map2_chr( .x = taxon_common_names_name,
-                                                        .y = commonName_PreferredLanguageIndex,
-                                                        .f = ~ if (!is.na(.y)) {.x[.y]} else {NA} )) %>%
-        select(-c(starts_with("taxon_common"), commonName_PreferredLanguageIndex)) %>%
-        # and fix population trend description
-        unnest_wider(col = population_trend_description, names_sep = "_") %>%
-        # make assessment date a simpler column
-        mutate(assessment_date = as.Date(assessment_date))
+              # filter to "Known Threatened Species" (CR, EN, VU, EW)
+              filter(red_list_category_code %in% c("EW", "CR", "EN", "VU")) %>%
+              #$ head(30) %>% #$ recommend uncommenting for testing purposes
+              ## scrape Red List assessment data for each target species
+              pull(assessment_id) %>%
+              rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime, times = 5) %>%
+              # convert to df from nested lists
+              do.call(rbind, .)  %>% 
+              as.data.frame() %>%
+              # drop a few unnecessary columns
+              select(-c(starts_with("documentation"),
+                        starts_with("faos"),
+                        starts_with("habitats"),
+                        starts_with("use_and_trade"),
+                        starts_with("threats"),
+                        starts_with("references"))) %>%
+              # unnest first 12 columns
+              unnest(col = 1:12) %>%
+              # expand out columns of interest
+              unnest_wider(col = 13:26, names_sep = "_") %>%
+              # expand out common name column as well and pick the preferred language (currently english)
+              unnest_wider(col = taxon_common_names, names_sep = "_") %>%
+              mutate(commonName_PreferredLanguageIndex = sapply(taxon_common_names_language, function(x) which(x == "eng")[1])) %>%
+              mutate(commonName_PreferredLanguage = map2_chr( .x = taxon_common_names_name,
+                                                              .y = commonName_PreferredLanguageIndex,
+                                                              .f = ~ if (!is.na(.y)) {.x[.y]} else {NA} )) %>%
+              select(-c(starts_with("taxon_common"), commonName_PreferredLanguageIndex)) %>%
+              # and fix population trend description
+              unnest_wider(col = population_trend_description, names_sep = "_") %>%
+              # make assessment date a simpler column
+              mutate(assessment_date = as.Date(assessment_date))
     ) # end of assignment
   }
-    
-    ### now use that species list to apply Target 4 scoring criteria
+  
+  ### now use that species list to apply Target 4 scoring criteria
   get(speciesListName) %T>%
     # report out progress
     {print("Beginning Scoring"); .} %>%
@@ -508,4 +499,51 @@ generatePrioritySpeciesList <- function(countryCode) {
     # return the final table jm
     priorityTable
   return(priorityTable)
+}
+
+
+## function: for a given two letter RL country code, output a table including Priority 1 and
+##      Priority 2 scores and ranks
+generatePrioritySpeciesList_byCountry <- function(countryCode) {
+  ## scrape redlist for assessments for given country if not in memory already
+  assessmentName <- paste0("countryAssessment_", countryCode)
+  if (!exists(assessmentName)) {
+    assign(x = assessmentName,
+           value = rl_countries(code = countryCode,
+                                latest = TRUE, # only the latest assessment for each taxon
+                                key = rlapiKey)$assessments,
+           envir = .GlobalEnv)
+  }
+  ## use that assessment list to generate the Target 4 Priority species list
+  priorityTable <- assessmentListToPriorityTable(assessmentName)
+  return(priorityTable)
+}
+
+
+## function: for a given taxonomic group and its matching taxonomic level, output a table
+##      including Priority 1 and Priority 2 scores and ranks. Allowable taxonomic levels include
+##      c("class", "order", "family")
+generatePrioritySpeciesList_byTaxa <- function(selectedTaxa, selectedTaxonomicGroup) {
+  ## select appropriate RL scraper function for selected taxonomic group
+  if (selectedTaxonomicGroup == "class") {
+    appropriateTaxaScraper <- rl_class
+  } else if (selectedTaxonomicGroup == "order") {
+    appropriateTaxaScraper <- rl_order
+  } else if (selectedTaxonomicGroup == "family") {
+    appropriateTaxaScraper <- rl_family
+  } else {break}
+  ## scrape redlist for assessments for given taxa if not in memory already
+  assessmentName <- paste0("taxaAssessment_", selectedTaxa)
+  if (!exists(assessmentName)) {
+    assign(x = assessmentName,
+           value = appropriateTaxaScraper(selectedTaxa,
+                                          latest = TRUE,
+                                          key = rlapiKey)$assessments,
+           envir = .GlobalEnv)
+  }
+  ## use that assessment list to generate the Target 4 Priority species list
+  if (!is.null(get(assessmentName)) & nrow(get(assessmentName)) > 0) {
+    priorityTable <- assessmentListToPriorityTable(assessmentName)
+    return(priorityTable)
+  } else {return(NA)}
 }

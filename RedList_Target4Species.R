@@ -1,6 +1,6 @@
-## Red List - Target 4 Species Assessment Tool
+## Red List - Target 4 Species Country Assessment Tool
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 10/30/2025
+## updated: 11/05/2025
 
 ### setup
 # packages
@@ -30,7 +30,7 @@ tableVersionUpdateLookup <- read.csv("RedList_Target4Species_VersionUpdateLookup
 ##                              example: selectedCountryList <- c("Viet Nam", "Fiji", "Sweden")
 ##                              NOTE: the spelling of the country MUST match that used by the
 ##                              Red List API - see 'RL Country List.xlsx" for reference
-selectedCountryList <- c("Seychelles", "Fiji")
+selectedCountryList <- c("Fiji")
 
 
 ### run the assessment tool for each country in list
@@ -38,7 +38,7 @@ for (selectedCountry in selectedCountryList) {
   print(paste0("Begining assessment for ", selectedCountry))
   selectedCountry %>%
     getCountryCode() %>%
-    generatePrioritySpeciesList() %>%
+    generatePrioritySpeciesList_byCountry() %>%
     select(CommonName_English = commonName_PreferredLanguage,
            ScientificName = taxon_scientific_name, Phylum = taxon_phylum_name,
            Class = taxon_class_name, Order = taxon_order_name, Family = taxon_family_name,
@@ -72,7 +72,6 @@ for (selectedCountry in selectedCountryList) {
   get(paste0("Target4SpeciesList_", selectedCountry)) %>%
     write.csv(file = paste0("CountryAssessmentTables/Target4SpeciesList_",
                             selectedCountry, ".csv"))
-  
   
   ## write it out to Excel file (to avoid auto-formatting problems)
   get(paste0("Target4SpeciesList_", selectedCountry)) %>%
