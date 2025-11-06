@@ -28,7 +28,7 @@ tableVersionUpdateLookup <- read.csv("RedList_Target4Species_VersionUpdateLookup
 
 ##------------------------ taxa of interest as well as taxonomic level of selected taxa - allowable
 ##                              taxonomic groups include c("class", "order", "family")
-selectedTaxa <- "mustelidae"
+selectedTaxa <- "mustelidae" # lowercase letters only
 selectedTaxonomicGroup <- "family"
 
 
@@ -60,9 +60,6 @@ generatePrioritySpeciesList_byTaxa(selectedTaxa,
          # Calculated Values for PS
          Risk, Endemic, Decline, Restriction,
          Priority1_PS, Priority1_Rank, Priority2_PS, Priority2_Rank) %>%
-  ## to remove multiple assessments per species (even with latest = TRUE in API call)
-  group_by(ScientificName) %>%
-  filter(assessment_date == max(assessment_date)) %>%
   ##
   assign(x = paste0("Target4SpeciesList_", selectedTaxa),
          value = .,

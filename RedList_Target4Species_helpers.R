@@ -436,6 +436,10 @@ assessmentListToPriorityTable <- function(assessmentName) {
     # report out progress
     {print("Beginning Scoring"); .} %>%
     #$ head(30) %>% #$ recommend uncommenting for testing purposes
+    ## remove species with multiple assessments that weren't caught by the latest = TRUE flag
+    ##      keeping only the latest assessment per species
+    group_by(taxon_scientific_name) %>%
+    filter(assessment_date == max(assessment_date)) %>%
     ## add a row number column for progress tracking
     mutate(rowNumber = row_number()) %>%
     # update the old criteria version to align with the new
