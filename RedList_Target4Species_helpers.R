@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Helper Functions
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 11/05/2025
+## updated: 11/07/2025
 
 
 ### packages
@@ -435,11 +435,12 @@ assessmentListToPriorityTable <- function(assessmentName) {
   get(speciesListName) %T>%
     # report out progress
     {print("Beginning Scoring"); .} %>%
-    #$ head(30) %>% #$ recommend uncommenting for testing purposes
+    #$ head(60) %>% #$ recommend uncommenting for testing purposes
     ## remove species with multiple assessments that weren't caught by the latest = TRUE flag
     ##      keeping only the latest assessment per species
     group_by(taxon_scientific_name) %>%
     filter(assessment_date == max(assessment_date)) %>%
+    ungroup() %>%
     ## add a row number column for progress tracking
     mutate(rowNumber = row_number()) %>%
     # update the old criteria version to align with the new
@@ -457,6 +458,12 @@ assessmentListToPriorityTable <- function(assessmentName) {
     ## Endemic column:
     # Table 2, condition 2 -- by number of countries occupied
     mutate(NumberOfCountriesExtant = sum(locations_code %in% countryCodeList)) %>%
+    # add in special case for Namibia b/c it has code NA and that isn't being summed
+    mutate(PresentInNamibia = "Namibia" %in% (locations_description %>%
+                                                pluck("en", .default = character()))) %>%
+    mutate(NumberOfCountriesExtant = case_when(PresentInNamibia ~ NumberOfCountriesExtant + 1,
+                                               TRUE ~ NumberOfCountriesExtant)) %>%
+    # now calculate
     mutate(Endemic = 10 / NumberOfCountriesExtant) %>%
     # ...and Table 2, condition 3 -- if Extinct in the Wild
     mutate(Endemic = case_when(red_list_category_code == "EW" ~ 1,
@@ -535,6 +542,8 @@ generatePrioritySpeciesList_byTaxa <- function(selectedTaxa, selectedTaxonomicGr
     appropriateTaxaScraper <- rl_order
   } else if (selectedTaxonomicGroup == "family") {
     appropriateTaxaScraper <- rl_family
+  } else if (selectedTaxonomicGroup == "growth_forms") {
+    appropriateTaxaScraper <- rl_growth_forms
   } else {break}
   ## scrape redlist for assessments for given taxa if not in memory already
   assessmentName <- paste0("taxaAssessment_", selectedTaxa)
