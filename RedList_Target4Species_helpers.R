@@ -347,6 +347,7 @@ restrictionWeightHelper <- function(rlAssessmentID,
     if (rlPopSize < 50) {addCrit[length(addCrit) + 1] <- 10}
     if (rlPopSize < 100) {addCrit[length(addCrit) + 1] <- 9}
     if (rlPopSize < 250) {addCrit[length(addCrit) + 1] <- 8}
+    if (rlPopSize < 500) {addCrit[length(addCrit) + 1] <- 7}
     if (rlPopSize < 1000) {addCrit[length(addCrit) + 1] <- 6}
     if (rlPopSize < 2500) {addCrit[length(addCrit) + 1] <- 5}
     if (rlPopSize < 5000) {addCrit[length(addCrit) + 1] <- 4}
@@ -375,7 +376,7 @@ restrictionWeightHelper <- function(rlAssessmentID,
     if (rlEOO < 20000) {addCrit[length(addCrit) + 1] <- 1}
   }
   # area restricted
-  if (!is.na(rlAreaRestricted) & rlAreaRestricted == "Yes") {addCrit[length(addCrit) + 1] <- 7}
+  if (!is.na(rlAreaRestricted) & rlAreaRestricted == "Yes") {addCrit[length(addCrit) + 1] <- 4}
   # max of these additional criteria
   greatestWeight <- max(addCrit, greatestWeight)
   ## progress bar tracker
@@ -386,9 +387,9 @@ restrictionWeightHelper <- function(rlAssessmentID,
 }
 
 
-## function: from a given RL assessment list NAME generate Target 4 priority species
-###     according to criteria in doc if not in memory already
-assessmentListToPriorityTable <- function(assessmentName) {
+## function: from a given RL assessment list NAME, pull the full assessments for all IDs in list
+###     and clean up API return for format as data table - only performs if not already in memory
+assessmentListToSpeciesList <- function(assessmentName) {
   ## pull target name from assessment name
   targetName = strsplit(assessmentName, "_")[[1]][2]
   speciesListName <- paste0("speciesList_", targetName)
@@ -399,7 +400,7 @@ assessmentListToPriorityTable <- function(assessmentName) {
             value = get(assessmentName) %>%
               # filter to "Known Threatened Species" (CR, EN, VU, EW)
               filter(red_list_category_code %in% c("EW", "CR", "EN", "VU")) %>%
-              #$ head(30) %>% #$ recommend uncommenting for testing purposes
+              #$ head(60) %>% #$ recommend uncommenting for testing purposes
               ## scrape Red List assessment data for each target species
               pull(assessment_id) %>%
               rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime, times = 5) %>%
@@ -430,12 +431,20 @@ assessmentListToPriorityTable <- function(assessmentName) {
               mutate(assessment_date = as.Date(assessment_date))
     ) # end of assignment
   }
-  
-  ### now use that species list to apply Target 4 scoring criteria
-  get(speciesListName) %T>%
+  return(get(speciesListName))
+}
+
+
+## function: from a given species list generate Target 4 priority species
+###     according to criteria in doc
+speciesListToPriorityTable <- function(speciesList) {
+  speciesList %T>%
     # report out progress
     {print("Beginning Scoring"); .} %>%
     #$ head(60) %>% #$ recommend uncommenting for testing purposes
+    ## keep only global assessments
+    rowwise() %>%
+    filter("1" %in% scopes_code) %>%
     ## remove species with multiple assessments that weren't caught by the latest = TRUE flag
     ##      keeping only the latest assessment per species
     group_by(taxon_scientific_name) %>%
@@ -526,7 +535,25 @@ generatePrioritySpeciesList_byCountry <- function(countryCode) {
            envir = .GlobalEnv)
   }
   ## use that assessment list to generate the Target 4 Priority species list
-  priorityTable <- assessmentListToPriorityTable(assessmentName)
+  assessmentListToSpeciesList(assessmentName) %>%
+    rowwise() %>%
+    ## filter all species to origin = native, reintroduced, or assisted colonization
+    # add column for focal country origin status
+    mutate(focalCountryOrigin = {
+      focalCountryIndex <- which(locations_code == countryCode)
+      if (length(focalCountryIndex) > 0) {locations_origin[focalCountryIndex]} else {NA}
+    }) %>%
+    # filter
+    filter(focalCountryOrigin %in% c("Native", "Reintroduced", "Assisted Colonisation")) %>%
+    ## filter CR, EN, VU species to presence = extant or possibly extant
+    # add column for focal country presence
+    mutate(focalCountryPresence = {
+      focalCountryIndex <- which(locations_code == countryCode)
+      if (length(focalCountryIndex) > 0) {locations_presence[focalCountryIndex]} else {NA}
+    }) %>%
+    filter((red_list_category_code == "EW") |
+             (focalCountryPresence %in% c("Extant", "Possibly Extinct"))) %>%
+  speciesListToPriorityTable() -> priorityTable
   return(priorityTable)
 }
 
@@ -556,7 +583,8 @@ generatePrioritySpeciesList_byTaxa <- function(selectedTaxa, selectedTaxonomicGr
   }
   ## use that assessment list to generate the Target 4 Priority species list
   if (!is.null(get(assessmentName)) & nrow(get(assessmentName)) > 0) {
-    priorityTable <- assessmentListToPriorityTable(assessmentName)
+    assessmentListToSpeciesList(assessmentName) %>%
+      speciesListToPriorityTable() -> priorityTable
     return(priorityTable)
   } else {return(NA)}
 }

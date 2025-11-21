@@ -28,8 +28,8 @@ tableVersionUpdateLookup <- read.csv("RedList_Target4Species_VersionUpdateLookup
 
 ##------------------------ taxa of interest as well as taxonomic level of selected taxa - allowable
 ##                              taxonomic groups include c("class", "order", "family")
-selectedTaxa <- "mustelidae" # lowercase letters only
-selectedTaxonomicGroup <- "family"
+selectedTaxa <- "T" # lowercase letters only
+selectedTaxonomicGroup <- "growth_forms"
 
 
 ### run the assessment tool for the given taxa
