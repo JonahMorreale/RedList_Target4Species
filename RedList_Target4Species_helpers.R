@@ -466,11 +466,15 @@ speciesListToPriorityTable <- function(speciesList) {
                             TRUE ~ 0)) %>%
     ## Endemic column:
     # Table 2, condition 2 -- by number of countries occupied where OCCUPIED means
-    #       presence = 'extant' or 'possibly extinct'
-    #$mutate(NumberOfCountriesExtant = sum(locations_code %in% countryCodeList)) %>%
+    #       presence = 'extant' or 'possibly extinct' for CR, EN, VU. "Extinct Post-1500" for "EW".
     mutate(NumberOfCountriesExtant = {
-      actuallyPresent <- which(locations_presence %in% c("Extant", "Possibly Extinct"))
-      if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
+      if (red_list_category_code == "EW") {
+        actuallyPresent <- which(locations_presence == "Extinct Post-1500")
+        if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
+      } else {
+        actuallyPresent <- which(locations_presence %in% c("Extant", "Possibly Extinct"))
+        if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
+      }
     }) %>%
     # now calculate
     mutate(Endemic = 10 / NumberOfCountriesExtant) %>%
