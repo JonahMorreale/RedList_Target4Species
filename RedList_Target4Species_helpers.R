@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Helper Functions
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 11/07/2025
+## updated: 11/25/2025
 
 
 ### packages
@@ -465,13 +465,13 @@ speciesListToPriorityTable <- function(speciesList) {
                             red_list_category_code == "VU" ~ 1,
                             TRUE ~ 0)) %>%
     ## Endemic column:
-    # Table 2, condition 2 -- by number of countries occupied
-    mutate(NumberOfCountriesExtant = sum(locations_code %in% countryCodeList)) %>%
-    # add in special case for Namibia b/c it has code NA and that isn't being summed
-    mutate(PresentInNamibia = "Namibia" %in% (locations_description %>%
-                                                pluck("en", .default = character()))) %>%
-    mutate(NumberOfCountriesExtant = case_when(PresentInNamibia ~ NumberOfCountriesExtant + 1,
-                                               TRUE ~ NumberOfCountriesExtant)) %>%
+    # Table 2, condition 2 -- by number of countries occupied where OCCUPIED means
+    #       presence = 'extant' or 'possibly extinct'
+    #$mutate(NumberOfCountriesExtant = sum(locations_code %in% countryCodeList)) %>%
+    mutate(NumberOfCountriesExtant = {
+      actuallyPresent <- which(locations_presence %in% c("Extant", "Possibly Extinct"))
+      if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
+    }) %>%
     # now calculate
     mutate(Endemic = 10 / NumberOfCountriesExtant) %>%
     # ...and Table 2, condition 3 -- if Extinct in the Wild
