@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Helper Functions
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 11/25/2025
+## updated: 12/8/2025
 
 
 ### packages
@@ -400,7 +400,7 @@ assessmentListToSpeciesList <- function(assessmentName) {
             value = get(assessmentName) %>%
               # filter to "Known Threatened Species" (CR, EN, VU, EW)
               filter(red_list_category_code %in% c("EW", "CR", "EN", "VU")) %>%
-              #$ head(60) %>% #$ recommend uncommenting for testing purposes
+              #$head(60) %>% #$ recommend uncommenting for testing purposes
               ## scrape Red List assessment data for each target species
               pull(assessment_id) %>%
               rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime, times = 5) %>%
@@ -418,13 +418,13 @@ assessmentListToSpeciesList <- function(assessmentName) {
               unnest(col = 1:12) %>%
               # expand out columns of interest
               unnest_wider(col = 13:26, names_sep = "_") %>%
-              # expand out common name column as well and pick the preferred language (currently english)
+              # expand out common name column and pick the 'main' common name
               unnest_wider(col = taxon_common_names, names_sep = "_") %>%
-              mutate(commonName_PreferredLanguageIndex = sapply(taxon_common_names_language, function(x) which(x == "eng")[1])) %>%
-              mutate(commonName_PreferredLanguage = map2_chr( .x = taxon_common_names_name,
-                                                              .y = commonName_PreferredLanguageIndex,
-                                                              .f = ~ if (!is.na(.y)) {.x[.y]} else {NA} )) %>%
-              select(-c(starts_with("taxon_common"), commonName_PreferredLanguageIndex)) %>%
+              rowwise() %>%
+              mutate(commonName_PreferredLanguage = {
+                mainNameIndex <- which(taxon_common_names_main == TRUE)
+                if (length(mainNameIndex) > 0) {taxon_common_names_name[mainNameIndex]} else {NA}
+              }) %>%
               # and fix population trend description
               unnest_wider(col = population_trend_description, names_sep = "_") %>%
               # make assessment date a simpler column
