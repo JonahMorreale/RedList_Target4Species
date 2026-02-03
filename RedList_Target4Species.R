@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Country Assessment Tool
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 11/25/2025
+## updated: 02/03/2026
 
 ### setup
 # packages
@@ -30,7 +30,7 @@ tableVersionUpdateLookup <- read.csv("RedList_Target4Species_VersionUpdateLookup
 ##                              example: selectedCountryList <- c("Viet Nam", "Fiji", "Sweden")
 ##                              NOTE: the spelling of the country MUST match that used by the
 ##                              Red List API - see 'RL Country List.xlsx" for reference
-selectedCountryList <- c("South Africa")
+selectedCountryList <- c("South Africa", "Greece")
 
 
 ### run the assessment tool for each country in list

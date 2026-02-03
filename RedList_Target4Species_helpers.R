@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Helper Functions
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 12/8/2025
+## updated: 02/03/2025
 
 
 ### packages
@@ -469,10 +469,12 @@ speciesListToPriorityTable <- function(speciesList) {
     #       presence = 'extant' or 'possibly extinct' for CR, EN, VU. "Extinct Post-1500" for "EW".
     mutate(NumberOfCountriesExtant = {
       if (red_list_category_code == "EW") {
-        actuallyPresent <- which(locations_presence == "Extinct Post-1500")
+        actuallyPresent <- sum(locations_presence == "Extinct Post-1500" &
+                               locations_code %in% countryCodeList)
         if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
       } else {
-        actuallyPresent <- which(locations_presence %in% c("Extant", "Possibly Extinct"))
+        actuallyPresent <- sum(locations_presence %in% c("Extant", "Possibly Extinct") &
+                               locations_code %in% countryCodeList)
         if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
       }
     }) %>%
