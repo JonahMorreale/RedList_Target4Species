@@ -30,7 +30,7 @@ tableVersionUpdateLookup <- read.csv("RedList_Target4Species_VersionUpdateLookup
 ##                              example: selectedCountryList <- c("Viet Nam", "Fiji", "Sweden")
 ##                              NOTE: the spelling of the country MUST match that used by the
 ##                              Red List API - see 'RL Country List.xlsx" for reference
-selectedCountryList <- c("South Africa", "Greece")
+selectedCountryList <- c("South Africa", "Indonesia", "Mexico")
 
 
 ### run the assessment tool for each country in list
@@ -66,6 +66,7 @@ for (selectedCountry in selectedCountryList) {
            # Calculated Values for PS
            Risk, Endemic, Decline, Restriction,
            Priority1_PS, Priority1_Rank, Priority2_PS, Priority2_Rank) %>%
+    ##
     assign(x = paste0("Target4SpeciesList_", selectedCountry),
            value = .,
            envir = .GlobalEnv)

@@ -403,7 +403,7 @@ assessmentListToSpeciesList <- function(assessmentName) {
               #$head(60) %>% #$ recommend uncommenting for testing purposes
               ## scrape Red List assessment data for each target species
               pull(assessment_id) %>%
-              rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime, times = 5) %>%
+              rl_assessment_list(key = rlapiKey, wait_time = rlapiWaitTime, times = 10) %>%
               # convert to df from nested lists
               do.call(rbind, .)  %>% 
               as.data.frame() %>%
@@ -471,11 +471,11 @@ speciesListToPriorityTable <- function(speciesList) {
       if (red_list_category_code == "EW") {
         actuallyPresent <- sum(locations_presence == "Extinct Post-1500" &
                                locations_code %in% countryCodeList)
-        if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
+        if (length(actuallyPresent) > 0) {actuallyPresent} else {NA}
       } else {
         actuallyPresent <- sum(locations_presence %in% c("Extant", "Possibly Extinct") &
                                locations_code %in% countryCodeList)
-        if (length(actuallyPresent) > 0) {length(actuallyPresent)} else {NA}
+        if (length(actuallyPresent) > 0) {actuallyPresent} else {NA}
       }
     }) %>%
     # now calculate

@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Taxa Assessment Tool
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 11/25/2025
+## updated: 12/8/2025
 
 ### setup
 # packages
@@ -8,7 +8,6 @@ library(tidyverse)
 library(rredlist) # for scraping Red List API
 library(fuzzyjoin) # for matching lookup tables via regex
 library(writexl) # for writing out to excel file
-
 
 #------------------------ set working directory for top level folder containing all
 #                               scripts and subfolder for outputs
@@ -28,8 +27,8 @@ tableVersionUpdateLookup <- read.csv("RedList_Target4Species_VersionUpdateLookup
 
 ##------------------------ taxa of interest as well as taxonomic level of selected taxa - allowable
 ##                              taxonomic groups include c("class", "order", "family")
-selectedTaxa <- "T" # lowercase letters only
-selectedTaxonomicGroup <- "growth_forms"
+selectedTaxa <- "aves" # lowercase letters only
+selectedTaxonomicGroup <- "class"
 
 
 ### run the assessment tool for the given taxa
