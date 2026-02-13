@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Taxa Assessment Tool
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 12/8/2025
+## updated: 02/12/2026
 
 ### setup
 # packages
@@ -13,6 +13,7 @@ library(writexl) # for writing out to excel file
 #                               scripts and subfolder for outputs
 myDir <- "REPLACE PATH TO YOUR WORKING FOLDER HERE"
 setwd(myDir)
+codeVersion <- "26.02.12" # yy.mm.dd format
 
 #------------------------ Red List api key
 rlapiKey <- "REPLACE REDLIST API KEY HERE"
@@ -67,9 +68,11 @@ generatePrioritySpeciesList_byTaxa(selectedTaxa,
 ## write it out to csv
 get(paste0("Target4SpeciesList_", selectedTaxa)) %>%
   write.csv(file = paste0("TaxaAssessmentTables/Target4SpeciesList_",
-                          selectedTaxa, ".csv"))
+                          selectedTaxa, "_",
+                          codeVersion, ".csv"))
 
 ## write it out to Excel file (to avoid auto-formatting problems)
 get(paste0("Target4SpeciesList_", selectedTaxa)) %>%
   write_xlsx(path = paste0("TaxaAssessmentTables/Target4SpeciesList_",
-                           selectedTaxa, ".xlsx"))
+                           selectedTaxa, "_",
+                           codeVersion, ".xlsx"))
