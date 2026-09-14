@@ -2,7 +2,7 @@
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
 ## description: Additional functions to add advanced functionality for modifying and
 ##      combining Target4SpeciesList outputs
-## updated: 02/16/2026
+## updated: 09/14/2026
 
 
 ### packages
@@ -23,14 +23,18 @@ combineAndRerank <- function(Target4SpeciesList_List) {
     ## convert to rank
     # priority 1 rank
     group_by() %>% # needs this for if_else to operate rowwise
-    mutate(Priority1_Rank = if_else(Priority1_PS > 0, min_rank(desc(Priority1_PS)), NA)) %>% 
+    mutate(Priority1_Rank = if_else((Priority1_PS > 0) & (red_list_category_code != "EW"), # condition
+                                    min_rank(desc(Priority1_PS)), # mutate value if true
+                                    NA)) %>%  # mutate value if false
     ungroup() %>%
     # priority 2 rank jm
     group_by(Priority1_PS) %>%
-    mutate(Priority2_Rank = if_else(Priority1_PS == 0, min_rank(desc(Priority2_PS)), NA)) %>% 
+    mutate(Priority2_Rank = if_else((Priority1_PS == 0) & (red_list_category_code != "EW"),
+                                    min_rank(desc(Priority2_PS)),
+                                    NA)) %>%
     ungroup() %>%
     # arrange by P1 and P2
-    arrange(Priority1_Rank, Priority2_Rank) %>%
+    arrange(desc(red_list_category_code == "EW"), Priority1_Rank, Priority2_Rank) %>%
     # return the final table
     return()
 }
@@ -47,14 +51,18 @@ recalculatePriorityScores <- function(Target4SpeciesList) {
     ## convert to rank
     # priority 1 rank
     group_by() %>% # needs this for if_else to operate rowwise
-    mutate(Priority1_Rank = if_else(Priority1_PS > 0, min_rank(desc(Priority1_PS)), NA)) %>% 
+    mutate(Priority1_Rank = if_else((Priority1_PS > 0) & (red_list_category_code != "EW"), # condition
+                                    min_rank(desc(Priority1_PS)), # mutate value if true
+                                    NA)) %>%  # mutate value if false
     ungroup() %>%
     # priority 2 rank
     group_by(Priority1_PS) %>%
-    mutate(Priority2_Rank = if_else(Priority1_PS == 0, min_rank(desc(Priority2_PS)), NA)) %>% 
+    mutate(Priority2_Rank = if_else((Priority1_PS == 0) & (red_list_category_code != "EW"),
+                                    min_rank(desc(Priority2_PS)),
+                                    NA)) %>% 
     ungroup() %>%
     # arrange by P1 and P2
-    arrange(Priority1_Rank, Priority2_Rank) %>%
+    arrange(desc(red_list_category_code == "EW"), Priority1_Rank, Priority2_Rank) %>%
     # return the final table
     return()
 }
