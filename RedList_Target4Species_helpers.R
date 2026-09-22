@@ -1,6 +1,6 @@
 ## Red List - Target 4 Species Helper Functions
 ## author: Jonah Morreale - jonah.morreale@stonybrook.edu
-## updated: 02/12/2025
+## updated: 09/22/2026
 
 
 ### packages
@@ -511,17 +511,28 @@ speciesListToPriorityTable <- function(speciesList) {
     ## Priority Scores - Equations 1 and 2
     mutate(Priority1_PS = Risk * Endemic * Decline * Restriction,
            Priority2_PS = Risk * Endemic * max(Decline, Restriction)) %>%
+    ## remove EW species' scores
+    #$ #$ NOTE: EW is still calculated above, with set values for Risk and Endemism - this merely
+    #         overwrites the end score with NA per reviewer comment at this time
+    mutate(Priority1_PS = case_when(red_list_category_code == "EW" ~ NA,
+                                    TRUE ~ Priority1_PS)) %>%
+    mutate(Priority2_PS = case_when(red_list_category_code == "EW" ~ NA,
+                                    TRUE ~ Priority2_PS)) %>%
     ## convert to rank
     # priority 1 rank
     group_by() %>% # needs this for if_else to operate rowwise
-    mutate(Priority1_Rank = if_else(Priority1_PS > 0, min_rank(desc(Priority1_PS)), NA)) %>% 
+    mutate(Priority1_Rank = if_else((Priority1_PS > 0) & (red_list_category_code != "EW"), # condition
+                                    min_rank(desc(Priority1_PS)), # mutate value if true
+                                    NA)) %>%  # mutate value if false
     ungroup() %>%
     # priority 2 rank
     group_by(Priority1_PS) %>%
-    mutate(Priority2_Rank = if_else(Priority1_PS == 0, min_rank(desc(Priority2_PS)), NA)) %>% 
+    mutate(Priority2_Rank = if_else((Priority1_PS == 0) & (red_list_category_code != "EW"),
+                                    min_rank(desc(Priority2_PS)),
+                                    NA)) %>% 
     ungroup() %>%
     # arrange by P1 and P2
-    arrange(Priority1_Rank, Priority2_Rank) ->
+    arrange(desc(red_list_category_code == "EW"), Priority1_Rank, Priority2_Rank) ->
     # return the final table jm
     priorityTable
   return(priorityTable)
